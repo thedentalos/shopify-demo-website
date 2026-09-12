@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUXE STORE | Curated Fashion &amp; Lifestyle</title>
+  <meta name="description" content="Discover curated contemporary fashion, tailored outerwear, and timeless accessories at LUXE STORE. Sustainable luxury designed to endure.">
+  
+  <!-- Google Fonts: Inter (Body) & Playfair Display (Headings) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+  
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css?v=20260912">
+  <link rel="stylesheet" href="css/reset.css?v=20260912">
+  <link rel="stylesheet" href="css/base.css?v=20260912">
+  <link rel="stylesheet" href="css/layout.css?v=20260912">
+  <link rel="stylesheet" href="css/components.css?v=20260912">
+  <link rel="stylesheet" href="css/header.css?v=20260912">
+  <link rel="stylesheet" href="css/footer.css?v=20260912">
+  <link rel="stylesheet" href="css/home.css?v=20260912">
+  <link rel="stylesheet" href="css/responsive.css?v=20260912">
+</head>
+<body>
+  <!-- Accessibility Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Shared Header Injected via components.js -->
+  <div id="header-placeholder"></div>
+
+  <!-- Main Content -->
+  <main id="main-content">
+    
+    <!-- Hero Slider Section -->
+    <section class="hero-slider" id="hero-slider" aria-label="Hero Promotion Slider">
+      <div class="hero-slider__track" id="hero-slider-track">
+        <!-- Slide 1 -->
+        <article class="hero-slide active" data-index="0" aria-roledescription="slide" aria-label="Slide 1 of 3">
+          <div class="hero-slide__image-wrapper">
+            <img src="https://picsum.photos/seed/luxe-hero1/1920/1080" alt="Autumn Winter Tailored Collection" class="hero-slide__image" fetchpriority="high">
+            <div class="hero-slide__overlay"></div>
+          </div>
+          <div class="hero-slide__content-container container">
+            <div class="hero-slide__content">
+              <span class="hero-slide__badge badge badge--gold">Autumn / Winter 2026</span>
+              <h1 class="hero-slide__title">Elevated Modern Tailoring</h1>
+              <p class="hero-slide__description">Discover structured coats, Italian double-faced cashmere, and relaxed silhouettes crafted to endure beyond fleeting seasonal trends.</p>
+              <div class="hero-slide__actions">
+                <a href="collection.html?id=outerwear" class="btn btn--primary btn--lg">Explore Outerwear</a>
+                <a href="products.html" class="btn btn--outline-light btn--lg">Shop All New In</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Slide 2 -->
+        <article class="hero-slide" data-index="1" aria-roledescription="slide" aria-label="Slide 2 of 3">
+          <div class="hero-slide__image-wrapper">
+            <img src="https://picsum.photos/seed/luxe-hero2/1920/1080" alt="Summer Silk and Linen Capsule" class="hero-slide__image" loading="lazy">
+            <div class="hero-slide__overlay"></div>
+          </div>
+          <div class="hero-slide__content-container container">
+            <div class="hero-slide__content">
+              <span class="hero-slide__badge badge badge--gold">Resort &amp; Warm Season</span>
+              <h2 class="hero-slide__title">The Linen &amp; Silk Edit</h2>
+              <p class="hero-slide__description">Lightweight breathability meets sculpted elegance. Minimalist dresses and breezy separates for balmy days and sun-drenched evenings.</p>
+              <div class="hero-slide__actions">
+                <a href="collection.html?id=summer-collection" class="btn btn--primary btn--lg">Shop Summer Capsule</a>
+                <a href="products.html?category=dresses" class="btn btn--outline-light btn--lg">Browse Dresses</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Slide 3 -->
+        <article class="hero-slide" data-index="2" aria-roledescription="slide" aria-label="Slide 3 of 3">
+          <div class="hero-slide__image-wrapper">
+            <img src="https://picsum.photos/seed/luxe-hero3/1920/1080" alt="Artisanal Handcrafted Leather Goods" class="hero-slide__image" loading="lazy">
+            <div class="hero-slide__overlay"></div>
+          </div>
+          <div class="hero-slide__content-container container">
+            <div class="hero-slide__content">
+              <span class="hero-slide__badge badge badge--gold">Artisan Leather &amp; Accents</span>
+              <h2 class="hero-slide__title">Refined Accessories &amp; Footwear</h2>
+              <p class="hero-slide__description">Full-grain Tuscan leathers, clean architectural hardware, and handcrafted footwear built for effortless daily distinction.</p>
+              <div class="hero-slide__actions">
+                <a href="collection.html?id=accessories" class="btn btn--primary btn--lg">Discover Accessories</a>
+                <a href="collections.html" class="btn btn--outline-light btn--lg">View All Edits</a>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- Navigation Arrows -->
+      <button class="hero-slider__arrow hero-slider__arrow--prev" id="hero-prev" aria-label="Previous slide">
+        <i data-feather="chevron-left" aria-hidden="true"></i>
+      </button>
+      <button class="hero-slider__arrow hero-slider__arrow--next" id="hero-next" aria-label="Next slide">
+        <i data-feather="chevron-right" aria-hidden="true"></i>
+      </button>
+
+      <!-- Dots Indicators -->
+      <div class="hero-slider__dots" id="hero-dots" role="tablist" aria-label="Slide Selection">
+        <button class="hero-slider__dot active" role="tab" aria-selected="true" aria-label="Slide 1" data-slide="0"></button>
+        <button class="hero-slider__dot" role="tab" aria-selected="false" aria-label="Slide 2" data-slide="1"></button>
+        <button class="hero-slider__dot" role="tab" aria-selected="false" aria-label="Slide 3" data-slide="2"></button>
+      </div>
+    </section>
+
+    <!-- Trust Features Bar -->
+    <section class="trust-bar" aria-label="Store Benefits">
+      <div class="container">
+        <div class="trust-bar__grid">
+          <div class="trust-bar__item">
+            <div class="trust-bar__icon"><i data-feather="truck" aria-hidden="true"></i></div>
+            <div class="trust-bar__text">
+              <h3 class="trust-bar__title">Complimentary Express Shipping</h3>
+              <p class="trust-bar__desc">Free worldwide delivery on orders above $200</p>
+            </div>
+          </div>
+          <div class="trust-bar__item">
+            <div class="trust-bar__icon"><i data-feather="shield" aria-hidden="true"></i></div>
+            <div class="trust-bar__text">
+              <h3 class="trust-bar__title">Artisan Craftsmanship</h3>
+              <p class="trust-bar__desc">100% certified organic &amp; ethical materials</p>
+            </div>
+          </div>
+          <div class="trust-bar__item">
+            <div class="trust-bar__icon"><i data-feather="refresh-cw" aria-hidden="true"></i></div>
+            <div class="trust-bar__text">
+              <h3 class="trust-bar__title">30-Day Hassle-Free Returns</h3>
+              <p class="trust-bar__desc">Complimentary exchanges &amp; prepaid return labels</p>
+            </div>
+          </div>
+          <div class="trust-bar__item">
+            <div class="trust-bar__icon"><i data-feather="clock" aria-hidden="true"></i></div>
+            <div class="trust-bar__text">
+              <h3 class="trust-bar__title">Concierge Service</h3>
+              <p class="trust-bar__desc">Dedicated styling and sizing assistance 24/7</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Collections Section -->
+    <section class="section section--collections" aria-labelledby="collections-heading">
+      <div class="container">
+        <div class="section__header text-center">
+          <span class="section__subtitle">Curated Categories</span>
+          <h2 class="section__title" id="collections-heading">Shop by Collection</h2>
+          <p class="section__description">Select garments harmoniously designed for effortless styling and enduring wear.</p>
+        </div>
+
+        <div class="grid grid-4" id="featured-collections">
+          <!-- Card 1 -->
+          <a href="collection.html?id=outerwear" class="collection-card" aria-label="Outerwear & Coats Collection">
+            <div class="collection-card__image-box">
+              <img src="https://picsum.photos/seed/luxe-card-coat/600/800" alt="Outerwear Collection" class="collection-card__img" loading="lazy">
+              <div class="collection-card__overlay"></div>
+            </div>
+            <div class="collection-card__content">
+              <span class="collection-card__count">6 Products</span>
+              <h3 class="collection-card__title">Outerwear &amp; Coats</h3>
+              <span class="collection-card__link">Explore Collection <i data-feather="arrow-right" aria-hidden="true"></i></span>
+            </div>
+          </a>
+
+          <!-- Card 2 -->
+          <a href="products.html?category=dresses" class="collection-card" aria-label="Evening & Day Dresses Collection">
+            <div class="collection-card__image-box">
+              <img src="https://picsum.photos/seed/luxe-card-dress/600/800" alt="Dresses Collection" class="collection-card__img" loading="lazy">
+              <div class="collection-card__overlay"></div>
+            </div>
+            <div class="collection-card__content">
+              <span class="collection-card__count">10 Products</span>
+              <h3 class="collection-card__title">Evening &amp; Silk Dresses</h3>
+              <span class="collection-card__link">Explore Collection <i data-feather="arrow-right" aria-hidden="true"></i></span>
+            </div>
+          </a>
+
+          <!-- Card 3 -->
+          <a href="products.html?category=shirts" class="collection-card" aria-label="Tailored Shirts & Tops Collection">
+            <div class="collection-card__image-box">
+              <img src="https://picsum.photos/seed/luxe-card-shirt/600/800" alt="Tailored Shirts Collection" class="collection-card__img" loading="lazy">
+              <div class="collection-card__overlay"></div>
+            </div>
+            <div class="collection-card__content">
+              <span class="collection-card__count">5 Products</span>
+              <h3 class="collection-card__title">Tailored Shirts &amp; Tops</h3>
+              <span class="collection-card__link">Explore Collection <i data-feather="arrow-right" aria-hidden="true"></i></span>
+            </div>
+          </a>
+
+          <!-- Card 4 -->
+          <a href="collection.html?id=accessories" class="collection-card" aria-label="Leather Goods & Accessories Collection">
+            <div class="collection-card__image-box">
+              <img src="https://picsum.photos/seed/luxe-card-acc/600/800" alt="Accessories Collection" class="collection-card__img" loading="lazy">
+              <div class="collection-card__overlay"></div>
+            </div>
+            <div class="collection-card__content">
+              <span class="collection-card__count">5 Products</span>
+              <h3 class="collection-card__title">Artisan Accessories</h3>
+              <span class="collection-card__link">Explore Collection <i data-feather="arrow-right" aria-hidden="true"></i></span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- New Arrivals Section with Carousel -->
+    <section class="section section--new-arrivals" aria-labelledby="new-arrivals-heading">
+      <div class="container">
+        <div class="section__header section__header--split">
+          <div>
+            <span class="section__subtitle">Just Landed</span>
+            <h2 class="section__title" id="new-arrivals-heading">New Arrivals</h2>
+          </div>
+          <div class="section__actions">
+            <a href="products.html" class="link-arrow">View All Products <i data-feather="arrow-right" aria-hidden="true"></i></a>
+            <div class="carousel-nav" aria-label="New arrivals carousel navigation">
+              <button class="carousel-nav__btn" id="new-arrivals-prev" aria-label="Previous products">
+                <i data-feather="chevron-left" aria-hidden="true"></i>
+              </button>
+              <button class="carousel-nav__btn" id="new-arrivals-next" aria-label="Next products">
+                <i data-feather="chevron-right" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-carousel" id="new-arrivals-carousel">
+          <div class="product-carousel__track" id="new-arrivals-track">
+            <!-- Product Item 1 -->
+            <article class="product-card product-carousel__item" data-id="1">
+              <div class="product-card__image-wrapper">
+                <a href="product.html?id=1" class="product-card__image-link">
+                  <img src="https://picsum.photos/seed/product1/600/800" alt="Cashmere Tailored Overcoat" class="product-card__img product-card__img--primary" loading="lazy">
+                  <img src="https://picsum.photos/seed/product1-alt/600/800" alt="Cashmere Tailored Overcoat back view" class="product-card__img product-card__img--secondary" loading="lazy">
+                </a>
+                <span class="product-card__badge badge badge--new">New In</span>
+                <button class="product-card__wishlist-btn" data-product-id="1" aria-label="Save to Wishlist">
+                  <i data-feather="heart" aria-hidden="true"></i>
+                </button>
+                <div class="product-card__actions">
+                  <button class="btn btn--secondary btn--sm btn--block product-card__quickview-btn" data-product-id="1">Quick View</button>
+                </div>
+              </div>
+              <div class="product-card__content">
+                <span class="product-card__vendor">LUXE Atelier</span>
+                <h3 class="product-card__title"><a href="product.html?id=1">Cashmere Tailored Overcoat</a></h3>
+                <div class="product-card__rating" aria-label="Rated 4.9 out of 5 stars">
+                  <div class="stars"><i data-feather="star" class="star--filled"></i> <span>4.9</span></div>
+                  <span class="rating-count">(32)</span>
+                </div>
+                <div class="product-card__price">
+                  <span class="product-card__current-price">$580.00</span>
+                  <span class="product-card__compare-price">$720.00</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Product Item 2 -->
+            <article class="product-card product-carousel__item" data-id="2">
+              <div class="product-card__image-wrapper">
+                <a href="product.html?id=2" class="product-card__image-link">
+                  <img src="https://picsum.photos/seed/product2/600/800" alt="Silk Crepe Pleated Midi Dress" class="product-card__img product-card__img--primary" loading="lazy">
+                  <img src="https://picsum.photos/seed/product2-alt/600/800" alt="Silk Crepe Pleated Midi Dress alternate view" class="product-card__img product-card__img--secondary" loading="lazy">
+                </a>
+                <span class="product-card__badge badge badge--gold">Exclusive</span>
+                <button class="product-card__wishlist-btn" data-product-id="2" aria-label="Save to Wishlist">
+                  <i data-feather="heart" aria-hidden="true"></i>
+                </button>
+                <div class="product-card__actions">
+                  <button class="btn btn--secondary btn--sm btn--block product-card__quickview-btn" data-product-id="2">Quick View</button>
+                </div>
+              </div>
+              <div class="product-card__content">
+                <span class="product-card__vendor">Studio LUXE</span>
+                <h3 class="product-card__title"><a href="product.html?id=2">Silk Crepe Pleated Midi Dress</a></h3>
+                <div class="product-card__rating" aria-label="Rated 5.0 out of 5 stars">
+                  <div class="stars"><i data-feather="star" class="star--filled"></i> <span>5.0</span></div>
+                  <span class="rating-count">(19)</span>
+                </div>
+                <div class="product-card__price">
+                  <span class="product-card__current-price">$420.00</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Product Item 3 -->
+            <article class="product-card product-carousel__item" data-id="3">
+              <div class="product-card__image-wrapper">
+                <a href="product.html?id=3" class="product-card__image-link">
+                  <img src="https://picsum.photos/seed/product3/600/800" alt="Merino Ribbed Knit Sweater" class="product-card__img product-card__img--primary" loading="lazy">
+                  <img src="https://picsum.photos/seed/product3-alt/600/800" alt="Merino Ribbed Knit Sweater detail" class="product-card__img product-card__img--secondary" loading="lazy">
+                </a>
+                <span class="product-card__badge badge badge--new">New In</span>
+                <button class="product-card__wishlist-btn" data-product-id="3" aria-label="Save to Wishlist">
+                  <i data-feather="heart" aria-hidden="true"></i>
+                </button>
+                <div class="product-card__actions">
+                  <button class="btn btn--secondary btn--sm btn--block product-card__quickview-btn" data-product-id="3">Quick View</button>
+                </div>
+              </div>
+              <div class="product-card__content">
+                <span class="product-card__vendor">LUXE Essentials</span>
+                <h3 class="product-card__title"><a href="product.html?id=3">Merino Ribbed Knit Sweater</a></h3>
+                <div class="product-card__rating" aria-label="Rated 4.8 out of 5 stars">
+                  <div class="stars"><i data-feather="star" class="star--filled"></i> <span>4.8</span></div>
+                  <span class="rating-count">(24)</span>
+                </div>
+                <div class="product-card__price">
+                  <span class="product-card__current-price">$290.00</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Product Item 4 -->
+            <article class="product-card product-carousel__item" data-id="4">
+              <div class="product-card__image-wrapper">
+                <a href="product.html?id=4" class="product-card__image-link">
+                  <img src="https://picsum.photos/seed/product4/600/800" alt="Tuscan Leather Crossbody Bag" class="product-card__img product-card__img--primary" loading="lazy">
+                  <img src="https://picsum.photos/seed/product4-alt/600/800" alt="Tuscan Leather Crossbody Bag profile" class="product-card__img product-card__img--secondary" loading="lazy">
+                </a>
+                <button class="product-card__wishlist-btn" data-product-id="4" aria-label="Save to Wishlist">
+                  <i data-feather="heart" aria-hidden="true"></i>
+                </button>
+                <div class="product-card__actions">
+                  <button class="btn btn--secondary btn--sm btn--block product-card__quickview-btn" data-product-id="4">Quick View</button>
+                </div>
+              </div>
+              <div class="product-card__content">
+                <span class="product-card__vendor">LUXE Pelletteria</span>
+                <h3 class="product-card__title"><a href="product.html?id=4">Tuscan Leather Crossbody Bag</a></h3>
+                <div class="product-card__rating" aria-label="Rated 4.9 out of 5 stars">
+                  <div class="stars"><i data-feather="star" class="star--filled"></i> <span>4.9</span></div>
+                  <span class="rating-count">(41)</span>
+                </div>
+                <div class="product-card__price">
+                  <span class="product-card__current-price">$490.00</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Product Item 5 -->
+            <article class="product-card product-carousel__item" data-id="5">
+              <div class="product-card__image-wrapper">
+                <a href="product.html?id=5" class="product-card__image-link">
+                  <img src="https://picsum.photos/seed/product5/600/800" alt="Relaxed Pleated Tailored Trousers" class="product-card__img product-card__img--primary" loading="lazy">
+                  <img src="https://picsum.photos/seed/product5-alt/600/800" alt="Relaxed Pleated Tailored Trousers drape" class="product-card__img product-card__img--secondary" loading="lazy">
+                </a>
+                <span class="product-card__badge badge badge--new">New In</span>
+                <button class="product-card__wishlist-btn" data-product-id="5" aria-label="Save to Wishlist">
+                  <i data-feather="heart" aria-hidden="true"></i>
+                </button>
+                <div class="product-card__actions">
+                  <button class="btn btn--secondary btn--sm btn--block product-card__quickview-btn" data-product-id="5">Quick View</button>
+                </div>
+              </div>
+              <div class="product-card__content">
+                <span class="product-card__vendor">LUXE Atelier</span>
+                <h3 class="product-card__title"><a href="product.html?id=5">Relaxed Pleated Tailored Trousers</a></h3>
+                <div class="product-card__rating" aria-label="Rated 4.7 out of 5 stars">
+                  <div class="stars"><i data-feather="star" class="star--filled"></i> <span>4.7</span></div>
+                  <span class="rating-count">(15)</span>
+                </div>
+                <div class="product-card__price">
+                  <span class="product-card__current-price">$310.00</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Split Promotional Banner Section -->
+    <section class="promo-banner" aria-label="Featured Capsule Promotion">
+      <div class="container">
+        <div class="promo-banner__inner">
+          <div class="promo-banner__image-col">
+            <div class="promo-banner__image-wrapper">
+              <img src="https://picsum.photos/seed/luxe-promo-summer26/900/900" alt="Summer Essentials 2026 Collection" class="promo-banner__img" loading="lazy">
+              <span class="promo-banner__floating-badge">Limited Edition</span>
+            </div>
+          </div>
+          <div class="promo-banner__content-col">
+            <div class="promo-banner__content">
+              <span class="promo-banner__tag">Limited Collection</span>
+              <h2 class="promo-banner__title">Summer Essentials 2026</h2>
+              <p class="promo-banner__description">Inspired by warm Mediterranean light and coastal modernist architecture. Featuring crisp European flax linens, unlined tailoring, and relaxed silhouettes calibrated for breezy days and unforgettable sunsets.</p>
+              
+              <ul class="promo-banner__features">
+                <li><i data-feather="check" aria-hidden="true"></i> 100% Certified Organic French Linen</li>
+                <li><i data-feather="check" aria-hidden="true"></i> Hand-stitched Horn Button Closures</li>
+                <li><i data-feather="check" aria-hidden="true"></i> Designed to Soften &amp; Age Gracefully</li>
+              </ul>
+
+              <div class="promo-banner__actions">
+                <a href="collection.html?id=summer-collection" class="btn btn--primary btn--lg">Shop Summer Collection</a>
+                <a href="products.html?category=shirts" class="btn btn--outline btn--lg">Explore Linen Shirts</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Best Sellers Section -->
+    <section class="section section--best-sellers" aria-labelledby="best-sellers-heading">
+      <div class="container">
+        <div class="section__header section__header--split">
+          <div>
+            <span class="section__subtitle">Most Coveted</span>
+            <h2 class="section__title" id="best-sellers-heading">Best Sellers</h2>
+          </div>
+          <a href="products.html?sort=best-selling" class="link-arrow">View All Best Sellers <i data-feather="arrow-right" aria-hidden="true"></i></a>
+        </div>
+
+        <div class="product-grid grid grid-4" id="best-sellers-grid">
+          <!-- Best Seller 1 -->
+          <article class="product-card" data-id="6">
+            <div class="product-card__image-wrapper">
+              <a href="product.html?id=6" class="product-card__image-link">
+                <img src="https://picsum.photos/seed/product6/600/800" alt="Double-Breasted Wool Trench" class="product-card__img product-card__img--primary" loading="lazy">
+                <img src="https://picsum.photos/seed/product6-alt/600/800" alt="Double-Breasted Wool Trench alternate" class="product-card__img product-card__img--secondary" loading="lazy">
+              </a>
+              <span class="product-card__badge badge badge--sale">-20%</span>
+              <button class="product-card__wishlist-btn" data-product-id="6" aria-label="Save to Wishlist">
+                <i data-feather="heart" aria-hidden="true"></i>
+              </button>
+              <div class="product-card__actions">
+                <button class="btn btn--secondary btn--sm btn--block product-card__quickview-btn" data-product-id="6">Quick View</button>
+              </div>
+            </div>
+            <div class="product-card__content">
+              <span class="product-card__vendor">LUXE Atelier</span>
+              <h3 class="product-card__title"><a href="product.html?id=6">Double-Breasted Wool Trench</a></h3>
+              <div class="product-card__rating" aria-label="Rated 5.0 out of 5 stars">
+                <div class="stars"><i data-feather="star" class="star--filled"></i> <span>5.0</span></div>
+                <span class="rating-count">(58)</span>
+              </div>
+              <div class="product-card__price">
+                <span class="product-card__current-price">$640.00</span>
+                <span class="product-card__compare-price">$800.00</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Best Seller 2 -->
+          <article class="product-card" data-id="7">
+            <div class="product-card__image-wrapper">
+              <a href="product.html?id=7" class="product-card__image-link">
+                <img src="https://picsum.photos/seed/product7/600/800" alt="Silk Georgette Wrap Blouse" class="product-card__img product-card__img--primary" loading="lazy">
+                <img src="https://picsum.photos/seed/product7-alt/600/800" alt="Silk Georgette Wrap Blouse side profile" class="product-card__img product-card__img--secondary" loading="lazy">
+              </a>
+              <button class="product-card__wishlist-btn" data-product-id="7" aria-label="Save to Wishlist">
+                <i data-feather="heart" aria-hidden="true"></i>
+              </button>
+              <div class="product-card__actions">
+                <button class="btn btn--secondary btn--sm btn--block product-card__quickview-btn" data-product-id="7">Quick View</button>
+              </div>
+            </div>
+            <div class="product-card__content">
+              <span class="product-card__vendor">LUXE Studio</span>
+              <h3 class="product-card__title"><a href="product.html?id=7">Silk Georgette Wrap Blouse</a></h3>
+              <div class="product-card__rating" aria-label="Rated 4.8 out of 5 stars">
+                <div class="stars"><i data-feather="star" class="star--filled"></i> <span>4.8</span></div>
+                <span class="rating-count">(37)</span>
+              </div>
+              <div class="product-card__price">
+                <span class="product-card__current-price">$260.00</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Best Seller 3 -->
+          <article class="product-card" data-id="8">
+            <div class="product-card__image-wrapper">
+              <a href="product.html?id=8" class="product-card__image-link">
+                <img src="https://picsum.photos/seed/product8/600/800" alt="Hand-Burnished Calfskin Chelsea Boots" class="product-card__img product-card__img--primary" loading="lazy">
+                <img src="https://picsum.photos/seed/product8-alt/600/800" alt="Hand-Burnished Calfskin Chelsea Boots top view" class="product-card__img product-card__img--secondary" loading="lazy">
+              </a>
+              <span class="product-card__badge badge badge--gold">Top Rated</span>
+              <button class="product-card__wishlist-btn" data-product-id="8" aria-label="Save to Wishlist">
+                <i data-feather="heart" aria-hidden="true"></i>
+              </button>
+              <div class="product-card__actions">
+                <button class="btn btn--secondary btn--sm btn--block product-card__quickview-btn" data-product-id="8">Quick View</button>
+              </div>
+            </div>
+            <div class="product-card__content">
+              <span class="product-card__vendor">LUXE Calzature</span>
+              <h3 class="product-card__title"><a href="product.html?id=8">Hand-Burnished Calfskin Chelsea Boots</a></h3>
+              <div class="product-card__rating" aria-label="Rated 4.9 out of 5 stars">
+                <div class="stars"><i data-feather="star" class="star--filled"></i> <span>4.9</span></div>
+                <span class="rating-count">(64)</span>
+              </div>
+              <div class="product-card__price">
+                <span class="product-card__current-price">$460.00</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Best Seller 4 -->
+          <article class="product-card" data-id="9">
+            <div class="product-card__image-wrapper">
+              <a href="product.html?id=9" class="product-card__image-link">
+                <img src="https://picsum.photos/seed/product9/600/800" alt="Architectural Minimalist Leather Tote" class="product-card__img product-card__img--primary" loading="lazy">
+                <img src="https://picsum.photos/seed/product9-alt/600/800" alt="Architectural Minimalist Leather Tote interior" class="product-card__img product-card__img--secondary" loading="lazy">
+              </a>
+              <button class="product-card__wishlist-btn" data-product-id="9" aria-label="Save to Wishlist">
+                <i data-feather="heart" aria-hidden="true"></i>
+              </button>
+              <div class="product-card__actions">
+                <button class="btn btn--secondary btn--sm btn--block product-card__quickview-btn" data-product-id="9">Quick View</button>
+              </div>
+            </div>
+            <div class="product-card__content">
+              <span class="product-card__vendor">LUXE Pelletteria</span>
+              <h3 class="product-card__title"><a href="product.html?id=9">Architectural Minimalist Leather Tote</a></h3>
+              <div class="product-card__rating" aria-label="Rated 4.9 out of 5 stars">
+                <div class="stars"><i data-feather="star" class="star--filled"></i> <span>4.9</span></div>
+                <span class="rating-count">(89)</span>
+              </div>
+              <div class="product-card__price">
+                <span class="product-card__current-price">$540.00</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Brand Story 2-Column Section -->
+    <section class="section about-preview" aria-labelledby="brand-story-heading">
+      <div class="container">
+        <div class="about-preview__grid">
+          <div class="about-preview__image-col">
+            <div class="about-preview__image-wrapper">
+              <img src="https://picsum.photos/seed/luxe-artisan-craft/900/1000" alt="Master artisan handcrafting wool textiles" class="about-preview__img" loading="lazy">
+              <div class="about-preview__floating-stat">
+                <span class="floating-stat__number">100%</span>
+                <span class="floating-stat__label">Ethical &amp; Conscious Luxury</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-preview__content-col">
+            <span class="section__subtitle">The LUXE Philosophy</span>
+            <h2 class="section__title" id="brand-story-heading">Crafting Longevity in an Age of Excess</h2>
+            <p class="about-preview__lead">Founded in Milan and curated for the conscious global citizen, LUXE STORE was conceived to reject disposable fast trends in favor of intentional elegance.</p>
+            <p class="about-preview__text">Every garment is engineered in small limited batches alongside multi-generational European mills. We source cruelty-free Mongolian cashmere, GOTS-certified organic cottons, and vegetable-tanned leathers that patina beautifully over decades of wear.</p>
+            
+            <div class="about-preview__metrics">
+              <div class="metric-item">
+                <span class="metric-item__value">40+</span>
+                <span class="metric-item__label">Artisan Partners</span>
+              </div>
+              <div class="metric-item">
+                <span class="metric-item__value">0%</span>
+                <span class="metric-item__label">Deadstock Waste</span>
+              </div>
+              <div class="metric-item">
+                <span class="metric-item__value">35k</span>
+                <span class="metric-item__label">Worldwide Patrons</span>
+              </div>
+            </div>
+
+            <div class="about-preview__action">
+              <a href="about.html" class="btn btn--secondary">Discover Our Heritage</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section section" aria-labelledby="testimonials-heading">
+      <div class="container">
+        <div class="section__header text-center">
+          <span class="section__subtitle">Client Reverence</span>
+          <h2 class="section__title" id="testimonials-heading">What Our Patrons Say</h2>
+          <p class="section__description">Real experiences from discerning individuals who value substance and silhouette.</p>
+        </div>
+
+        <div class="grid grid-3" id="testimonials-grid">
+          <!-- Review Card 1 -->
+          <article class="testimonial-card">
+            <div class="testimonial-card__header">
+              <div class="testimonial-card__rating" aria-label="5 out of 5 stars">
+                <i data-feather="star" class="star--filled"></i>
+                <i data-feather="star" class="star--filled"></i>
+                <i data-feather="star" class="star--filled"></i>
+                <i data-feather="star" class="star--filled"></i>
+                <i data-feather="star" class="star--filled"></i>
+              </div>
+              <span class="testimonial-card__verified"><i data-feather="check-circle" aria-hidden="true"></i> Verified Buyer</span>
+            </div>
+            <blockquote class="testimonial-card__quote">
+              "The Cashmere Tailored Overcoat is nothing short of transcendent. The weight, drape, and precision of the lapels rival bespoke Savile Row tailoring. An essential investment."
+            </blockquote>
+            <div class="testimonial-card__author">
+              <img src="https://picsum.photos/seed/patron1/120/120" alt="Elena Rostova" class="testimonial-card__avatar" loading="lazy">
+              <div class="testimonial-card__author-info">
+                <cite class="testimonial-card__name">Elena Rostova</cite>
+                <span class="testimonial-card__location">Geneva, Switzerland</span>
+                <span class="testimonial-card__product">Purchased: Cashmere Tailored Overcoat</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Review Card 2 -->
+          <article class="testimonial-card">
+            <div class="testimonial-card__header">
+              <div class="testimonial-card__rating" aria-label="5 out of 5 stars">
+                <i data-feather="star" class="star--filled"></i>
+                <i data-feather="star" class="star--filled"></i>
+                <i data-feather="star" class="star--filled"></i>
+                <i data-feather="star" class="star--filled"></i>
+                <i data-feather="star" class="star--filled"></i>
+              </div>
+              <span class="testimonial-card__verified"><i data-feather="check-circle" aria-hidden="true"></i> Verified Buyer</span>
+            </div>
+            <blockquote class="testimonial-card__quote">
+              "Customer service is truly bespoke. When I needed express shipping for a gala in Paris, the LUXE concierge coordinated same-day dispatch. The silk dress fits like liquid poetry."
+            </blockquote>
+            <div class="testimonial-card__author">
+              <img src="https://picsum.photos/seed/patron2/120/120" alt="Marcus Sterling" class="testimonial-card__avatar" loading="lazy">
+              <div class="testimonial-card__author-info">
+                <cite class="testimonial-card__name">Marcus Sterling</cite>
+                <span class="testimonial-card__location">London, UK</span>
+                <span class="testimonial-card__product">Purchased: Silk Crepe Midi Dress</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Review Card 3 -->
+          <article class="testimonial-card">
+            <div class="testimonial-card__header">
+              <div class="testimonial-card__rating" aria-label="5 out of 5 stars">
+                <i data-feather="star" class="star--filled"></i>
+                <i data-feather="star" class="star--filled"></i>
+                <i data-feather="star" class="star--filled"></i>
+                <i data-feather="star" class="star--filled"></i>
+                <i data-feather="star" class="star--filled"></i>
+              </div>
+              <span class="testimonial-card__verified"><i data-feather="check-circle" aria-hidden="true"></i> Verified Buyer</span>
+            </div>
+            <blockquote class="testimonial-card__quote">
+              "I have owned the Minimalist Leather Tote for eight months of daily commuting. The patina develops richer every week. You can genuinely feel the Italian craftsmanship."
+            </blockquote>
+            <div class="testimonial-card__author">
+              <img src="https://picsum.photos/seed/patron3/120/120" alt="Aria Montgomery" class="testimonial-card__avatar" loading="lazy">
+              <div class="testimonial-card__author-info">
+                <cite class="testimonial-card__name">Aria Montgomery</cite>
+                <span class="testimonial-card__location">New York, USA</span>
+                <span class="testimonial-card__product">Purchased: Minimalist Leather Tote</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Instagram Feed Section -->
+    <section class="insta-section section" aria-labelledby="insta-heading">
+      <div class="container">
+        <div class="section__header text-center">
+          <span class="section__subtitle">Follow The Journey</span>
+          <h2 class="section__title" id="insta-heading">@luxestore</h2>
+          <p class="insta-section__desc">Tag <span class="text-gold">#LuxeLife</span> on Instagram to be featured in our global editorial gallery.</p>
+        </div>
+
+        <div class="insta-grid">
+          <!-- Insta Item 1 -->
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="insta-item" aria-label="View Instagram post 1">
+            <img src="https://picsum.photos/seed/luxe-insta1/600/600" alt="Editorial look 1" class="insta-item__img" loading="lazy">
+            <div class="insta-item__overlay">
+              <i data-feather="instagram" aria-hidden="true"></i>
+              <span class="insta-item__cta">Shop The Look</span>
+            </div>
+          </a>
+
+          <!-- Insta Item 2 -->
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="insta-item" aria-label="View Instagram post 2">
+            <img src="https://picsum.photos/seed/luxe-insta2/600/600" alt="Editorial look 2" class="insta-item__img" loading="lazy">
+            <div class="insta-item__overlay">
+              <i data-feather="instagram" aria-hidden="true"></i>
+              <span class="insta-item__cta">Shop The Look</span>
+            </div>
+          </a>
+
+          <!-- Insta Item 3 -->
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="insta-item" aria-label="View Instagram post 3">
+            <img src="https://picsum.photos/seed/luxe-insta3/600/600" alt="Editorial look 3" class="insta-item__img" loading="lazy">
+            <div class="insta-item__overlay">
+              <i data-feather="instagram" aria-hidden="true"></i>
+              <span class="insta-item__cta">Shop The Look</span>
+            </div>
+          </a>
+
+          <!-- Insta Item 4 -->
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="insta-item" aria-label="View Instagram post 4">
+            <img src="https://picsum.photos/seed/luxe-insta4/600/600" alt="Editorial look 4" class="insta-item__img" loading="lazy">
+            <div class="insta-item__overlay">
+              <i data-feather="instagram" aria-hidden="true"></i>
+              <span class="insta-item__cta">Shop The Look</span>
+            </div>
+          </a>
+
+          <!-- Insta Item 5 -->
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="insta-item" aria-label="View Instagram post 5">
+            <img src="https://picsum.photos/seed/luxe-insta5/600/600" alt="Editorial look 5" class="insta-item__img" loading="lazy">
+            <div class="insta-item__overlay">
+              <i data-feather="instagram" aria-hidden="true"></i>
+              <span class="insta-item__cta">Shop The Look</span>
+            </div>
+          </a>
+
+          <!-- Insta Item 6 -->
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="insta-item" aria-label="View Instagram post 6">
+            <img src="https://picsum.photos/seed/luxe-insta6/600/600" alt="Editorial look 6" class="insta-item__img" loading="lazy">
+            <div class="insta-item__overlay">
+              <i data-feather="instagram" aria-hidden="true"></i>
+              <span class="insta-item__cta">Shop The Look</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Shared Footer Injected via components.js -->
+  <div id="footer-placeholder"></div>
+
+  <!-- Feather Icons CDN -->
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <!-- Standard Scripts with Defer -->
+  <script src="js/utils.js?v=20260912" defer></script>
+  <script src="js/data.js?v=20260912" defer></script>
+  <script src="js/components.js?v=20260912" defer></script>
+  <script src="js/cart.js?v=20260912" defer></script>
+  <script src="js/wishlist.js?v=20260912" defer></script>
+  <script src="js/notifications.js?v=20260912" defer></script>
+  <script src="js/header.js?v=20260912" defer></script>
+  <script src="js/search.js?v=20260912" defer></script>
+  <script src="js/quickview.js?v=20260912" defer></script>
+  <script src="js/newsletter.js?v=20260912" defer></script>
+
+  <!-- Home Page Specific Script -->
+  <script src="js/home.js?v=20260912" defer></script>
+
+  <!-- Main App Script -->
+  <script src="js/app.js?v=20260912" defer></script>
+</body>
+</html>

@@ -1,0 +1,382 @@
+[
+  {
+    "id": "rev-1",
+    "productId": "prod-1",
+    "author": "Eleanor Vance",
+    "date": "2026-02-14",
+    "rating": 5,
+    "title": "Sublime craftsmanship and impeccable cut",
+    "body": "The lambskin leather is unbelievably soft right out of the presentation box. The asymmetric zip and nickel accents feel solid and luxurious. It fits like it was tailored specifically for me.",
+    "verified": true
+  },
+  {
+    "id": "rev-2",
+    "productId": "prod-1",
+    "author": "Julian Sterling",
+    "date": "2026-02-02",
+    "rating": 5,
+    "title": "Worth every single penny",
+    "body": "An absolute Grail piece. The silk lining feels cool against the skin, and the hardware has that satisfying heft you only find in true luxury design houses. Highly recommend!",
+    "verified": true
+  },
+  {
+    "id": "rev-3",
+    "productId": "prod-1",
+    "author": "David K.",
+    "date": "2026-01-28",
+    "rating": 4,
+    "title": "Stunning jacket, size up if layering heavy knits",
+    "body": "The leather quality is top tier. Keep in mind it is a slim, structured cut. If you plan to wear chunky cashmere sweaters underneath, take one size larger.",
+    "verified": true
+  },
+  {
+    "id": "rev-4",
+    "productId": "prod-2",
+    "author": "Camilla Dupont",
+    "date": "2026-02-18",
+    "rating": 5,
+    "title": "The trench coat of my dreams",
+    "body": "The gabardine weave effortlessly repels rainwater without that stiff plastic look of synthetic alternatives. The storm flap and genuine horn buttons make this look like a 4-figure heritage coat.",
+    "verified": true
+  },
+  {
+    "id": "rev-5",
+    "productId": "prod-2",
+    "author": "Arthur Pendelton",
+    "date": "2026-02-10",
+    "rating": 5,
+    "title": "Classic tailoring at its finest",
+    "body": "Wore this in a rainy London week and stayed crisp and dry. The micro-check interior lining is a refined touch that turns heads when the coat swings open.",
+    "verified": true
+  },
+  {
+    "id": "rev-6",
+    "productId": "prod-3",
+    "author": "Marcus Brody",
+    "date": "2026-02-05",
+    "rating": 5,
+    "title": "Real selvedge denim character",
+    "body": "The 13.5 oz Japanese denim is substantial yet broken-in enough to move comfortably. The wash has genuine depth rather than flat faux fading. Copper buttons are a great touch.",
+    "verified": true
+  },
+  {
+    "id": "rev-7",
+    "productId": "prod-3",
+    "author": "Liam Gallagher",
+    "date": "2026-01-26",
+    "rating": 4,
+    "title": "Fantastic everyday trucker",
+    "body": "Great boxy silhouette that sits right at the hips. Sleeves are just the right length. Looks amazing layered over a grey hoodie or white tee.",
+    "verified": true
+  },
+  {
+    "id": "rev-8",
+    "productId": "prod-4",
+    "author": "Victoria Montgomery",
+    "date": "2026-02-12",
+    "rating": 5,
+    "title": "Incomparable warmth and drape",
+    "body": "The touch of cashmere elevates this overcoat into pure bliss. It drapes cleanly without pulling across the shoulders, and the camel color is deep, rich, and flattering.",
+    "verified": true
+  },
+  {
+    "id": "rev-9",
+    "productId": "prod-4",
+    "author": "Harrison Wells",
+    "date": "2026-01-30",
+    "rating": 5,
+    "title": "An investment piece that commands respect",
+    "body": "I wear this over bespoke suits and casual cashmere turtlenecks alike. The lapel notch is sharp, and the satin lining allows smooth sliding on and off.",
+    "verified": true
+  },
+  {
+    "id": "rev-10",
+    "productId": "prod-5",
+    "author": "Claire Fontaine",
+    "date": "2026-02-01",
+    "rating": 4,
+    "title": "Cozy, featherlight, and stylish",
+    "body": "The matte ripstop looks very modern and doesn't rustle like cheap plastic nylon. The 700 fill down provides immediate warmth while packing small for flights.",
+    "verified": true
+  },
+  {
+    "id": "rev-11",
+    "productId": "prod-5",
+    "author": "Noah Bennett",
+    "date": "2026-01-27",
+    "rating": 5,
+    "title": "Fleece-lined pockets are a gamechanger",
+    "body": "When cold wind kicks in, putting your hands into the microfleece pockets is pure comfort. The two-way zipper makes sitting in the car easy without bunching.",
+    "verified": true
+  },
+  {
+    "id": "rev-12",
+    "productId": "prod-6",
+    "author": "Sophia Laurent",
+    "date": "2026-02-20",
+    "rating": 5,
+    "title": "Breathable perfection for warm climates",
+    "body": "Normandy linen is noticeably superior. It doesn't scratch or feel rough. It softens with each wash and drapes effortlessly with rolled sleeves.",
+    "verified": true
+  },
+  {
+    "id": "rev-13",
+    "productId": "prod-6",
+    "author": "Sebastian Grey",
+    "date": "2026-02-15",
+    "rating": 4,
+    "title": "Relaxed elegance done right",
+    "body": "Ordered the Sky Blue. Mother-of-pearl buttons catch the light beautifully. Great untucked length with tailored linen trousers or swim trunks.",
+    "verified": true
+  },
+  {
+    "id": "rev-14",
+    "productId": "prod-7",
+    "author": "Isabella Rossi",
+    "date": "2026-02-09",
+    "rating": 5,
+    "title": "Liquid silk that falls like water",
+    "body": "At 19 momme, this is heavy enough not to be sheer, eliminating any need for a camisole. The concealed placket makes for an ultra-chic, clean front line.",
+    "verified": true
+  },
+  {
+    "id": "rev-15",
+    "productId": "prod-7",
+    "author": "Genevieve Ward",
+    "date": "2026-01-24",
+    "rating": 5,
+    "title": "Received endless compliments at the conference",
+    "body": "The Champagne shade has a subtle golden iridescence that glows in indoor lighting. French seams ensure there are no irritating raw edges inside.",
+    "verified": true
+  },
+  {
+    "id": "rev-16",
+    "productId": "prod-8",
+    "author": "Oliver Hughes",
+    "date": "2026-02-16",
+    "rating": 5,
+    "title": "The benchmark for cashmere knits",
+    "body": "I have purchased cashmere from many established luxury brands, and LUXE easily matches or exceeds them. Zero itching, zero pilling after three weeks of steady rotation.",
+    "verified": true
+  },
+  {
+    "id": "rev-17",
+    "productId": "prod-8",
+    "author": "Charlotte Bronte",
+    "date": "2026-02-07",
+    "rating": 5,
+    "title": "Like wearing a warm cloud",
+    "body": "The 2-ply Mongolian knit is thick enough to hold its shape but so light you forget you have it on. The Oatmeal Heather color is versatile and rich.",
+    "verified": true
+  },
+  {
+    "id": "rev-18",
+    "productId": "prod-9",
+    "author": "Lucas Thorne",
+    "date": "2026-02-11",
+    "rating": 5,
+    "title": "Heavyweight collar that never sags",
+    "body": "Most t-shirts lose their neckline shape after two washes. This 240 GSM organic cotton holds up like military grade. Vintage graphic looks authentic and aged.",
+    "verified": true
+  },
+  {
+    "id": "rev-19",
+    "productId": "prod-9",
+    "author": "Maya Lin",
+    "date": "2026-01-29",
+    "rating": 4,
+    "title": "Great boxy drop-shoulder cut",
+    "body": "Super comfortable tee. Fabric is dense and opaque. Exactly what I was looking for for casual weekends.",
+    "verified": true
+  },
+  {
+    "id": "rev-20",
+    "productId": "prod-10",
+    "author": "Anastasia Romanova",
+    "date": "2026-02-17",
+    "rating": 5,
+    "title": "Showstopper for gala events",
+    "body": "The pleating creates hypnotic kinetic movement when you twirl or walk across the ballroom. The emerald hue is intoxicatingly rich.",
+    "verified": true
+  },
+  {
+    "id": "rev-21",
+    "productId": "prod-10",
+    "author": "Chloe St. Clair",
+    "date": "2026-02-11",
+    "rating": 5,
+    "title": "Flattering high-neck cut",
+    "body": "The pleats are permanent and stayed pristine even after sitting through a 4-hour dinner. The back keyhole with pearl button adds unexpected allure.",
+    "verified": true
+  },
+  {
+    "id": "rev-22",
+    "productId": "prod-11",
+    "author": "Valerie Sinclair",
+    "date": "2026-02-13",
+    "rating": 5,
+    "title": "Peak 90s minimalism done properly",
+    "body": "Bias cut makes all the difference! It gently clings to waist curves without pulling tight anywhere. Slit height is daring yet tasteful.",
+    "verified": true
+  },
+  {
+    "id": "rev-23",
+    "productId": "prod-11",
+    "author": "Helena B.",
+    "date": "2026-02-04",
+    "rating": 5,
+    "title": "The Rich Copper color is hypnotic",
+    "body": "The silk catches candlelight in the most romantic way. Straps are delicate yet well-anchored with discreet adjusters in the back.",
+    "verified": true
+  },
+  {
+    "id": "rev-24",
+    "productId": "prod-12",
+    "author": "Emilia Clarke",
+    "date": "2026-02-19",
+    "rating": 5,
+    "title": "Breezy watercolor perfection",
+    "body": "The floral print is artful and painterly, not generic. Fabric is airy cotton voile that breathes in tropical humidity. The wrap ties stay secure.",
+    "verified": true
+  },
+  {
+    "id": "rev-25",
+    "productId": "prod-12",
+    "author": "Grace Kelly S.",
+    "date": "2026-02-15",
+    "rating": 4,
+    "title": "Ideal destination wedding guest outfit",
+    "body": "Ruffled high-low hem flutters in coastal breezes. Paired with espadrilles and gold hoops for an effortless resort aesthetic.",
+    "verified": true
+  },
+  {
+    "id": "rev-26",
+    "productId": "prod-13",
+    "author": "Vivienne Westwood T.",
+    "date": "2026-02-14",
+    "rating": 5,
+    "title": "Leg-lengthening drape of dreams",
+    "body": "These trousers make anyone look 6 feet tall. The pleating stays sharp all day long, and the wool-lyocell blend does not wrinkle in transit.",
+    "verified": true
+  },
+  {
+    "id": "rev-27",
+    "productId": "prod-13",
+    "author": "Morgan Fairchild",
+    "date": "2026-02-06",
+    "rating": 5,
+    "title": "Executive level craftsmanship",
+    "body": "Concealed waistband closure gives a spotless flat front. Pocket openings don’t flare open like typical off-the-rack trousers.",
+    "verified": true
+  },
+  {
+    "id": "rev-28",
+    "productId": "prod-14",
+    "author": "Jessica Alba M.",
+    "date": "2026-02-08",
+    "rating": 5,
+    "title": "Authentic denim look with magical stretch",
+    "body": "Usually 100% cotton jeans are too stiff and stretchy jeans look like cheap leggings. Candiani denim manages to provide the best of both worlds.",
+    "verified": true
+  },
+  {
+    "id": "rev-29",
+    "productId": "prod-14",
+    "author": "Zoe Kravitz H.",
+    "date": "2026-01-22",
+    "rating": 4,
+    "title": "Hugely flattering high rise",
+    "body": "Sits right above my belly button without pinching when seated. The Mid Vintage Wash looks authentically sun-faded.",
+    "verified": true
+  },
+  {
+    "id": "rev-30",
+    "productId": "prod-15",
+    "author": "Ethan Hawke C.",
+    "date": "2026-02-12",
+    "rating": 5,
+    "title": "Sophisticated warm weather staple",
+    "body": "Pleats elevate these far above ordinary shorts. The elastic back waist is genius—comfortable after dining without looking casual from the front.",
+    "verified": true
+  },
+  {
+    "id": "rev-31",
+    "productId": "prod-16",
+    "author": "Penelope Cruz V.",
+    "date": "2026-02-16",
+    "rating": 5,
+    "title": "Smells like pure Italian artisan leather",
+    "body": "The vegetable tanned leather has that intoxicating natural aroma. The brass lock snaps shut with a crisp click. Fits my phone, keys, lipstick, and sunglasses case.",
+    "verified": true
+  },
+  {
+    "id": "rev-32",
+    "productId": "prod-16",
+    "author": "Rachel McAdams",
+    "date": "2026-02-03",
+    "rating": 5,
+    "title": "Unmatched versatility",
+    "body": "The strap drop is completely adjustable. Suede interior keeps delicate screens from scratching. Truly exceptional leathercraft.",
+    "verified": true
+  },
+  {
+    "id": "rev-33",
+    "productId": "prod-17",
+    "author": "Marion Cotillard",
+    "date": "2026-02-17",
+    "rating": 5,
+    "title": "Exquisite hand-rolled edges",
+    "body": "You can clearly feel the hand-rolled stitches around the perimeter. The twill silk holds folds nicely when tied in an ascot knot.",
+    "verified": true
+  },
+  {
+    "id": "rev-34",
+    "productId": "prod-18",
+    "author": "Daniel Craig W.",
+    "date": "2026-02-09",
+    "rating": 5,
+    "title": "Indestructible bridle leather",
+    "body": "Substantial, thick leather that won't split or crack at the buckle holes. Solid brass buckle has a lovely brushed finish that doesn't scream.",
+    "verified": true
+  },
+  {
+    "id": "rev-35",
+    "productId": "prod-19",
+    "author": "Alexander Skarsgard",
+    "date": "2026-02-18",
+    "rating": 5,
+    "title": "Built like a tank, sleek like a sports car",
+    "body": "Goodyear storm welt means these will last a decade with proper resoling. Vibram lug sole delivers confident grip over icy cobblestones without adding clunkiness.",
+    "verified": true
+  },
+  {
+    "id": "rev-36",
+    "productId": "prod-19",
+    "author": "Benedict Cumberbatch",
+    "date": "2026-01-31",
+    "rating": 5,
+    "title": "Zero break-in pain",
+    "body": "Calfskin lining is supple immediately. Double pull tabs make slipping them on effortless. Beautiful silhouette with slim trousers.",
+    "verified": true
+  },
+  {
+    "id": "rev-37",
+    "productId": "prod-20",
+    "author": "Timothee Chalamet R.",
+    "date": "2026-02-14",
+    "rating": 5,
+    "title": "The cleanest canvas sneakers on the market",
+    "body": "No obnoxious logos, just pristine vulcanized rubber and heavyweight canvas. The cork footbed molds to the arches of your feet after a day or two.",
+    "verified": true
+  },
+  {
+    "id": "rev-38",
+    "productId": "prod-20",
+    "author": "Emma Stone K.",
+    "date": "2026-02-02",
+    "rating": 4,
+    "title": "Minimalist bliss",
+    "body": "Goes with absolutely everything from wide-leg trousers to sundresses. Breathable and comfortable for long walking days in the city.",
+    "verified": true
+  }
+]

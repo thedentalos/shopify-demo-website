@@ -1,0 +1,954 @@
+[
+  {
+    "id": "prod-1",
+    "title": "Classic Leather Jacket",
+    "handle": "classic-leather-jacket",
+    "description": "Handcrafted from buttery-soft full-grain lambskin, this timeless biker jacket features asymmetric zip hardware, structured shoulders, and an interior silk-blend lining.",
+    "descriptionHtml": "<p>A cornerstone of effortless rebellion and refined luxury. The Classic Leather Jacket is meticulously cut from supple, full-grain lambskin leather that develops a rich patina over time.</p><ul><li>100% genuine lambskin leather exterior</li><li>Smooth 60% silk, 40% cupro lining</li><li>Heavyweight polished nickel hardware with custom LUXE pullers</li><li>Asymmetric front zipper, zipped cuffs, and snap-down lapels</li><li>Specialist leather clean only</li></ul>",
+    "vendor": "LUXE Atelier",
+    "type": "Outerwear",
+    "tags": ["Outerwear", "Leather", "Jackets", "Bestseller", "Premium", "Winter"],
+    "collections": ["outerwear", "best-sellers"],
+    "price": 395.00,
+    "compareAtPrice": 475.00,
+    "currency": "USD",
+    "available": true,
+    "images": [
+      "https://picsum.photos/seed/p1-leather-front/600/800",
+      "https://picsum.photos/seed/p1-leather-back/600/800",
+      "https://picsum.photos/seed/p1-leather-detail/600/800"
+    ],
+    "options": [
+      {
+        "name": "Color",
+        "position": 1,
+        "values": ["Onyx Black", "Cognac Brown"]
+      },
+      {
+        "name": "Size",
+        "position": 2,
+        "values": ["S", "M", "L", "XL"]
+      }
+    ],
+    "variants": [
+      { "id": "prod-1-v1", "title": "Onyx Black / S", "option1": "Onyx Black", "option2": "S", "price": 395.00, "compareAtPrice": 475.00, "available": true, "sku": "LX-JKT-01-BLK-S", "inventory": 14 },
+      { "id": "prod-1-v2", "title": "Onyx Black / M", "option1": "Onyx Black", "option2": "M", "price": 395.00, "compareAtPrice": 475.00, "available": true, "sku": "LX-JKT-01-BLK-M", "inventory": 22 },
+      { "id": "prod-1-v3", "title": "Onyx Black / L", "option1": "Onyx Black", "option2": "L", "price": 395.00, "compareAtPrice": 475.00, "available": true, "sku": "LX-JKT-01-BLK-L", "inventory": 18 },
+      { "id": "prod-1-v4", "title": "Onyx Black / XL", "option1": "Onyx Black", "option2": "XL", "price": 395.00, "compareAtPrice": 475.00, "available": false, "sku": "LX-JKT-01-BLK-XL", "inventory": 0 },
+      { "id": "prod-1-v5", "title": "Cognac Brown / S", "option1": "Cognac Brown", "option2": "S", "price": 395.00, "compareAtPrice": 475.00, "available": true, "sku": "LX-JKT-01-BRN-S", "inventory": 8 },
+      { "id": "prod-1-v6", "title": "Cognac Brown / M", "option1": "Cognac Brown", "option2": "M", "price": 395.00, "compareAtPrice": 475.00, "available": true, "sku": "LX-JKT-01-BRN-M", "inventory": 12 },
+      { "id": "prod-1-v7", "title": "Cognac Brown / L", "option1": "Cognac Brown", "option2": "L", "price": 395.00, "compareAtPrice": 475.00, "available": true, "sku": "LX-JKT-01-BRN-L", "inventory": 9 },
+      { "id": "prod-1-v8", "title": "Cognac Brown / XL", "option1": "Cognac Brown", "option2": "XL", "price": 395.00, "compareAtPrice": 475.00, "available": true, "sku": "LX-JKT-01-BRN-XL", "inventory": 5 }
+    ],
+    "rating": 4.9,
+    "reviewCount": 184,
+    "featured": true,
+    "newArrival": false,
+    "bestSeller": true,
+    "createdAt": "2026-01-15"
+  },
+  {
+    "id": "prod-2",
+    "title": "Heritage Trench Coat",
+    "handle": "heritage-trench-coat",
+    "description": "Double-breasted cotton gabardine trench coat engineered with storm flaps, horn buttons, a removable D-ring waist belt, and signature micro-check lining.",
+    "descriptionHtml": "<p>A masterclass in British tailoring and all-weather utility. The Heritage Trench Coat features a water-repellent dense cotton weave that shields against drizzle while remaining breathable.</p><ul><li>100% bespoke water-resistant cotton gabardine</li><li>Double-breasted silhouette with storm shield and gun flap</li><li>Genuine buffalo horn buttons and brass hardware</li><li>Adjustable belted cuffs and detachable waist tie</li><li>Dry clean only</li></ul>",
+    "vendor": "LUXE Heritage",
+    "type": "Outerwear",
+    "tags": ["Outerwear", "Coats", "Trench", "Classic", "Rainwear"],
+    "collections": ["outerwear", "new-arrivals"],
+    "price": 340.00,
+    "compareAtPrice": null,
+    "currency": "USD",
+    "available": true,
+    "images": [
+      "https://picsum.photos/seed/p2-trench-front/600/800",
+      "https://picsum.photos/seed/p2-trench-back/600/800",
+      "https://picsum.photos/seed/p2-trench-detail/600/800"
+    ],
+    "options": [
+      {
+        "name": "Color",
+        "position": 1,
+        "values": ["Honey Sand", "Midnight Navy"]
+      },
+      {
+        "name": "Size",
+        "position": 2,
+        "values": ["XS", "S", "M", "L"]
+      }
+    ],
+    "variants": [
+      { "id": "prod-2-v1", "title": "Honey Sand / XS", "option1": "Honey Sand", "option2": "XS", "price": 340.00, "compareAtPrice": null, "available": true, "sku": "LX-TRN-02-HNY-XS", "inventory": 10 },
+      { "id": "prod-2-v2", "title": "Honey Sand / S", "option1": "Honey Sand", "option2": "S", "price": 340.00, "compareAtPrice": null, "available": true, "sku": "LX-TRN-02-HNY-S", "inventory": 16 },
+      { "id": "prod-2-v3", "title": "Honey Sand / M", "option1": "Honey Sand", "option2": "M", "price": 340.00, "compareAtPrice": null, "available": true, "sku": "LX-TRN-02-HNY-M", "inventory": 19 },
+      { "id": "prod-2-v4", "title": "Honey Sand / L", "option1": "Honey Sand", "option2": "L", "price": 340.00, "compareAtPrice": null, "available": true, "sku": "LX-TRN-02-HNY-L", "inventory": 11 },
+      { "id": "prod-2-v5", "title": "Midnight Navy / XS", "option1": "Midnight Navy", "option2": "XS", "price": 340.00, "compareAtPrice": null, "available": true, "sku": "LX-TRN-02-NVY-XS", "inventory": 6 },
+      { "id": "prod-2-v6", "title": "Midnight Navy / S", "option1": "Midnight Navy", "option2": "S", "price": 340.00, "compareAtPrice": null, "available": true, "sku": "LX-TRN-02-NVY-S", "inventory": 14 },
+      { "id": "prod-2-v7", "title": "Midnight Navy / M", "option1": "Midnight Navy", "option2": "M", "price": 340.00, "compareAtPrice": null, "available": true, "sku": "LX-TRN-02-NVY-M", "inventory": 12 },
+      { "id": "prod-2-v8", "title": "Midnight Navy / L", "option1": "Midnight Navy", "option2": "L", "price": 340.00, "compareAtPrice": null, "available": true, "sku": "LX-TRN-02-NVY-L", "inventory": 7 }
+    ],
+    "rating": 4.8,
+    "reviewCount": 142,
+    "featured": true,
+    "newArrival": true,
+    "bestSeller": false,
+    "createdAt": "2026-02-01"
+  },
+  {
+    "id": "prod-3",
+    "title": "Denim Trucker Jacket",
+    "handle": "denim-trucker-jacket",
+    "description": "Constructed from 13.5 oz Japanese selvage denim, with copper shank buttons, dual chest flap pockets, and an authentic vintage stone wash.",
+    "descriptionHtml": "<p>A timeless wardrobe staple redefined with artisanal Japanese selvedge denim. Boxy, relaxed fit designed for versatile trans-seasonal layering.</p><ul><li>100% Japanese selvedge cotton denim (13.5 oz)</li><li>Custom antiqued copper hardware</li><li>Hand-distressed vintage rinse</li><li>Machine wash cold inside out</li></ul>",
+    "vendor": "LUXE Denim",
+    "type": "Outerwear",
+    "tags": ["Outerwear", "Denim", "Casual", "Jackets", "Everyday"],
+    "collections": ["outerwear"],
+    "price": 175.00,
+    "compareAtPrice": 210.00,
+    "currency": "USD",
+    "available": true,
+    "images": [
+      "https://picsum.photos/seed/p3-denim-front/600/800",
+      "https://picsum.photos/seed/p3-denim-back/600/800",
+      "https://picsum.photos/seed/p3-denim-detail/600/800"
+    ],
+    "options": [
+      {
+        "name": "Color",
+        "position": 1,
+        "values": ["Vintage Indigo", "Washed Charcoal"]
+      },
+      {
+        "name": "Size",
+        "position": 2,
+        "values": ["S", "M", "L", "XL"]
+      }
+    ],
+    "variants": [
+      { "id": "prod-3-v1", "title": "Vintage Indigo / S", "option1": "Vintage Indigo", "option2": "S", "price": 175.00, "compareAtPrice": 210.00, "available": true, "sku": "LX-DNM-03-IND-S", "inventory": 20 },
+      { "id": "prod-3-v2", "title": "Vintage Indigo / M", "option1": "Vintage Indigo", "option2": "M", "price": 175.00, "compareAtPrice": 210.00, "available": true, "sku": "LX-DNM-03-IND-M", "inventory": 30 },
+      { "id": "prod-3-v3", "title": "Vintage Indigo / L", "option1": "Vintage Indigo", "option2": "L", "price": 175.00, "compareAtPrice": 210.00, "available": true, "sku": "LX-DNM-03-IND-L", "inventory": 15 },
+      { "id": "prod-3-v4", "title": "Vintage Indigo / XL", "option1": "Vintage Indigo", "option2": "XL", "price": 175.00, "compareAtPrice": 210.00, "available": true, "sku": "LX-DNM-03-IND-XL", "inventory": 10 },
+      { "id": "prod-3-v5", "title": "Washed Charcoal / S", "option1": "Washed Charcoal", "option2": "S", "price": 175.00, "compareAtPrice": 210.00, "available": true, "sku": "LX-DNM-03-CHR-S", "inventory": 18 },
+      { "id": "prod-3-v6", "title": "Washed Charcoal / M", "option1": "Washed Charcoal", "option2": "M", "price": 175.00, "compareAtPrice": 210.00, "available": true, "sku": "LX-DNM-03-CHR-M", "inventory": 22 },
+      { "id": "prod-3-v7", "title": "Washed Charcoal / L", "option1": "Washed Charcoal", "option2": "L", "price": 175.00, "compareAtPrice": 210.00, "available": true, "sku": "LX-DNM-03-CHR-L", "inventory": 14 },
+      { "id": "prod-3-v8", "title": "Washed Charcoal / XL", "option1": "Washed Charcoal", "option2": "XL", "price": 175.00, "compareAtPrice": 210.00, "available": true, "sku": "LX-DNM-03-CHR-XL", "inventory": 8 }
+    ],
+    "rating": 4.6,
+    "reviewCount": 98,
+    "featured": false,
+    "newArrival": false,
+    "bestSeller": false,
+    "createdAt": "2026-01-18"
+  },
+  {
+    "id": "prod-4",
+    "title": "Wool Blend Overcoat",
+    "handle": "wool-blend-overcoat",
+    "description": "Tailored single-breasted coat woven in an Italian virgin wool-cashmere blend. Features notched lapels, deep welt pockets, and a clean structured drape.",
+    "descriptionHtml": "<p>Sartorial elegance designed to combat freezing temperatures without sacrificing silhouette. Cut long for effortless proportion.</p><ul><li>80% Virgin Wool, 15% Cashmere, 5% Polyamide</li><li>Single back vent for unrestricted movement</li><li>Fully lined in viscose satin</li><li>Interior chest ticket pocket</li><li>Dry clean only</li></ul>",
+    "vendor": "LUXE Atelier",
+    "type": "Outerwear",
+    "tags": ["Outerwear", "Wool", "Coats", "Winter", "Formal"],
+    "collections": ["outerwear", "best-sellers"],
+    "price": 460.00,
+    "compareAtPrice": null,
+    "currency": "USD",
+    "available": true,
+    "images": [
+      "https://picsum.photos/seed/p4-overcoat-front/600/800",
+      "https://picsum.photos/seed/p4-overcoat-back/600/800",
+      "https://picsum.photos/seed/p4-overcoat-detail/600/800"
+    ],
+    "options": [
+      {
+        "name": "Color",
+        "position": 1,
+        "values": ["Camel", "Charcoal Gray"]
+      },
+      {
+        "name": "Size",
+        "position": 2,
+        "values": ["S", "M", "L", "XL"]
+      }
+    ],
+    "variants": [
+      { "id": "prod-4-v1", "title": "Camel / S", "option1": "Camel", "option2": "S", "price": 460.00, "compareAtPrice": null, "available": true, "sku": "LX-WOL-04-CML-S", "inventory": 12 },
+      { "id": "prod-4-v2", "title": "Camel / M", "option1": "Camel", "option2": "M", "price": 460.00, "compareAtPrice": null, "available": true, "sku": "LX-WOL-04-CML-M", "inventory": 18 },
+      { "id": "prod-4-v3", "title": "Camel / L", "option1": "Camel", "option2": "L", "price": 460.00, "compareAtPrice": null, "available": true, "sku": "LX-WOL-04-CML-L", "inventory": 15 },
+      { "id": "prod-4-v4", "title": "Camel / XL", "option1": "Camel", "option2": "XL", "price": 460.00, "compareAtPrice": null, "available": true, "sku": "LX-WOL-04-CML-XL", "inventory": 6 },
+      { "id": "prod-4-v5", "title": "Charcoal Gray / S", "option1": "Charcoal Gray", "option2": "S", "price": 460.00, "compareAtPrice": null, "available": true, "sku": "LX-WOL-04-GRY-S", "inventory": 10 },
+      { "id": "prod-4-v6", "title": "Charcoal Gray / M", "option1": "Charcoal Gray", "option2": "M", "price": 460.00, "compareAtPrice": null, "available": true, "sku": "LX-WOL-04-GRY-M", "inventory": 14 },
+      { "id": "prod-4-v7", "title": "Charcoal Gray / L", "option1": "Charcoal Gray", "option2": "L", "price": 460.00, "compareAtPrice": null, "available": true, "sku": "LX-WOL-04-GRY-L", "inventory": 12 },
+      { "id": "prod-4-v8", "title": "Charcoal Gray / XL", "option1": "Charcoal Gray", "option2": "XL", "price": 460.00, "compareAtPrice": null, "available": true, "sku": "LX-WOL-04-GRY-XL", "inventory": 4 }
+    ],
+    "rating": 4.9,
+    "reviewCount": 112,
+    "featured": true,
+    "newArrival": false,
+    "bestSeller": true,
+    "createdAt": "2026-01-10"
+  },
+  {
+    "id": "prod-5",
+    "title": "Quilted Puffer Vest",
+    "handle": "quilted-puffer-vest",
+    "description": "Ultra-lightweight yet warm down vest featuring a matte ripstop nylon shell, stand collar, two-way zipper, and concealed fleece-lined pockets.",
+    "descriptionHtml": "<p>Essential transitional warmth. Filled with 700-fill power responsibly sourced goose down to insulate your core without excessive bulk.</p><ul><li>Water-repellent recycled ripstop nylon</li><li>700-fill RDS-certified white goose down insulation</li><li>Two-way YKK front zipper with storm flap</li><li>Interior zippered phone pocket</li><li>Machine washable on gentle</li></ul>",
+    "vendor": "LUXE Active",
+    "type": "Outerwear",
+    "tags": ["Outerwear", "Vest", "Puffer", "Down", "Sale", "Casual"],
+    "collections": ["outerwear", "sale"],
+    "price": 145.00,
+    "compareAtPrice": 190.00,
+    "currency": "USD",
+    "available": true,
+    "images": [
+      "https://picsum.photos/seed/p5-puffer-front/600/800",
+      "https://picsum.photos/seed/p5-puffer-back/600/800",
+      "https://picsum.photos/seed/p5-puffer-detail/600/800"
+    ],
+    "options": [
+      {
+        "name": "Color",
+        "position": 1,
+        "values": ["Matte Black", "Olive Moss"]
+      },
+      {
+        "name": "Size",
+        "position": 2,
+        "values": ["S", "M", "L", "XL"]
+      }
+    ],
+    "variants": [
+      { "id": "prod-5-v1", "title": "Matte Black / S", "option1": "Matte Black", "option2": "S", "price": 145.00, "compareAtPrice": 190.00, "available": true, "sku": "LX-VST-05-BLK-S", "inventory": 18 },
+      { "id": "prod-5-v2", "title": "Matte Black / M", "option1": "Matte Black", "option2": "M", "price": 145.00, "compareAtPrice": 190.00, "available": true, "sku": "LX-VST-05-BLK-M", "inventory": 25 },
+      { "id": "prod-5-v3", "title": "Matte Black / L", "option1": "Matte Black", "option2": "L", "price": 145.00, "compareAtPrice": 190.00, "available": true, "sku": "LX-VST-05-BLK-L", "inventory": 20 },
+      { "id": "prod-5-v4", "title": "Matte Black / XL", "option1": "Matte Black", "option2": "XL", "price": 145.00, "compareAtPrice": 190.00, "available": true, "sku": "LX-VST-05-BLK-XL", "inventory": 12 },
+      { "id": "prod-5-v5", "title": "Olive Moss / S", "option1": "Olive Moss", "option2": "S", "price": 145.00, "compareAtPrice": 190.00, "available": true, "sku": "LX-VST-05-OLV-S", "inventory": 15 },
+      { "id": "prod-5-v6", "title": "Olive Moss / M", "option1": "Olive Moss", "option2": "M", "price": 145.00, "compareAtPrice": 190.00, "available": true, "sku": "LX-VST-05-OLV-M", "inventory": 20 },
+      { "id": "prod-5-v7", "title": "Olive Moss / L", "option1": "Olive Moss", "option2": "L", "price": 145.00, "compareAtPrice": 190.00, "available": true, "sku": "LX-VST-05-OLV-L", "inventory": 14 },
+      { "id": "prod-5-v8", "title": "Olive Moss / XL", "option1": "Olive Moss", "option2": "XL", "price": 145.00, "compareAtPrice": 190.00, "available": true, "sku": "LX-VST-05-OLV-XL", "inventory": 9 }
+    ],
+    "rating": 4.5,
+    "reviewCount": 76,
+    "featured": false,
+    "newArrival": false,
+    "bestSeller": false,
+    "createdAt": "2026-01-22"
+  },
+  {
+    "id": "prod-6",
+    "title": "Relaxed Linen Shirt",
+    "handle": "relaxed-linen-shirt",
+    "description": "Crafted from breathable 100% Normandy flax linen. Features mother-of-pearl buttons, a spread collar, and a breezy relaxed silhouette suited for resort or city wear.",
+    "descriptionHtml": "<p>Effortlessly airy. Garment-washed for broken-in softness from day one, offering an unstructured drape that breathes under warm sunlight.</p><ul><li>100% French Normandy Linen</li><li>Real genuine mother-of-pearl buttons</li><li>Curved hem designed to be worn untucked or tucked</li><li>Pre-shrunk fabric</li><li>Machine wash delicate, hang dry</li></ul>",
+    "vendor": "LUXE Resort",
+    "type": "Tops",
+    "tags": ["Tops", "Linen", "Shirts", "Summer", "Resort", "Breathable"],
+    "collections": ["summer-collection", "new-arrivals"],
+    "price": 120.00,
+    "compareAtPrice": null,
+    "currency": "USD",
+    "available": true,
+    "images": [
+      "https://picsum.photos/seed/p6-linen-front/600/800",
+      "https://picsum.photos/seed/p6-linen-back/600/800",
+      "https://picsum.photos/seed/p6-linen-detail/600/800"
+    ],
+    "options": [
+      {
+        "name": "Color",
+        "position": 1,
+        "values": ["Ivory White", "Sky Blue", "Earthy Sage"]
+      },
+      {
+        "name": "Size",
+        "position": 2,
+        "values": ["S", "M", "L", "XL"]
+      }
+    ],
+    "variants": [
+      { "id": "prod-6-v1", "title": "Ivory White / S", "option1": "Ivory White", "option2": "S", "price": 120.00, "compareAtPrice": null, "available": true, "sku": "LX-LIN-06-WHT-S", "inventory": 25 },
+      { "id": "prod-6-v2", "title": "Ivory White / M", "option1": "Ivory White", "option2": "M", "price": 120.00, "compareAtPrice": null, "available": true, "sku": "LX-LIN-06-WHT-M", "inventory": 35 },
+      { "id": "prod-6-v3", "title": "Ivory White / L", "option1": "Ivory White", "option2": "L", "price": 120.00, "compareAtPrice": null, "available": true, "sku": "LX-LIN-06-WHT-L", "inventory": 28 },
+      { "id": "prod-6-v4", "title": "Ivory White / XL", "option1": "Ivory White", "option2": "XL", "price": 120.00, "compareAtPrice": null, "available": true, "sku": "LX-LIN-06-WHT-XL", "inventory": 15 },
+      { "id": "prod-6-v5", "title": "Sky Blue / S", "option1": "Sky Blue", "option2": "S", "price": 120.00, "compareAtPrice": null, "available": true, "sku": "LX-LIN-06-BLU-S", "inventory": 18 },
+      { "id": "prod-6-v6", "title": "Sky Blue / M", "option1": "Sky Blue", "option2": "M", "price": 120.00, "compareAtPrice": null, "available": true, "sku": "LX-LIN-06-BLU-M", "inventory": 24 },
+      { "id": "prod-6-v7", "title": "Sky Blue / L", "option1": "Sky Blue", "option2": "L", "price": 120.00, "compareAtPrice": null, "available": true, "sku": "LX-LIN-06-BLU-L", "inventory": 16 },
+      { "id": "prod-6-v8", "title": "Sky Blue / XL", "option1": "Sky Blue", "option2": "XL", "price": 120.00, "compareAtPrice": null, "available": true, "sku": "LX-LIN-06-BLU-XL", "inventory": 12 },
+      { "id": "prod-6-v9", "title": "Earthy Sage / S", "option1": "Earthy Sage", "option2": "S", "price": 120.00, "compareAtPrice": null, "available": true, "sku": "LX-LIN-06-SGE-S", "inventory": 14 },
+      { "id": "prod-6-v10", "title": "Earthy Sage / M", "option1": "Earthy Sage", "option2": "M", "price": 120.00, "compareAtPrice": null, "available": true, "sku": "LX-LIN-06-SGE-M", "inventory": 20 },
+      { "id": "prod-6-v11", "title": "Earthy Sage / L", "option1": "Earthy Sage", "option2": "L", "price": 120.00, "compareAtPrice": null, "available": true, "sku": "LX-LIN-06-SGE-L", "inventory": 19 },
+      { "id": "prod-6-v12", "title": "Earthy Sage / XL", "option1": "Earthy Sage", "option2": "XL", "price": 120.00, "compareAtPrice": null, "available": true, "sku": "LX-LIN-06-SGE-XL", "inventory": 8 }
+    ],
+    "rating": 4.7,
+    "reviewCount": 165,
+    "featured": true,
+    "newArrival": true,
+    "bestSeller": false,
+    "createdAt": "2026-02-10"
+  },
+  {
+    "id": "prod-7",
+    "title": "Silk Button-Up Blouse",
+    "handle": "silk-button-up-blouse",
+    "description": "Luxurious 19mm mulberry silk blouse designed with french seams, concealed placket, and subtle pleated back yoke for fluid movement.",
+    "descriptionHtml": "<p>A refined staple for boardroom power dressing or dinner cocktail styling. Pure heavyweight mulberry silk that feels cool against the skin.</p><ul><li>100% Grade 6A Mulberry Silk (19 momme)</li><li>Concealed front button placket</li><li>French cuff detailing with shell button enclosures</li><li>Dry clean recommended</li></ul>",
+    "vendor": "LUXE Atelier",
+    "type": "Tops",
+    "tags": ["Tops", "Silk", "Blouses", "Office", "Elegant", "Workwear"],
+    "collections": ["best-sellers"],
+    "price": 185.00,
+    "compareAtPrice": 220.00,
+    "currency": "USD",
+    "available": true,
+    "images": [
+      "https://picsum.photos/seed/p7-silk-front/600/800",
+      "https://picsum.photos/seed/p7-silk-back/600/800",
+      "https://picsum.photos/seed/p7-silk-detail/600/800"
+    ],
+    "options": [
+      {
+        "name": "Color",
+        "position": 1,
+        "values": ["Champagne", "Noir Black"]
+      },
+      {
+        "name": "Size",
+        "position": 2,
+        "values": ["XS", "S", "M", "L"]
+      }
+    ],
+    "variants": [
+      { "id": "prod-7-v1", "title": "Champagne / XS", "option1": "Champagne", "option2": "XS", "price": 185.00, "compareAtPrice": 220.00, "available": true, "sku": "LX-SLK-07-CHM-XS", "inventory": 10 },
+      { "id": "prod-7-v2", "title": "Champagne / S", "option1": "Champagne", "option2": "S", "price": 185.00, "compareAtPrice": 220.00, "available": true, "sku": "LX-SLK-07-CHM-S", "inventory": 18 },
+      { "id": "prod-7-v3", "title": "Champagne / M", "option1": "Champagne", "option2": "M", "price": 185.00, "compareAtPrice": 220.00, "available": true, "sku": "LX-SLK-07-CHM-M", "inventory": 21 },
+      { "id": "prod-7-v4", "title": "Champagne / L", "option1": "Champagne", "option2": "L", "price": 185.00, "compareAtPrice": 220.00, "available": true, "sku": "LX-SLK-07-CHM-L", "inventory": 11 },
+      { "id": "prod-7-v5", "title": "Noir Black / XS", "option1": "Noir Black", "option2": "XS", "price": 185.00, "compareAtPrice": 220.00, "available": true, "sku": "LX-SLK-07-BLK-XS", "inventory": 14 },
+      { "id": "prod-7-v6", "title": "Noir Black / S", "option1": "Noir Black", "option2": "S", "price": 185.00, "compareAtPrice": 220.00, "available": true, "sku": "LX-SLK-07-BLK-S", "inventory": 20 },
+      { "id": "prod-7-v7", "title": "Noir Black / M", "option1": "Noir Black", "option2": "M", "price": 185.00, "compareAtPrice": 220.00, "available": true, "sku": "LX-SLK-07-BLK-M", "inventory": 17 },
+      { "id": "prod-7-v8", "title": "Noir Black / L", "option1": "Noir Black", "option2": "L", "price": 185.00, "compareAtPrice": 220.00, "available": true, "sku": "LX-SLK-07-BLK-L", "inventory": 8 }
+    ],
+    "rating": 4.9,
+    "reviewCount": 139,
+    "featured": false,
+    "newArrival": false,
+    "bestSeller": true,
+    "createdAt": "2026-01-08"
+  },
+  {
+    "id": "prod-8",
+    "title": "Cashmere Crewneck Sweater",
+    "handle": "cashmere-crewneck-sweater",
+    "description": "Spun from 100% Grade-A Mongolian cashmere. Incredibly lightweight yet insulating, finished with fine-ribbed trims and tubular neckline.",
+    "descriptionHtml": "<p>The ultimate everyday indulgence. Woven in 12-gauge knit using sustainably harvested Mongolian fleece for cloud-like softness.</p><ul><li>100% Mongolian Cashmere (Grade-A long staple fibers)</li><li>Pilling-resistant dense 2-ply construction</li><li>Ribbed cuffs, hem, and collar</li><li>Hand wash cold, dry flat</li></ul>",
+    "vendor": "LUXE Heritage",
+    "type": "Tops",
+    "tags": ["Tops", "Sweaters", "Cashmere", "Knitwear", "Winter", "Bestseller"],
+    "collections": ["best-sellers", "sale"],
+    "price": 225.00,
+    "compareAtPrice": 260.00,
+    "currency": "USD",
+    "available": true,
+    "images": [
+      "https://picsum.photos/seed/p8-cashmere-front/600/800",
+      "https://picsum.photos/seed/p8-cashmere-back/600/800",
+      "https://picsum.photos/seed/p8-cashmere-detail/600/800"
+    ],
+    "options": [
+      {
+        "name": "Color",
+        "position": 1,
+        "values": ["Oatmeal Heather", "Heather Charcoal", "Forest Green"]
+      },
+      {
+        "name": "Size",
+        "position": 2,
+        "values": ["S", "M", "L", "XL"]
+      }
+    ],
+    "variants": [
+      { "id": "prod-8-v1", "title": "Oatmeal Heather / S", "option1": "Oatmeal Heather", "option2": "S", "price": 225.00, "compareAtPrice": 260.00, "available": true, "sku": "LX-CSH-08-OAT-S", "inventory": 15 },
+      { "id": "prod-8-v2", "title": "Oatmeal Heather / M", "option1": "Oatmeal Heather", "option2": "M", "price": 225.00, "compareAtPrice": 260.00, "available": true, "sku": "LX-CSH-08-OAT-M", "inventory": 20 },
+      { "id": "prod-8-v3", "title": "Oatmeal Heather / L", "option1": "Oatmeal Heather", "option2": "L", "price": 225.00, "compareAtPrice": 260.00, "available": true, "sku": "LX-CSH-08-OAT-L", "inventory": 18 },
+      { "id": "prod-8-v4", "title": "Oatmeal Heather / XL", "option1": "Oatmeal Heather", "option2": "XL", "price": 225.00, "compareAtPrice": 260.00, "available": true, "sku": "LX-CSH-08-OAT-XL", "inventory": 10 },
+      { "id": "prod-8-v5", "title": "Heather Charcoal / S", "option1": "Heather Charcoal", "option2": "S", "price": 225.00, "compareAtPrice": 260.00, "available": true, "sku": "LX-CSH-08-CHR-S", "inventory": 12 },
+      { "id": "prod-8-v6", "title": "Heather Charcoal / M", "option1": "Heather Charcoal", "option2": "M", "price": 225.00, "compareAtPrice": 260.00, "available": true, "sku": "LX-CSH-08-CHR-M", "inventory": 16 },
+      { "id": "prod-8-v7", "title": "Heather Charcoal / L", "option1": "Heather Charcoal", "option2": "L", "price": 225.00, "compareAtPrice": 260.00, "available": true, "sku": "LX-CSH-08-CHR-L", "inventory": 14 },
+      { "id": "prod-8-v8", "title": "Heather Charcoal / XL", "option1": "Heather Charcoal", "option2": "XL", "price": 225.00, "compareAtPrice": 260.00, "available": true, "sku": "LX-CSH-08-CHR-XL", "inventory": 7 },
+      { "id": "prod-8-v9", "title": "Forest Green / S", "option1": "Forest Green", "option2": "S", "price": 225.00, "compareAtPrice": 260.00, "available": true, "sku": "LX-CSH-08-FST-S", "inventory": 11 },
+      { "id": "prod-8-v10", "title": "Forest Green / M", "option1": "Forest Green", "option2": "M", "price": 225.00, "compareAtPrice": 260.00, "available": true, "sku": "LX-CSH-08-FST-M", "inventory": 15 },
+      { "id": "prod-8-v11", "title": "Forest Green / L", "option1": "Forest Green", "option2": "L", "price": 225.00, "compareAtPrice": 260.00, "available": true, "sku": "LX-CSH-08-FST-L", "inventory": 13 },
+      { "id": "prod-8-v12", "title": "Forest Green / XL", "option1": "Forest Green", "option2": "XL", "price": 225.00, "compareAtPrice": 260.00, "available": true, "sku": "LX-CSH-08-FST-XL", "inventory": 6 }
+    ],
+    "rating": 5.0,
+    "reviewCount": 210,
+    "featured": true,
+    "newArrival": false,
+    "bestSeller": true,
+    "createdAt": "2026-01-05"
+  },
+  {
+    "id": "prod-9",
+    "title": "Vintage Graphic Tee",
+    "handle": "vintage-graphic-tee",
+    "description": "Heavyweight 240 GSM combed organic cotton t-shirt with screen-printed heritage typography, vintage enzyme wash, and reinforced drop shoulders.",
+    "descriptionHtml": "<p>A casual cult favorite. Structured yet broken-in comfort, designed with an archival typography print commemorating the LUXE design atelier.</p><ul><li>100% GOTS certified organic combed cotton (240 GSM)</li><li>Distressed ribbed collar and cuffs</li><li>Soft eco-friendly water-based screen print</li><li>Machine wash cold inside out</li></ul>",
+    "vendor": "LUXE Studio",
+    "type": "Tops",
+    "tags": ["Tops", "T-Shirts", "Casual", "Streetwear", "Cotton"],
+    "collections": ["summer-collection"],
+    "price": 55.00,
+    "compareAtPrice": null,
+    "currency": "USD",
+    "available": true,
+    "images": [
+      "https://picsum.photos/seed/p9-tee-front/600/800",
+      "https://picsum.photos/seed/p9-tee-back/600/800",
+      "https://picsum.photos/seed/p9-tee-detail/600/800"
+    ],
+    "options": [
+      {
+        "name": "Color",
+        "position": 1,
+        "values": ["Washed White", "Vintage Faded Black"]
+      },
+      {
+        "name": "Size",
+        "position": 2,
+        "values": ["S", "M", "L", "XL"]
+      }
+    ],
+    "variants": [
+      { "id": "prod-9-v1", "title": "Washed White / S", "option1": "Washed White", "option2": "S", "price": 55.00, "compareAtPrice": null, "available": true, "sku": "LX-TEE-09-WHT-S", "inventory": 30 },
+      { "id": "prod-9-v2", "title": "Washed White / M", "option1": "Washed White", "option2": "M", "price": 55.00, "compareAtPrice": null, "available": true, "sku": "LX-TEE-09-WHT-M", "inventory": 45 },
+      { "id": "prod-9-v3", "title": "Washed White / L", "option1": "Washed White", "option2": "L", "price": 55.00, "compareAtPrice": null, "available": true, "sku": "LX-TEE-09-WHT-L", "inventory": 35 },
+      { "id": "prod-9-v4", "title": "Washed White / XL", "option1": "Washed White", "option2": "XL", "price": 55.00, "compareAtPrice": null, "available": true, "sku": "LX-TEE-09-WHT-XL", "inventory": 20 },
+      { "id": "prod-9-v5", "title": "Vintage Faded Black / S", "option1": "Vintage Faded Black", "option2": "S", "price": 55.00, "compareAtPrice": null, "available": true, "sku": "LX-TEE-09-BLK-S", "inventory": 28 },
+      { "id": "prod-9-v6", "title": "Vintage Faded Black / M", "option1": "Vintage Faded Black", "option2": "M", "price": 55.00, "compareAtPrice": null, "available": true, "sku": "LX-TEE-09-BLK-M", "inventory": 40 },
+      { "id": "prod-9-v7", "title": "Vintage Faded Black / L", "option1": "Vintage Faded Black", "option2": "L", "price": 55.00, "compareAtPrice": null, "available": true, "sku": "LX-TEE-09-BLK-L", "inventory": 32 },
+      { "id": "prod-9-v8", "title": "Vintage Faded Black / XL", "option1": "Vintage Faded Black", "option2": "XL", "price": 55.00, "compareAtPrice": null, "available": true, "sku": "LX-TEE-09-BLK-XL", "inventory": 18 }
+    ],
+    "rating": 4.5,
+    "reviewCount": 62,
+    "featured": false,
+    "newArrival": false,
+    "bestSeller": false,
+    "createdAt": "2026-01-20"
+  },
+  {
+    "id": "prod-10",
+    "title": "Pleated Midi Dress",
+    "handle": "pleated-midi-dress",
+    "description": "Architectural accordion sunburst pleats radiate from an empire waist. Features a keyhole back opening, flutter sleeves, and fluid movement.",
+    "descriptionHtml": "<p>Dramatic movement meets graceful poise. Engineered with precision knife pleats that retain their crisp shape through every evening affair.</p><ul><li>100% Recycled Poly Georgette with subtle shimmer</li><li>Full tonal lining to knee</li><li>High mock neck with pearl button nape closure</li><li>Dry clean only</li></ul>",
+    "vendor": "LUXE Evening",
+    "type": "Dresses",
+    "tags": ["Dresses", "Pleated", "Midi", "Evening", "Cocktail", "Party"],
+    "collections": ["new-arrivals", "best-sellers"],
+    "price": 275.00,
+    "compareAtPrice": null,
+    "currency": "USD",
+    "available": true,
+    "images": [
+      "https://picsum.photos/seed/p10-midi-front/600/800",
+      "https://picsum.photos/seed/p10-midi-back/600/800",
+      "https://picsum.photos/seed/p10-midi-detail/600/800"
+    ],
+    "options": [
+      {
+        "name": "Color",
+        "position": 1,
+        "values": ["Emerald Jewel", "Blush Rose"]
+      },
+      {
+        "name": "Size",
+        "position": 2,
+        "values": ["XS", "S", "M", "L"]
+      }
+    ],
+    "variants": [
+      { "id": "prod-10-v1", "title": "Emerald Jewel / XS", "option1": "Emerald Jewel", "option2": "XS", "price": 275.00, "compareAtPrice": null, "available": true, "sku": "LX-DRS-10-EMR-XS", "inventory": 8 },
+      { "id": "prod-10-v2", "title": "Emerald Jewel / S", "option1": "Emerald Jewel", "option2": "S", "price": 275.00, "compareAtPrice": null, "available": true, "sku": "LX-DRS-10-EMR-S", "inventory": 15 },
+      { "id": "prod-10-v3", "title": "Emerald Jewel / M", "option1": "Emerald Jewel", "option2": "M", "price": 275.00, "compareAtPrice": null, "available": true, "sku": "LX-DRS-10-EMR-M", "inventory": 17 },
+      { "id": "prod-10-v4", "title": "Emerald Jewel / L", "option1": "Emerald Jewel", "option2": "L", "price": 275.00, "compareAtPrice": null, "available": true, "sku": "LX-DRS-10-EMR-L", "inventory": 9 },
+      { "id": "prod-10-v5", "title": "Blush Rose / XS", "option1": "Blush Rose", "option2": "XS", "price": 275.00, "compareAtPrice": null, "available": true, "sku": "LX-DRS-10-BLS-XS", "inventory": 11 },
+      { "id": "prod-10-v6", "title": "Blush Rose / S", "option1": "Blush Rose", "option2": "S", "price": 275.00, "compareAtPrice": null, "available": true, "sku": "LX-DRS-10-BLS-S", "inventory": 14 },
+      { "id": "prod-10-v7", "title": "Blush Rose / M", "option1": "Blush Rose", "option2": "M", "price": 275.00, "compareAtPrice": null, "available": true, "sku": "LX-DRS-10-BLS-M", "inventory": 13 },
+      { "id": "prod-10-v8", "title": "Blush Rose / L", "option1": "Blush Rose", "option2": "L", "price": 275.00, "compareAtPrice": null, "available": true, "sku": "LX-DRS-10-BLS-L", "inventory": 6 }
+    ],
+    "rating": 4.8,
+    "reviewCount": 118,
+    "featured": true,
+    "newArrival": true,
+    "bestSeller": true,
+    "createdAt": "2026-02-08"
+  },
+  {
+    "id": "prod-11",
+    "title": "Evening Slip Dress",
+    "handle": "evening-slip-dress",
+    "description": "90s-inspired bias-cut slip dress crafted from liquid satin silk. Features dainty adjustable spaghetti straps, a gentle cowl neckline, and side slit.",
+    "descriptionHtml": "<p>Sensual minimalism at its finest. Cut on the bias to hug the body’s natural contours with a graceful drape that ripples as you walk.</p><ul><li>100% Heavyweight Mulberry Silk Satin</li><li>Draped cowl neckline with delicate rouleau straps</li><li>Mid-thigh side slit for walking ease</li><li>Hand wash cold or dry clean</li></ul>",
+    "vendor": "LUXE Evening",
+    "type": "Dresses",
+    "tags": ["Dresses", "Slip", "Silk", "Evening", "Formal", "Cocktail"],
+    "collections": ["best-sellers"],
+    "price": 210.00,
+    "compareAtPrice": 250.00,
+    "currency": "USD",
+    "available": true,
+    "images": [
+      "https://picsum.photos/seed/p11-slip-front/600/800",
+      "https://picsum.photos/seed/p11-slip-back/600/800",
+      "https://picsum.photos/seed/p11-slip-detail/600/800"
+    ],
+    "options": [
+      {
+        "name": "Color",
+        "position": 1,
+        "values": ["Midnight Black", "Rich Copper"]
+      },
+      {
+        "name": "Size",
+        "position": 2,
+        "values": ["XS", "S", "M", "L"]
+      }
+    ],
+    "variants": [
+      { "id": "prod-11-v1", "title": "Midnight Black / XS", "option1": "Midnight Black", "option2": "XS", "price": 210.00, "compareAtPrice": 250.00, "available": true, "sku": "LX-SLP-11-BLK-XS", "inventory": 14 },
+      { "id": "prod-11-v2", "title": "Midnight Black / S", "option1": "Midnight Black", "option2": "S", "price": 210.00, "compareAtPrice": 250.00, "available": true, "sku": "LX-SLP-11-BLK-S", "inventory": 19 },
+      { "id": "prod-11-v3", "title": "Midnight Black / M", "option1": "Midnight Black", "option2": "M", "price": 210.00, "compareAtPrice": 250.00, "available": true, "sku": "LX-SLP-11-BLK-M", "inventory": 22 },
+      { "id": "prod-11-v4", "title": "Midnight Black / L", "option1": "Midnight Black", "option2": "L", "price": 210.00, "compareAtPrice": 250.00, "available": true, "sku": "LX-SLP-11-BLK-L", "inventory": 10 },
+      { "id": "prod-11-v5", "title": "Rich Copper / XS", "option1": "Rich Copper", "option2": "XS", "price": 210.00, "compareAtPrice": 250.00, "available": true, "sku": "LX-SLP-11-CPR-XS", "inventory": 12 },
+      { "id": "prod-11-v6", "title": "Rich Copper / S", "option1": "Rich Copper", "option2": "S", "price": 210.00, "compareAtPrice": 250.00, "available": true, "sku": "LX-SLP-11-CPR-S", "inventory": 16 },
+      { "id": "prod-11-v7", "title": "Rich Copper / M", "option1": "Rich Copper", "option2": "M", "price": 210.00, "compareAtPrice": 250.00, "available": true, "sku": "LX-SLP-11-CPR-M", "inventory": 15 },
+      { "id": "prod-11-v8", "title": "Rich Copper / L", "option1": "Rich Copper", "option2": "L", "price": 210.00, "compareAtPrice": 250.00, "available": true, "sku": "LX-SLP-11-CPR-L", "inventory": 8 }
+    ],
+    "rating": 4.9,
+    "reviewCount": 156,
+    "featured": true,
+    "newArrival": false,
+    "bestSeller": true,
+    "createdAt": "2026-01-12"
+  },
+  {
+    "id": "prod-12",
+    "title": "Floral Summer Wrap Dress",
+    "handle": "floral-summer-wrap-dress",
+    "description": "Romantic self-tie wrap dress with hand-painted watercolor botanical motifs, ruffled high-low hemline, and breathable organic cotton voile fabric.",
+    "descriptionHtml": "<p>Sun-drenched romance in every detail. Features an adjustable wrap waist that flatters every silhouette, finished with whimsical cascading ruffles.</p><ul><li>100% Organic Cotton Voile</li><li>Custom hand-painted French watercolor floral print</li><li>Self-tie sash belt and inner security button</li><li>Machine wash cold, air dry</li></ul>",
+    "vendor": "LUXE Resort",
+    "type": "Dresses",
+    "tags": ["Dresses", "Wrap", "Floral", "Summer", "Resort", "Vacation"],
+    "collections": ["summer-collection", "new-arrivals", "sale"],
+    "price": 165.00,
+    "compareAtPrice": 195.00,
+    "currency": "USD",
+    "available": true,
+    "images": [
+      "https://picsum.photos/seed/p12-wrap-front/600/800",
+      "https://picsum.photos/seed/p12-wrap-back/600/800",
+      "https://picsum.photos/seed/p12-wrap-detail/600/800"
+    ],
+    "options": [
+      {
+        "name": "Color",
+        "position": 1,
+        "values": ["Tuscan Meadow", "Riviera Blue"]
+      },
+      {
+        "name": "Size",
+        "position": 2,
+        "values": ["XS", "S", "M", "L"]
+      }
+    ],
+    "variants": [
+      { "id": "prod-12-v1", "title": "Tuscan Meadow / XS", "option1": "Tuscan Meadow", "option2": "XS", "price": 165.00, "compareAtPrice": 195.00, "available": true, "sku": "LX-WRP-12-MDW-XS", "inventory": 12 },
+      { "id": "prod-12-v2", "title": "Tuscan Meadow / S", "option1": "Tuscan Meadow", "option2": "S", "price": 165.00, "compareAtPrice": 195.00, "available": true, "sku": "LX-WRP-12-MDW-S", "inventory": 18 },
+      { "id": "prod-12-v3", "title": "Tuscan Meadow / M", "option1": "Tuscan Meadow", "option2": "M", "price": 165.00, "compareAtPrice": 195.00, "available": true, "sku": "LX-WRP-12-MDW-M", "inventory": 21 },
+      { "id": "prod-12-v4", "title": "Tuscan Meadow / L", "option1": "Tuscan Meadow", "option2": "L", "price": 165.00, "compareAtPrice": 195.00, "available": true, "sku": "LX-WRP-12-MDW-L", "inventory": 14 },
+      { "id": "prod-12-v5", "title": "Riviera Blue / XS", "option1": "Riviera Blue", "option2": "XS", "price": 165.00, "compareAtPrice": 195.00, "available": true, "sku": "LX-WRP-12-BLU-XS", "inventory": 10 },
+      { "id": "prod-12-v6", "title": "Riviera Blue / S", "option1": "Riviera Blue", "option2": "S", "price": 165.00, "compareAtPrice": 195.00, "available": true, "sku": "LX-WRP-12-BLU-S", "inventory": 15 },
+      { "id": "prod-12-v7", "title": "Riviera Blue / M", "option1": "Riviera Blue", "option2": "M", "price": 165.00, "compareAtPrice": 195.00, "available": true, "sku": "LX-WRP-12-BLU-M", "inventory": 16 },
+      { "id": "prod-12-v8", "title": "Riviera Blue / L", "option1": "Riviera Blue", "option2": "L", "price": 165.00, "compareAtPrice": 195.00, "available": true, "sku": "LX-WRP-12-BLU-L", "inventory": 9 }
+    ],
+    "rating": 4.7,
+    "reviewCount": 94,
+    "featured": false,
+    "newArrival": true,
+    "bestSeller": false,
+    "createdAt": "2026-02-14"
+  },
+  {
+    "id": "prod-13",
+    "title": "Tailored Wide-Leg Trousers",
+    "handle": "tailored-wide-leg-trousers",
+    "description": "High-waisted trousers with structured front pleats, pressed creases, side slash pockets, and an elongating floor-grazing wide leg.",
+    "descriptionHtml": "<p>A high-impact foundation for modern tailoring. Crafted from crease-resistant wool blend crepe that drapes with statuesque grace.</p><ul><li>68% Virgin Wool, 30% Lyocell, 2% Elastane</li><li>Clean tailored waistband with concealed zip and hook closure</li><li>Deep functional front slash pockets</li><li>Dry clean</li></ul>",
+    "vendor": "LUXE Atelier",
+    "type": "Bottoms",
+    "tags": ["Bottoms", "Pants", "Trousers", "Tailored", "Workwear", "Elegant"],
+    "collections": ["new-arrivals", "best-sellers"],
+    "price": 195.00,
+    "compareAtPrice": null,
+    "currency": "USD",
+    "available": true,
+    "images": [
+      "https://picsum.photos/seed/p13-trousers-front/600/800",
+      "https://picsum.photos/seed/p13-trousers-back/600/800",
+      "https://picsum.photos/seed/p13-trousers-detail/600/800"
+    ],
+    "options": [
+      {
+        "name": "Color",
+        "position": 1,
+        "values": ["Charcoal", "Cream Bone"]
+      },
+      {
+        "name": "Size",
+        "position": 2,
+        "values": ["XS", "S", "M", "L"]
+      }
+    ],
+    "variants": [
+      { "id": "prod-13-v1", "title": "Charcoal / XS", "option1": "Charcoal", "option2": "XS", "price": 195.00, "compareAtPrice": null, "available": true, "sku": "LX-TRS-13-CHR-XS", "inventory": 15 },
+      { "id": "prod-13-v2", "title": "Charcoal / S", "option1": "Charcoal", "option2": "S", "price": 195.00, "compareAtPrice": null, "available": true, "sku": "LX-TRS-13-CHR-S", "inventory": 25 },
+      { "id": "prod-13-v3", "title": "Charcoal / M", "option1": "Charcoal", "option2": "M", "price": 195.00, "compareAtPrice": null, "available": true, "sku": "LX-TRS-13-CHR-M", "inventory": 22 },
+      { "id": "prod-13-v4", "title": "Charcoal / L", "option1": "Charcoal", "option2": "L", "price": 195.00, "compareAtPrice": null, "available": true, "sku": "LX-TRS-13-CHR-L", "inventory": 14 },
+      { "id": "prod-13-v5", "title": "Cream Bone / XS", "option1": "Cream Bone", "option2": "XS", "price": 195.00, "compareAtPrice": null, "available": true, "sku": "LX-TRS-13-CRM-XS", "inventory": 12 },
+      { "id": "prod-13-v6", "title": "Cream Bone / S", "option1": "Cream Bone", "option2": "S", "price": 195.00, "compareAtPrice": null, "available": true, "sku": "LX-TRS-13-CRM-S", "inventory": 19 },
+      { "id": "prod-13-v7", "title": "Cream Bone / M", "option1": "Cream Bone", "option2": "M", "price": 195.00, "compareAtPrice": null, "available": true, "sku": "LX-TRS-13-CRM-M", "inventory": 18 },
+      { "id": "prod-13-v8", "title": "Cream Bone / L", "option1": "Cream Bone", "option2": "L", "price": 195.00, "compareAtPrice": null, "available": true, "sku": "LX-TRS-13-CRM-L", "inventory": 9 }
+    ],
+    "rating": 4.8,
+    "reviewCount": 128,
+    "featured": false,
+    "newArrival": true,
+    "bestSeller": true,
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "prod-14",
+    "title": "High-Rise Slim Jeans",
+    "handle": "high-rise-slim-jeans",
+    "description": "Flattering high-rise slim denim woven with comfort-stretch Candiani denim. Features classic 5-pocket styling and antique silver rivet hardware.",
+    "descriptionHtml": "<p>Sculpting comfort meets authentic denim character. Woven in Italy by the sustainable Candiani mill with premium stretch recovery.</p><ul><li>98% Cotton, 2% Elastane</li><li>11.5-inch high rise with 28-inch inseam</li><li>Reinforced bartacks on stress points</li><li>Machine wash warm</li></ul>",
+    "vendor": "LUXE Denim",
+    "type": "Bottoms",
+    "tags": ["Bottoms", "Jeans", "Denim", "Slim", "Casual"],
+    "collections": ["best-sellers"],
+    "price": 140.00,
+    "compareAtPrice": null,
+    "currency": "USD",
+    "available": true,
+    "images": [
+      "https://picsum.photos/seed/p14-jeans-front/600/800",
+      "https://picsum.photos/seed/p14-jeans-back/600/800",
+      "https://picsum.photos/seed/p14-jeans-detail/600/800"
+    ],
+    "options": [
+      {
+        "name": "Color",
+        "position": 1,
+        "values": ["Mid Vintage Wash", "Deep Indigo"]
+      },
+      {
+        "name": "Size",
+        "position": 2,
+        "values": ["25", "26", "27", "28", "29", "30"]
+      }
+    ],
+    "variants": [
+      { "id": "prod-14-v1", "title": "Mid Vintage Wash / 25", "option1": "Mid Vintage Wash", "option2": "25", "price": 140.00, "compareAtPrice": null, "available": true, "sku": "LX-JNS-14-MID-25", "inventory": 10 },
+      { "id": "prod-14-v2", "title": "Mid Vintage Wash / 26", "option1": "Mid Vintage Wash", "option2": "26", "price": 140.00, "compareAtPrice": null, "available": true, "sku": "LX-JNS-14-MID-26", "inventory": 14 },
+      { "id": "prod-14-v3", "title": "Mid Vintage Wash / 27", "option1": "Mid Vintage Wash", "option2": "27", "price": 140.00, "compareAtPrice": null, "available": true, "sku": "LX-JNS-14-MID-27", "inventory": 20 },
+      { "id": "prod-14-v4", "title": "Mid Vintage Wash / 28", "option1": "Mid Vintage Wash", "option2": "28", "price": 140.00, "compareAtPrice": null, "available": true, "sku": "LX-JNS-14-MID-28", "inventory": 22 },
+      { "id": "prod-14-v5", "title": "Mid Vintage Wash / 29", "option1": "Mid Vintage Wash", "option2": "29", "price": 140.00, "compareAtPrice": null, "available": true, "sku": "LX-JNS-14-MID-29", "inventory": 16 },
+      { "id": "prod-14-v6", "title": "Mid Vintage Wash / 30", "option1": "Mid Vintage Wash", "option2": "30", "price": 140.00, "compareAtPrice": null, "available": true, "sku": "LX-JNS-14-MID-30", "inventory": 11 },
+      { "id": "prod-14-v7", "title": "Deep Indigo / 25", "option1": "Deep Indigo", "option2": "25", "price": 140.00, "compareAtPrice": null, "available": true, "sku": "LX-JNS-14-IND-25", "inventory": 8 },
+      { "id": "prod-14-v8", "title": "Deep Indigo / 26", "option1": "Deep Indigo", "option2": "26", "price": 140.00, "compareAtPrice": null, "available": true, "sku": "LX-JNS-14-IND-26", "inventory": 12 },
+      { "id": "prod-14-v9", "title": "Deep Indigo / 27", "option1": "Deep Indigo", "option2": "27", "price": 140.00, "compareAtPrice": null, "available": true, "sku": "LX-JNS-14-IND-27", "inventory": 15 },
+      { "id": "prod-14-v10", "title": "Deep Indigo / 28", "option1": "Deep Indigo", "option2": "28", "price": 140.00, "compareAtPrice": null, "available": true, "sku": "LX-JNS-14-IND-28", "inventory": 19 },
+      { "id": "prod-14-v11", "title": "Deep Indigo / 29", "option1": "Deep Indigo", "option2": "29", "price": 140.00, "compareAtPrice": null, "available": true, "sku": "LX-JNS-14-IND-29", "inventory": 14 },
+      { "id": "prod-14-v12", "title": "Deep Indigo / 30", "option1": "Deep Indigo", "option2": "30", "price": 140.00, "compareAtPrice": null, "available": true, "sku": "LX-JNS-14-IND-30", "inventory": 7 }
+    ],
+    "rating": 4.6,
+    "reviewCount": 88,
+    "featured": false,
+    "newArrival": false,
+    "bestSeller": true,
+    "createdAt": "2026-01-14"
+  },
+  {
+    "id": "prod-15",
+    "title": "Pleated Linen Shorts",
+    "handle": "pleated-linen-shorts",
+    "description": "Breezy tailored shorts crafted from washed pure linen. Features double front pleats, elasticized back waist for comfort, and a relaxed 5-inch inseam.",
+    "descriptionHtml": "<p>A sunny weather essential that blends relaxed ease with sartorial polish. Double pleating creates clean lines while the breathable weave keeps you cool.</p><ul><li>100% Belgian Flax Linen</li><li>Elasticated back waistband with belt loops</li><li>Deep slash pockets and rear welt pockets</li><li>Gentle machine wash</li></ul>",
+    "vendor": "LUXE Resort",
+    "type": "Bottoms",
+    "tags": ["Bottoms", "Shorts", "Linen", "Summer", "Casual", "Resort"],
+    "collections": ["summer-collection", "sale"],
+    "price": 85.00,
+    "compareAtPrice": 110.00,
+    "currency": "USD",
+    "available": true,
+    "images": [
+      "https://picsum.photos/seed/p15-shorts-front/600/800",
+      "https://picsum.photos/seed/p15-shorts-back/600/800",
+      "https://picsum.photos/seed/p15-shorts-detail/600/800"
+    ],
+    "options": [
+      {
+        "name": "Color",
+        "position": 1,
+        "values": ["Natural Sand", "Terracotta"]
+      },
+      {
+        "name": "Size",
+        "position": 2,
+        "values": ["S", "M", "L", "XL"]
+      }
+    ],
+    "variants": [
+      { "id": "prod-15-v1", "title": "Natural Sand / S", "option1": "Natural Sand", "option2": "S", "price": 85.00, "compareAtPrice": 110.00, "available": true, "sku": "LX-SHT-15-SND-S", "inventory": 15 },
+      { "id": "prod-15-v2", "title": "Natural Sand / M", "option1": "Natural Sand", "option2": "M", "price": 85.00, "compareAtPrice": 110.00, "available": true, "sku": "LX-SHT-15-SND-M", "inventory": 24 },
+      { "id": "prod-15-v3", "title": "Natural Sand / L", "option1": "Natural Sand", "option2": "L", "price": 85.00, "compareAtPrice": 110.00, "available": true, "sku": "LX-SHT-15-SND-L", "inventory": 18 },
+      { "id": "prod-15-v4", "title": "Natural Sand / XL", "option1": "Natural Sand", "option2": "XL", "price": 85.00, "compareAtPrice": 110.00, "available": true, "sku": "LX-SHT-15-SND-XL", "inventory": 10 },
+      { "id": "prod-15-v5", "title": "Terracotta / S", "option1": "Terracotta", "option2": "S", "price": 85.00, "compareAtPrice": 110.00, "available": true, "sku": "LX-SHT-15-TER-S", "inventory": 12 },
+      { "id": "prod-15-v6", "title": "Terracotta / M", "option1": "Terracotta", "option2": "M", "price": 85.00, "compareAtPrice": 110.00, "available": true, "sku": "LX-SHT-15-TER-M", "inventory": 16 },
+      { "id": "prod-15-v7", "title": "Terracotta / L", "option1": "Terracotta", "option2": "L", "price": 85.00, "compareAtPrice": 110.00, "available": true, "sku": "LX-SHT-15-TER-L", "inventory": 11 },
+      { "id": "prod-15-v8", "title": "Terracotta / XL", "option1": "Terracotta", "option2": "XL", "price": 85.00, "compareAtPrice": 110.00, "available": true, "sku": "LX-SHT-15-TER-XL", "inventory": 7 }
+    ],
+    "rating": 4.5,
+    "reviewCount": 54,
+    "featured": false,
+    "newArrival": false,
+    "bestSeller": false,
+    "createdAt": "2026-01-25"
+  },
+  {
+    "id": "prod-16",
+    "title": "Leather Crossbody Bag",
+    "handle": "leather-crossbody-bag",
+    "description": "Compact structured saddle bag crafted from Italian vegetable-tanned calfskin. Features custom magnetic gold-toned clasp and adjustable guitar strap.",
+    "descriptionHtml": "<p>Sculpted to accompany you from morning cafe meetings to midnight dining. Finished with hand-painted beveled edges and lush suede interior lining.</p><ul><li>100% Italian vegetable-tanned calfskin leather</li><li>Brushed 18k gold-finish solid brass hardware</li><li>Interior zipper compartment and card slots</li><li>Adjustable shoulder strap (48cm - 58cm drop)</li><li>Protective dust bag included</li></ul>",
+    "vendor": "LUXE Leatherworks",
+    "type": "Accessories",
+    "tags": ["Accessories", "Bags", "Leather", "Crossbody", "Luxury", "Bestseller"],
+    "collections": ["accessories", "best-sellers"],
+    "price": 280.00,
+    "compareAtPrice": null,
+    "currency": "USD",
+    "available": true,
+    "images": [
+      "https://picsum.photos/seed/p16-bag-front/600/800",
+      "https://picsum.photos/seed/p16-bag-back/600/800",
+      "https://picsum.photos/seed/p16-bag-detail/600/800"
+    ],
+    "options": [
+      {
+        "name": "Color",
+        "position": 1,
+        "values": ["Caramel Tan", "Obsidian Black"]
+      }
+    ],
+    "variants": [
+      { "id": "prod-16-v1", "title": "Caramel Tan", "option1": "Caramel Tan", "option2": null, "price": 280.00, "compareAtPrice": null, "available": true, "sku": "LX-BAG-16-TAN", "inventory": 18 },
+      { "id": "prod-16-v2", "title": "Obsidian Black", "option1": "Obsidian Black", "option2": null, "price": 280.00, "compareAtPrice": null, "available": true, "sku": "LX-BAG-16-BLK", "inventory": 24 }
+    ],
+    "rating": 4.9,
+    "reviewCount": 178,
+    "featured": true,
+    "newArrival": false,
+    "bestSeller": true,
+    "createdAt": "2026-01-11"
+  },
+  {
+    "id": "prod-17",
+    "title": "Silk Printed Scarf",
+    "handle": "silk-printed-scarf",
+    "description": "90x90cm square scarf hand-screened onto rich silk twill. Features hand-rolled borders and an intricate equestrian-meets-geometric motif.",
+    "descriptionHtml": "<p>A timeless statement of Parisian chic. Tie around your neck, wear as a bandeau top, or knot onto the handle of your favorite leather bag.</p><ul><li>100% Mulberry Silk Twill (16 momme)</li><li>Hand-rolled and hand-stitched hem edges</li><li>90 cm x 90 cm square silhouette</li><li>Dry clean only</li></ul>",
+    "vendor": "LUXE Atelier",
+    "type": "Accessories",
+    "tags": ["Accessories", "Silk", "Scarves", "Gifts", "Luxury"],
+    "collections": ["accessories", "new-arrivals"],
+    "price": 95.00,
+    "compareAtPrice": 120.00,
+    "currency": "USD",
+    "available": true,
+    "images": [
+      "https://picsum.photos/seed/p17-scarf-front/600/800",
+      "https://picsum.photos/seed/p17-scarf-back/600/800",
+      "https://picsum.photos/seed/p17-scarf-detail/600/800"
+    ],
+    "options": [
+      {
+        "name": "Color",
+        "position": 1,
+        "values": ["Navy & Gold", "Crimson & Ivory"]
+      }
+    ],
+    "variants": [
+      { "id": "prod-17-v1", "title": "Navy & Gold", "option1": "Navy & Gold", "option2": null, "price": 95.00, "compareAtPrice": 120.00, "available": true, "sku": "LX-SCF-17-NVY", "inventory": 30 },
+      { "id": "prod-17-v2", "title": "Crimson & Ivory", "option1": "Crimson & Ivory", "option2": null, "price": 95.00, "compareAtPrice": 120.00, "available": true, "sku": "LX-SCF-17-CRM", "inventory": 25 }
+    ],
+    "rating": 4.8,
+    "reviewCount": 72,
+    "featured": false,
+    "newArrival": true,
+    "bestSeller": false,
+    "createdAt": "2026-02-12"
+  },
+  {
+    "id": "prod-18",
+    "title": "Classic Leather Belt",
+    "handle": "classic-leather-belt",
+    "description": "Hand-buffed full-grain bridle leather belt anchored by a minimalist solid brass buckle with subtle etched logo branding.",
+    "descriptionHtml": "<p>Engineered for years of daily refinement. Vegetable tanned English bridle leather that grows softer and richer with every wear.</p><ul><li>100% Full-grain bridle cowhide leather (32mm width)</li><li>Solid brass buckle with satin antique finish</li><li>7 adjustment holes with beveled edges</li><li>Made in Spain</li></ul>",
+    "vendor": "LUXE Leatherworks",
+    "type": "Accessories",
+    "tags": ["Accessories", "Belts", "Leather", "Essentials", "Everyday"],
+    "collections": ["accessories"],
+    "price": 68.00,
+    "compareAtPrice": null,
+    "currency": "USD",
+    "available": true,
+    "images": [
+      "https://picsum.photos/seed/p18-belt-front/600/800",
+      "https://picsum.photos/seed/p18-belt-back/600/800",
+      "https://picsum.photos/seed/p18-belt-detail/600/800"
+    ],
+    "options": [
+      {
+        "name": "Color",
+        "position": 1,
+        "values": ["Deep Chestnut", "Pitch Black"]
+      },
+      {
+        "name": "Size",
+        "position": 2,
+        "values": ["80cm (32in)", "90cm (36in)", "100cm (40in)"]
+      }
+    ],
+    "variants": [
+      { "id": "prod-18-v1", "title": "Deep Chestnut / 80cm (32in)", "option1": "Deep Chestnut", "option2": "80cm (32in)", "price": 68.00, "compareAtPrice": null, "available": true, "sku": "LX-BLT-18-CHT-80", "inventory": 18 },
+      { "id": "prod-18-v2", "title": "Deep Chestnut / 90cm (36in)", "option1": "Deep Chestnut", "option2": "90cm (36in)", "price": 68.00, "compareAtPrice": null, "available": true, "sku": "LX-BLT-18-CHT-90", "inventory": 25 },
+      { "id": "prod-18-v3", "title": "Deep Chestnut / 100cm (40in)", "option1": "Deep Chestnut", "option2": "100cm (40in)", "price": 68.00, "compareAtPrice": null, "available": true, "sku": "LX-BLT-18-CHT-100", "inventory": 15 },
+      { "id": "prod-18-v4", "title": "Pitch Black / 80cm (32in)", "option1": "Pitch Black", "option2": "80cm (32in)", "price": 68.00, "compareAtPrice": null, "available": true, "sku": "LX-BLT-18-BLK-80", "inventory": 20 },
+      { "id": "prod-18-v5", "title": "Pitch Black / 90cm (36in)", "option1": "Pitch Black", "option2": "90cm (36in)", "price": 68.00, "compareAtPrice": null, "available": true, "sku": "LX-BLT-18-BLK-90", "inventory": 30 },
+      { "id": "prod-18-v6", "title": "Pitch Black / 100cm (40in)", "option1": "Pitch Black", "option2": "100cm (40in)", "price": 68.00, "compareAtPrice": null, "available": true, "sku": "LX-BLT-18-BLK-100", "inventory": 17 }
+    ],
+    "rating": 4.7,
+    "reviewCount": 64,
+    "featured": false,
+    "newArrival": false,
+    "bestSeller": false,
+    "createdAt": "2026-01-28"
+  },
+  {
+    "id": "prod-19",
+    "title": "Chelsea Leather Boots",
+    "handle": "chelsea-leather-boots",
+    "description": "Goodyear-welted Chelsea boots crafted from smooth French calf leather with ribbed elastic side gussets, woven pull tabs, and durable Vibram rubber soles.",
+    "descriptionHtml": "<p>Iconic footwear built with traditional English Goodyear welt construction. Weather-resilient, resoleable, and supremely comfortable straight from the box.</p><ul><li>Full-grain French calfskin upper</li><li>Breathable calf leather lining and cushioned insole</li><li>Storm-welted lightweight Vibram lug sole</li><li>Elasticated side gores with double pull tabs</li></ul>",
+    "vendor": "LUXE Footwear",
+    "type": "Footwear",
+    "tags": ["Footwear", "Boots", "Leather", "Chelsea", "Winter", "Bestseller"],
+    "collections": ["accessories", "best-sellers"],
+    "price": 310.00,
+    "compareAtPrice": 360.00,
+    "currency": "USD",
+    "available": true,
+    "images": [
+      "https://picsum.photos/seed/p19-chelsea-front/600/800",
+      "https://picsum.photos/seed/p19-chelsea-back/600/800",
+      "https://picsum.photos/seed/p19-chelsea-detail/600/800"
+    ],
+    "options": [
+      {
+        "name": "Color",
+        "position": 1,
+        "values": ["Tuscan Espresso", "Midnight Black"]
+      },
+      {
+        "name": "Size",
+        "position": 2,
+        "values": ["US 8", "US 9", "US 10", "US 11", "US 12"]
+      }
+    ],
+    "variants": [
+      { "id": "prod-19-v1", "title": "Tuscan Espresso / US 8", "option1": "Tuscan Espresso", "option2": "US 8", "price": 310.00, "compareAtPrice": 360.00, "available": true, "sku": "LX-BOT-19-ESP-08", "inventory": 9 },
+      { "id": "prod-19-v2", "title": "Tuscan Espresso / US 9", "option1": "Tuscan Espresso", "option2": "US 9", "price": 310.00, "compareAtPrice": 360.00, "available": true, "sku": "LX-BOT-19-ESP-09", "inventory": 14 },
+      { "id": "prod-19-v3", "title": "Tuscan Espresso / US 10", "option1": "Tuscan Espresso", "option2": "US 10", "price": 310.00, "compareAtPrice": 360.00, "available": true, "sku": "LX-BOT-19-ESP-10", "inventory": 18 },
+      { "id": "prod-19-v4", "title": "Tuscan Espresso / US 11", "option1": "Tuscan Espresso", "option2": "US 11", "price": 310.00, "compareAtPrice": 360.00, "available": true, "sku": "LX-BOT-19-ESP-11", "inventory": 12 },
+      { "id": "prod-19-v5", "title": "Tuscan Espresso / US 12", "option1": "Tuscan Espresso", "option2": "US 12", "price": 310.00, "compareAtPrice": 360.00, "available": true, "sku": "LX-BOT-19-ESP-12", "inventory": 6 },
+      { "id": "prod-19-v6", "title": "Midnight Black / US 8", "option1": "Midnight Black", "option2": "US 8", "price": 310.00, "compareAtPrice": 360.00, "available": true, "sku": "LX-BOT-19-BLK-08", "inventory": 11 },
+      { "id": "prod-19-v7", "title": "Midnight Black / US 9", "option1": "Midnight Black", "option2": "US 9", "price": 310.00, "compareAtPrice": 360.00, "available": true, "sku": "LX-BOT-19-BLK-09", "inventory": 16 },
+      { "id": "prod-19-v8", "title": "Midnight Black / US 10", "option1": "Midnight Black", "option2": "US 10", "price": 310.00, "compareAtPrice": 360.00, "available": true, "sku": "LX-BOT-19-BLK-10", "inventory": 20 },
+      { "id": "prod-19-v9", "title": "Midnight Black / US 11", "option1": "Midnight Black", "option2": "US 11", "price": 310.00, "compareAtPrice": 360.00, "available": true, "sku": "LX-BOT-19-BLK-11", "inventory": 15 },
+      { "id": "prod-19-v10", "title": "Midnight Black / US 12", "option1": "Midnight Black", "option2": "US 12", "price": 310.00, "compareAtPrice": 360.00, "available": true, "sku": "LX-BOT-19-BLK-12", "inventory": 8 }
+    ],
+    "rating": 4.9,
+    "reviewCount": 147,
+    "featured": true,
+    "newArrival": false,
+    "bestSeller": true,
+    "createdAt": "2026-01-09"
+  },
+  {
+    "id": "prod-20",
+    "title": "Minimalist Canvas Sneakers",
+    "handle": "minimalist-canvas-sneakers",
+    "description": "Low-profile sneakers handcrafted from heavyweight organic cotton canvas with vulcanized natural rubber soles and antimicrobial cork footbeds.",
+    "descriptionHtml": "<p>Unassuming luxury for daily miles. Clean monochrome lines and eco-friendly vulcanized construction that pairs seamlessly with suits or casual denim.</p><ul><li>Heavyweight 14oz organic cotton canvas upper</li><li>Ergonomic cushioned cork insole</li><li>Natural vulcanized rubber cupsole with herringbone traction</li><li>Tonal 100% waxed cotton laces</li></ul>",
+    "vendor": "LUXE Footwear",
+    "type": "Footwear",
+    "tags": ["Footwear", "Sneakers", "Canvas", "Casual", "Minimalist", "Summer"],
+    "collections": ["accessories", "summer-collection"],
+    "price": 130.00,
+    "compareAtPrice": null,
+    "currency": "USD",
+    "available": true,
+    "images": [
+      "https://picsum.photos/seed/p20-sneaker-front/600/800",
+      "https://picsum.photos/seed/p20-sneaker-back/600/800",
+      "https://picsum.photos/seed/p20-sneaker-detail/600/800"
+    ],
+    "options": [
+      {
+        "name": "Color",
+        "position": 1,
+        "values": ["Off-White Chalk", "Monochrome Slate"]
+      },
+      {
+        "name": "Size",
+        "position": 2,
+        "values": ["US 8", "US 9", "US 10", "US 11", "US 12"]
+      }
+    ],
+    "variants": [
+      { "id": "prod-20-v1", "title": "Off-White Chalk / US 8", "option1": "Off-White Chalk", "option2": "US 8", "price": 130.00, "compareAtPrice": null, "available": true, "sku": "LX-SNK-20-WHT-08", "inventory": 14 },
+      { "id": "prod-20-v2", "title": "Off-White Chalk / US 9", "option1": "Off-White Chalk", "option2": "US 9", "price": 130.00, "compareAtPrice": null, "available": true, "sku": "LX-SNK-20-WHT-09", "inventory": 22 },
+      { "id": "prod-20-v3", "title": "Off-White Chalk / US 10", "option1": "Off-White Chalk", "option2": "US 10", "price": 130.00, "compareAtPrice": null, "available": true, "sku": "LX-SNK-20-WHT-10", "inventory": 26 },
+      { "id": "prod-20-v4", "title": "Off-White Chalk / US 11", "option1": "Off-White Chalk", "option2": "US 11", "price": 130.00, "compareAtPrice": null, "available": true, "sku": "LX-SNK-20-WHT-11", "inventory": 18 },
+      { "id": "prod-20-v5", "title": "Off-White Chalk / US 12", "option1": "Off-White Chalk", "option2": "US 12", "price": 130.00, "compareAtPrice": null, "available": true, "sku": "LX-SNK-20-WHT-12", "inventory": 10 },
+      { "id": "prod-20-v6", "title": "Monochrome Slate / US 8", "option1": "Monochrome Slate", "option2": "US 8", "price": 130.00, "compareAtPrice": null, "available": true, "sku": "LX-SNK-20-SLT-08", "inventory": 12 },
+      { "id": "prod-20-v7", "title": "Monochrome Slate / US 9", "option1": "Monochrome Slate", "option2": "US 9", "price": 130.00, "compareAtPrice": null, "available": true, "sku": "LX-SNK-20-SLT-09", "inventory": 17 },
+      { "id": "prod-20-v8", "title": "Monochrome Slate / US 10", "option1": "Monochrome Slate", "option2": "US 10", "price": 130.00, "compareAtPrice": null, "available": true, "sku": "LX-SNK-20-SLT-10", "inventory": 19 },
+      { "id": "prod-20-v9", "title": "Monochrome Slate / US 11", "option1": "Monochrome Slate", "option2": "US 11", "price": 130.00, "compareAtPrice": null, "available": true, "sku": "LX-SNK-20-SLT-11", "inventory": 14 },
+      { "id": "prod-20-v10", "title": "Monochrome Slate / US 12", "option1": "Monochrome Slate", "option2": "US 12", "price": 130.00, "compareAtPrice": null, "available": true, "sku": "LX-SNK-20-SLT-12", "inventory": 8 }
+    ],
+    "rating": 4.6,
+    "reviewCount": 84,
+    "featured": false,
+    "newArrival": false,
+    "bestSeller": false,
+    "createdAt": "2026-01-19"
+  }
+]

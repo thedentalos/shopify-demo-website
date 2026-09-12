@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | LUXE STORE</title>
+  <meta name="description" content="Sign in to your LUXE STORE account to view bespoke orders, manage saved addresses, track shipments, and access private wishlist collections.">
+  
+  <!-- Google Fonts: Inter & Playfair Display -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+  
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css?v=20260912">
+  <link rel="stylesheet" href="css/reset.css?v=20260912">
+  <link rel="stylesheet" href="css/base.css?v=20260912">
+  <link rel="stylesheet" href="css/layout.css?v=20260912">
+  <link rel="stylesheet" href="css/components.css?v=20260912">
+  <link rel="stylesheet" href="css/header.css?v=20260912">
+  <link rel="stylesheet" href="css/footer.css?v=20260912">
+  <link rel="stylesheet" href="css/account.css?v=20260912">
+  <link rel="stylesheet" href="css/responsive.css?v=20260912">
+</head>
+<body>
+  <!-- Accessibility Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header injected by components.js -->
+  <div id="header-placeholder"></div>
+
+  <main id="main-content" class="auth-page">
+    <div class="container container--xs">
+      <div class="auth-card">
+        <header class="auth-card__header text-center">
+          <span class="auth-card__badge">Client Portal</span>
+          <h1 class="auth-card__title">Welcome Back</h1>
+          <p class="auth-card__subtitle">Enter your credentials to access your private client suite.</p>
+        </header>
+
+        <!-- Login Form -->
+        <form id="login-form" class="auth-form" novalidate>
+          <div class="form-group">
+            <label for="login-email" class="form-label">Email Address</label>
+            <div class="input-with-icon">
+              <i data-feather="mail" class="input-icon" aria-hidden="true"></i>
+              <input type="email" id="login-email" name="email" class="form-input" placeholder="you@example.com" required autocomplete="email">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="form-label-row">
+              <label for="login-password" class="form-label">Password</label>
+              <a href="#forgot-password" class="auth-card__forgot-link" id="forgot-password-link">Forgot password?</a>
+            </div>
+            <div class="input-with-toggle">
+              <input type="password" id="login-password" name="password" class="form-input" placeholder="••••••••" required autocomplete="current-password">
+              <button type="button" class="password-toggle-btn" aria-label="Toggle password visibility" data-target="login-password">
+                <i data-feather="eye" class="password-toggle-icon" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="form-group form-remember-me">
+            <label class="checkbox-label">
+              <input type="checkbox" name="remember" class="checkbox-input" checked>
+              <span class="checkbox-text">Remember this device for 30 days</span>
+            </label>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--full btn--lg">
+            <span>Sign In</span>
+            <i data-feather="arrow-right" class="btn__icon" aria-hidden="true"></i>
+          </button>
+        </form>
+
+        <!-- Social Auth Divider -->
+        <div class="auth-card__divider">
+          <span>or sign in with</span>
+        </div>
+
+        <!-- Social Buttons -->
+        <div class="social-auth-buttons">
+          <button type="button" class="btn btn--social btn--google" aria-label="Continue with Google">
+            <svg class="social-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+              <path fill="#4285F4" d="M23.745 12.27c0-.7-.06-1.4-.19-2.07H12v4.51h6.6c-.29 1.52-1.14 2.82-2.4 3.68v3.05h3.88c2.27-2.09 3.66-5.17 3.66-9.17z"/>
+              <path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.05c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.1-6.72-4.93H1.25v3.15C3.26 21.36 7.33 24 12 24z"/>
+              <path fill="#FBBC05" d="M5.28 14.27c-.25-.72-.38-1.49-.38-2.27s.13-1.55.38-2.27V6.58H1.25C.45 8.16 0 9.97 0 12s.45 3.84 1.25 5.42l4.03-3.15z"/>
+              <path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.33 0 3.26 2.64 1.25 6.58l4.03 3.15c.95-2.83 3.6-4.98 6.72-4.98z"/>
+            </svg>
+            <span>Google</span>
+          </button>
+          <button type="button" class="btn btn--social btn--facebook" aria-label="Continue with Facebook">
+            <svg class="social-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="#1877F2">
+              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+            </svg>
+            <span>Facebook</span>
+          </button>
+        </div>
+
+        <!-- Card Footer -->
+        <footer class="auth-card__footer text-center">
+          <p class="auth-card__switch">
+            Don't have an account? <a href="register.html" class="link--underline font-semibold">Create account</a>
+          </p>
+        </footer>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer injected by components.js -->
+  <div id="footer-placeholder"></div>
+
+  <!-- Feather Icons CDN -->
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <!-- Standard Scripts with Defer -->
+  <script src="js/utils.js?v=20260912" defer></script>
+  <script src="js/data.js?v=20260912" defer></script>
+  <script src="js/components.js?v=20260912" defer></script>
+  <script src="js/cart.js?v=20260912" defer></script>
+  <script src="js/wishlist.js?v=20260912" defer></script>
+  <script src="js/notifications.js?v=20260912" defer></script>
+  <script src="js/header.js?v=20260912" defer></script>
+  <script src="js/search.js?v=20260912" defer></script>
+  <script src="js/quickview.js?v=20260912" defer></script>
+  <script src="js/newsletter.js?v=20260912" defer></script>
+
+  <!-- Account Specific Script -->
+  <script src="js/account.js?v=20260912" defer></script>
+
+  <!-- Main App Script -->
+  <script src="js/app.js?v=20260912" defer></script>
+</body>
+</html>

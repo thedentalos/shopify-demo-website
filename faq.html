@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frequently Asked Questions | LUXE STORE</title>
+  <meta name="description" content="Find answers to frequently asked questions regarding shipping, returns, garment sizing, fabric care, orders, and account management at LUXE STORE.">
+  
+  <!-- Google Fonts: Inter & Playfair Display -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+  
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css?v=20260912">
+  <link rel="stylesheet" href="css/reset.css?v=20260912">
+  <link rel="stylesheet" href="css/base.css?v=20260912">
+  <link rel="stylesheet" href="css/layout.css?v=20260912">
+  <link rel="stylesheet" href="css/components.css?v=20260912">
+  <link rel="stylesheet" href="css/header.css?v=20260912">
+  <link rel="stylesheet" href="css/footer.css?v=20260912">
+  <link rel="stylesheet" href="css/pages.css?v=20260912">
+  <link rel="stylesheet" href="css/responsive.css?v=20260912">
+</head>
+<body>
+  <!-- Accessibility Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header injected by components.js -->
+  <div id="header-placeholder"></div>
+
+  <main id="main-content" class="page-faq">
+    <!-- Page Hero -->
+    <section class="page-hero page-hero--faq">
+      <div class="container page-hero__content text-center">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <ol class="breadcrumb__list breadcrumb__list--center">
+            <li class="breadcrumb__item"><a href="index.html" class="breadcrumb__link">Home</a></li>
+            <li class="breadcrumb__separator" aria-hidden="true">/</li>
+            <li class="breadcrumb__item breadcrumb__item--active" aria-current="page">FAQs</li>
+          </ol>
+        </nav>
+        <h1 class="page-hero__title">Frequently Asked Questions</h1>
+        <p class="page-hero__subtitle">Find prompt answers regarding orders, shipping, bespoke tailoring, and client services.</p>
+
+        <!-- Live Search Input -->
+        <div class="faq-search-wrapper">
+          <div class="faq-search">
+            <i data-feather="search" class="faq-search__icon" aria-hidden="true"></i>
+            <input type="search" id="faq-search-input" class="faq-search__input" placeholder="Search questions, keywords, or topics..." aria-label="Search FAQs">
+            <button type="button" id="faq-search-clear" class="faq-search__clear" aria-label="Clear search" hidden>
+              <i data-feather="x" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Content Section -->
+    <section class="faq-section section">
+      <div class="container container--narrow">
+        <!-- Category Pill Filter Tabs -->
+        <nav class="faq-filters" aria-label="FAQ Categories">
+          <button type="button" class="faq-filter-btn faq-filter-btn--active" data-filter="all">All Questions</button>
+          <button type="button" class="faq-filter-btn" data-filter="shipping">Shipping &amp; Delivery</button>
+          <button type="button" class="faq-filter-btn" data-filter="returns">Returns &amp; Exchanges</button>
+          <button type="button" class="faq-filter-btn" data-filter="products">Product &amp; Sizing</button>
+          <button type="button" class="faq-filter-btn" data-filter="orders">Orders &amp; Payments</button>
+          <button type="button" class="faq-filter-btn" data-filter="account">Account &amp; Security</button>
+        </nav>
+
+        <!-- Search empty notification (hidden by default) -->
+        <div id="faq-no-results" class="faq-no-results" hidden>
+          <i data-feather="help-circle" class="faq-no-results__icon" aria-hidden="true"></i>
+          <h3>No matching questions found</h3>
+          <p>Try refining your search terms or select another category above.</p>
+        </div>
+
+        <!-- 15 Detailed Accordions -->
+        <div class="faq-accordion" id="faq-accordion">
+          <!-- Question 1: Shipping -->
+          <article class="faq-item" data-category="shipping">
+            <button type="button" class="faq-item__trigger" aria-expanded="false" aria-controls="faq-ans-1">
+              <span class="faq-item__title">What are your standard shipping options and delivery timeframes?</span>
+              <span class="faq-item__icon" aria-hidden="true"><i data-feather="chevron-down"></i></span>
+            </button>
+            <div id="faq-ans-1" class="faq-item__content" hidden>
+              <div class="faq-item__body">
+                <p>We provide three tiers of shipping within the continental United States: Standard Ground (3–5 business days, complimentary on orders over $150), Express 2-Day ($18 flat rate, 2 business days), and Next-Day Priority Atelier Delivery ($35 flat rate). All orders are carefully packaged in signature recyclable garment boxes with embossed dust covers.</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Question 2: Shipping -->
+          <article class="faq-item" data-category="shipping">
+            <button type="button" class="faq-item__trigger" aria-expanded="false" aria-controls="faq-ans-2">
+              <span class="faq-item__title">Do you offer international shipping, and are duties included?</span>
+              <span class="faq-item__icon" aria-hidden="true"><i data-feather="chevron-down"></i></span>
+            </button>
+            <div id="faq-ans-2" class="faq-item__content" hidden>
+              <div class="faq-item__body">
+                <p>Yes, LUXE STORE delivers to over 45 countries worldwide via DHL Express. International orders are dispatched Delivered Duty Paid (DDP) for eligible countries, meaning all local import taxes, duties, and customs fees are calculated and collected directly at checkout—guaranteeing no surprise customs fees upon delivery.</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Question 3: Shipping -->
+          <article class="faq-item" data-category="shipping">
+            <button type="button" class="faq-item__trigger" aria-expanded="false" aria-controls="faq-ans-3">
+              <span class="faq-item__title">How can I track my shipment once dispatched?</span>
+              <span class="faq-item__icon" aria-hidden="true"><i data-feather="chevron-down"></i></span>
+            </button>
+            <div id="faq-ans-3" class="faq-item__content" hidden>
+              <div class="faq-item__body">
+                <p>As soon as your package departs our New York atelier, you will receive a confirmation email with direct carrier tracking credentials. Registered members may also view live carrier milestones directly within their <a href="account.html" class="link--underline">Account Dashboard</a>.</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Question 4: Returns -->
+          <article class="faq-item" data-category="returns">
+            <button type="button" class="faq-item__trigger" aria-expanded="false" aria-controls="faq-ans-4">
+              <span class="faq-item__title">What is your 30-day return and exchange policy?</span>
+              <span class="faq-item__icon" aria-hidden="true"><i data-feather="chevron-down"></i></span>
+            </button>
+            <div id="faq-ans-4" class="faq-item__content" hidden>
+              <div class="faq-item__body">
+                <p>We accept returns of unworn, unwashed garments within 30 calendar days of delivery. Items must remain in their original condition with all designer security ribbons, authenticity cards, and garment labels intact. Archive final-sale items and customized monogrammed pieces are not eligible for return.</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Question 5: Returns -->
+          <article class="faq-item" data-category="returns">
+            <button type="button" class="faq-item__trigger" aria-expanded="false" aria-controls="faq-ans-5">
+              <span class="faq-item__title">How do I initiate a return or exchange online?</span>
+              <span class="faq-item__icon" aria-hidden="true"><i data-feather="chevron-down"></i></span>
+            </button>
+            <div id="faq-ans-5" class="faq-item__content" hidden>
+              <div class="faq-item__body">
+                <p>To begin a return or exchange, visit our automated Returns Portal or contact concierge@luxestore.com with your order number. Generate your prepaid domestic return shipping label, pack items in the protective box provided, and drop off at any authorized courier location.</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Question 6: Returns -->
+          <article class="faq-item" data-category="returns">
+            <button type="button" class="faq-item__trigger" aria-expanded="false" aria-controls="faq-ans-6">
+              <span class="faq-item__title">Are return shipping labels provided complimentary?</span>
+              <span class="faq-item__icon" aria-hidden="true"><i data-feather="chevron-down"></i></span>
+            </button>
+            <div id="faq-ans-6" class="faq-item__content" hidden>
+              <div class="faq-item__body">
+                <p>Domestic exchanges for alternative sizes or colors are 100% complimentary. For domestic refunds issued back to your original payment method, a nominal $10 restocking and insured courier transit fee is deducted from your final refund total. Store credit returns incur no restocking deductions.</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Question 7: Products -->
+          <article class="faq-item" data-category="products">
+            <button type="button" class="faq-item__trigger" aria-expanded="false" aria-controls="faq-ans-7">
+              <span class="faq-item__title">How do I find my accurate size across different garments?</span>
+              <span class="faq-item__icon" aria-hidden="true"><i data-feather="chevron-down"></i></span>
+            </button>
+            <div id="faq-ans-7" class="faq-item__content" hidden>
+              <div class="faq-item__body">
+                <p>Every product page includes an exact garment measurement chart covering bust/chest, waist, sleeve, and overall hem length in both inches and centimeters. If you are between sizes, we recommend sizing up for structured tailoring or consulting our private stylists via live chat for personalized fit guidance.</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Question 8: Products -->
+          <article class="faq-item" data-category="products">
+            <button type="button" class="faq-item__trigger" aria-expanded="false" aria-controls="faq-ans-8">
+              <span class="faq-item__title">What are the recommended care instructions for organic wool, cashmere, and silk?</span>
+              <span class="faq-item__icon" aria-hidden="true"><i data-feather="chevron-down"></i></span>
+            </button>
+            <div id="faq-ans-8" class="faq-item__content" hidden>
+              <div class="faq-item__body">
+                <p>We advocate gentle hand-washing in tepid water with specialized pH-neutral wool wash for knitwear, laying flat on a clean towel to dry away from direct heat. Tailored outerwear and silk crepes should be entrusted to eco-friendly specialist green dry cleaners only.</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Question 9: Products -->
+          <article class="faq-item" data-category="products">
+            <button type="button" class="faq-item__trigger" aria-expanded="false" aria-controls="faq-ans-9">
+              <span class="faq-item__title">Where are LUXE STORE garments crafted and fabrics sourced?</span>
+              <span class="faq-item__icon" aria-hidden="true"><i data-feather="chevron-down"></i></span>
+            </button>
+            <div id="faq-ans-9" class="faq-item__content" hidden>
+              <div class="faq-item__body">
+                <p>Our raw fibers are harvested through certified sustainable agriculture: superfine merino from Biella, Italy; GOTS-certified organic cotton from Portugal; and Grade-A cashmere from Inner Mongolia. Garments are hand-tailored across boutique ateliers in Manhattan and northern Italy.</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Question 10: Orders -->
+          <article class="faq-item" data-category="orders">
+            <button type="button" class="faq-item__trigger" aria-expanded="false" aria-controls="faq-ans-10">
+              <span class="faq-item__title">Can I modify or cancel my order after it has been placed?</span>
+              <span class="faq-item__icon" aria-hidden="true"><i data-feather="chevron-down"></i></span>
+            </button>
+            <div id="faq-ans-10" class="faq-item__content" hidden>
+              <div class="faq-item__body">
+                <p>Because our fulfillment team begins preparing orders promptly to ensure expedited delivery, order modifications or cancellations must be requested within 60 minutes of checkout. Please contact us immediately at concierge@luxestore.com with "URGENT ORDER CHANGE" in the subject line.</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Question 11: Orders -->
+          <article class="faq-item" data-category="orders">
+            <button type="button" class="faq-item__trigger" aria-expanded="false" aria-controls="faq-ans-11">
+              <span class="faq-item__title">What payment methods and financing options do you accept?</span>
+              <span class="faq-item__icon" aria-hidden="true"><i data-feather="chevron-down"></i></span>
+            </button>
+            <div id="faq-ans-11" class="faq-item__content" hidden>
+              <div class="faq-item__body">
+                <p>We accept Visa, MasterCard, American Express, Discover, Apple Pay, Google Pay, and PayPal. In addition, we partner with Klarna and Afterpay to provide interest-free split payment installments over four bi-weekly periods.</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Question 12: Orders -->
+          <article class="faq-item" data-category="orders">
+            <button type="button" class="faq-item__trigger" aria-expanded="false" aria-controls="faq-ans-12">
+              <span class="faq-item__title">How do I apply promotional discount codes or digital gift cards?</span>
+              <span class="faq-item__icon" aria-hidden="true"><i data-feather="chevron-down"></i></span>
+            </button>
+            <div id="faq-ans-12" class="faq-item__content" hidden>
+              <div class="faq-item__body">
+                <p>During the final checkout review step, locate the "Gift Card or Promo Code" input field in your order summary. Enter your code and select "Apply". Only one promotional code may be redeemed per order, although digital gift cards can be combined with promotions.</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Question 13: Account -->
+          <article class="faq-item" data-category="account">
+            <button type="button" class="faq-item__trigger" aria-expanded="false" aria-controls="faq-ans-13">
+              <span class="faq-item__title">How do I reset my password or recover account access?</span>
+              <span class="faq-item__icon" aria-hidden="true"><i data-feather="chevron-down"></i></span>
+            </button>
+            <div id="faq-ans-13" class="faq-item__content" hidden>
+              <div class="faq-item__body">
+                <p>Navigate to the <a href="login.html" class="link--underline">Login Page</a> and select the "Forgot password?" prompt. Enter your registered email address, and we will transmit a secure one-time password reset link valid for 60 minutes.</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Question 14: Account -->
+          <article class="faq-item" data-category="account">
+            <button type="button" class="faq-item__trigger" aria-expanded="false" aria-controls="faq-ans-14">
+              <span class="faq-item__title">Can I store multiple shipping addresses and update my profile?</span>
+              <span class="faq-item__icon" aria-hidden="true"><i data-feather="chevron-down"></i></span>
+            </button>
+            <div id="faq-ans-14" class="faq-item__content" hidden>
+              <div class="faq-item__body">
+                <p>Yes. Within your <a href="account.html" class="link--underline">Account Dashboard</a>, access the "Addresses" section to save primary residential, vacation, and workplace addresses. You can designate your preferred default shipping and billing destinations at any time.</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Question 15: Account -->
+          <article class="faq-item" data-category="account">
+            <button type="button" class="faq-item__trigger" aria-expanded="false" aria-controls="faq-ans-15">
+              <span class="faq-item__title">How does LUXE STORE protect my personal information and payment security?</span>
+              <span class="faq-item__icon" aria-hidden="true"><i data-feather="chevron-down"></i></span>
+            </button>
+            <div id="faq-ans-15" class="faq-item__content" hidden>
+              <div class="faq-item__body">
+                <p>We employ enterprise-grade 256-bit TLS cryptographic encryption and PCI-DSS Level 1 compliant gateway processing. LUXE STORE never retains complete credit card numbers on local servers, and we never distribute your personal data to unauthorized third-party advertisers.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Still Need Help CTA Box -->
+        <div class="faq-cta-box">
+          <div class="faq-cta-box__icon" aria-hidden="true">
+            <i data-feather="message-circle"></i>
+          </div>
+          <div class="faq-cta-box__content">
+            <h3 class="faq-cta-box__title">Still have questions?</h3>
+            <p class="faq-cta-box__text">Our dedicated client concierges in Manhattan are available Monday through Saturday to assist you with bespoke fitting advice, order updates, and styling inquiries.</p>
+          </div>
+          <div class="faq-cta-box__action">
+            <a href="contact.html" class="btn btn--primary">Contact Client Care</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer injected by components.js -->
+  <div id="footer-placeholder"></div>
+
+  <!-- Feather Icons CDN -->
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <!-- Standard Scripts with Defer -->
+  <script src="js/utils.js?v=20260912" defer></script>
+  <script src="js/data.js?v=20260912" defer></script>
+  <script src="js/components.js?v=20260912" defer></script>
+  <script src="js/cart.js?v=20260912" defer></script>
+  <script src="js/wishlist.js?v=20260912" defer></script>
+  <script src="js/notifications.js?v=20260912" defer></script>
+  <script src="js/header.js?v=20260912" defer></script>
+  <script src="js/search.js?v=20260912" defer></script>
+  <script src="js/quickview.js?v=20260912" defer></script>
+  <script src="js/newsletter.js?v=20260912" defer></script>
+
+  <!-- FAQ Specific Script -->
+  <script src="js/faq.js?v=20260912" defer></script>
+
+  <!-- Main App Script -->
+  <script src="js/app.js?v=20260912" defer></script>
+</body>
+</html>

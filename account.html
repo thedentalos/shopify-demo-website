@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Manage your LUXE STORE account. View order histories, track active shipments, manage residential and business addresses, and redeem reward points.">
+  <title>My Account | LUXE STORE</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Core Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css?v=20260912">
+  <link rel="stylesheet" href="css/reset.css?v=20260912">
+  <link rel="stylesheet" href="css/base.css?v=20260912">
+  <link rel="stylesheet" href="css/layout.css?v=20260912">
+  <link rel="stylesheet" href="css/components.css?v=20260912">
+  <link rel="stylesheet" href="css/header.css?v=20260912">
+  <link rel="stylesheet" href="css/footer.css?v=20260912">
+  <link rel="stylesheet" href="css/account.css?v=20260912">
+  <link rel="stylesheet" href="css/responsive.css?v=20260912">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to content</a>
+
+  <!-- Header injected by components.js -->
+  <div id="header-placeholder"></div>
+
+  <main id="main-content" class="page-account">
+    <!-- Breadcrumb -->
+    <div class="account-breadcrumb-wrapper">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <ol class="breadcrumb__list">
+            <li class="breadcrumb__item"><a href="index.html" class="breadcrumb__link">Home</a></li>
+            <li class="breadcrumb__separator" aria-hidden="true">/</li>
+            <li class="breadcrumb__item breadcrumb__item--active" aria-current="page">My Account</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Main Account Area -->
+    <section class="account-section-wrapper section section--tight">
+      <div class="container">
+        <div class="account-layout">
+          <!-- Left Column: Navigation Sidebar -->
+          <aside class="account-sidebar" aria-label="Account Navigation">
+            <div class="account-user-card">
+              <div class="account-user-card__avatar">
+                <img src="https://picsum.photos/seed/sarah-jenkins/200/200" alt="Sarah Jenkins profile photo" width="70" height="70">
+              </div>
+              <div class="account-user-card__info">
+                <h2 class="account-user-card__name">Sarah Jenkins</h2>
+                <span class="account-user-card__tier">Gold Atelier Client</span>
+              </div>
+            </div>
+
+            <nav class="account-nav">
+              <ul class="account-nav__list">
+                <li class="account-nav__item">
+                  <a href="#dashboard" class="account-nav__link account-nav__link--active" aria-current="page">
+                    <i data-feather="grid" aria-hidden="true"></i>
+                    <span>Dashboard</span>
+                  </a>
+                </li>
+                <li class="account-nav__item">
+                  <a href="#orders" class="account-nav__link">
+                    <i data-feather="package" aria-hidden="true"></i>
+                    <span>Orders</span>
+                    <span class="account-nav__badge">12</span>
+                  </a>
+                </li>
+                <li class="account-nav__item">
+                  <a href="#addresses" class="account-nav__link">
+                    <i data-feather="map-pin" aria-hidden="true"></i>
+                    <span>Addresses</span>
+                  </a>
+                </li>
+                <li class="account-nav__item">
+                  <a href="#details" class="account-nav__link">
+                    <i data-feather="user" aria-hidden="true"></i>
+                    <span>Account Details</span>
+                  </a>
+                </li>
+                <li class="account-nav__item">
+                  <a href="wishlist.html" class="account-nav__link">
+                    <i data-feather="heart" aria-hidden="true"></i>
+                    <span>Wishlist</span>
+                    <span class="account-nav__badge">5</span>
+                  </a>
+                </li>
+                <li class="account-nav__item account-nav__item--separator"></li>
+                <li class="account-nav__item">
+                  <a href="login.html" class="account-nav__link account-nav__link--logout">
+                    <i data-feather="log-out" aria-hidden="true"></i>
+                    <span>Sign Out</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </aside>
+
+          <!-- Right Column: Main Account Content -->
+          <div class="account-content">
+            <!-- Greeting & Member Banner -->
+            <header class="account-header">
+              <div>
+                <h1 class="account-header__greeting">Welcome back, Sarah!</h1>
+                <p class="account-header__meta">Manage your orders, styling appointments, and preferences from your client dashboard.</p>
+              </div>
+              <div class="account-header__quick-actions">
+                <a href="products.html?collection=new-arrivals" class="btn btn--primary btn--sm">
+                  <i data-feather="shopping-bag" aria-hidden="true"></i>
+                  <span>Shop New Arrivals</span>
+                </a>
+              </div>
+            </header>
+
+            <!-- 3 Metric Cards -->
+            <div class="account-metrics-grid">
+              <article class="metric-card">
+                <div class="metric-card__icon metric-card__icon--orders" aria-hidden="true">
+                  <i data-feather="package"></i>
+                </div>
+                <div class="metric-card__content">
+                  <span class="metric-card__value">12</span>
+                  <span class="metric-card__label">Total Orders</span>
+                </div>
+              </article>
+
+              <article class="metric-card">
+                <div class="metric-card__icon metric-card__icon--wishlist" aria-hidden="true">
+                  <i data-feather="heart"></i>
+                </div>
+                <div class="metric-card__content">
+                  <span class="metric-card__value">5</span>
+                  <span class="metric-card__label">Wishlist Items</span>
+                </div>
+              </article>
+
+              <article class="metric-card">
+                <div class="metric-card__icon metric-card__icon--rewards" aria-hidden="true">
+                  <i data-feather="award"></i>
+                </div>
+                <div class="metric-card__content">
+                  <span class="metric-card__value">250</span>
+                  <span class="metric-card__label">Reward Points</span>
+                </div>
+              </article>
+            </div>
+
+            <!-- Recent Orders Section -->
+            <section class="account-section" id="orders">
+              <div class="account-section__header">
+                <h2 class="account-section__title">Recent Orders</h2>
+                <a href="#view-all-orders" class="link--underline font-medium">View All (12)</a>
+              </div>
+
+              <div class="table-responsive">
+                <table class="account-table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Order #</th>
+                      <th scope="col">Date</th>
+                      <th scope="col">Status</th>
+                      <th scope="col">Total</th>
+                      <th scope="col" class="text-right">Actions</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="font-semibold"><a href="#order-LX8942" class="link--text">#LX-8942</a></td>
+                      <td>Sep 08, 2026</td>
+                      <td><span class="badge badge--warning">Processing</span></td>
+                      <td class="font-medium">$340.00</td>
+                      <td class="text-right">
+                        <button type="button" class="btn btn--xs btn--outline">View Order</button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="font-semibold"><a href="#order-LX8819" class="link--text">#LX-8819</a></td>
+                      <td>Aug 24, 2026</td>
+                      <td><span class="badge badge--info">Shipped</span></td>
+                      <td class="font-medium">$580.00</td>
+                      <td class="text-right">
+                        <button type="button" class="btn btn--xs btn--outline">Track Parcel</button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="font-semibold"><a href="#order-LX8703" class="link--text">#LX-8703</a></td>
+                      <td>Aug 12, 2026</td>
+                      <td><span class="badge badge--success">Delivered</span></td>
+                      <td class="font-medium">$195.00</td>
+                      <td class="text-right">
+                        <button type="button" class="btn btn--xs btn--outline">Invoice</button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="font-semibold"><a href="#order-LX8521" class="link--text">#LX-8521</a></td>
+                      <td>Jul 19, 2026</td>
+                      <td><span class="badge badge--success">Delivered</span></td>
+                      <td class="font-medium">$420.00</td>
+                      <td class="text-right">
+                        <button type="button" class="btn btn--xs btn--outline">Invoice</button>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </section>
+
+            <!-- Saved Addresses Section -->
+            <section class="account-section" id="addresses">
+              <div class="account-section__header">
+                <h2 class="account-section__title">Saved Addresses</h2>
+                <button type="button" class="btn btn--outline btn--sm" id="btn-add-address">
+                  <i data-feather="plus" aria-hidden="true"></i>
+                  <span>Add New Address</span>
+                </button>
+              </div>
+
+              <div class="addresses-grid">
+                <!-- Address Card 1: Home (Default) -->
+                <article class="address-card address-card--default">
+                  <div class="address-card__header">
+                    <div class="address-card__tag">
+                      <i data-feather="home" class="address-tag-icon" aria-hidden="true"></i>
+                      <strong>Home</strong>
+                    </div>
+                    <span class="badge badge--primary">Default</span>
+                  </div>
+                  <div class="address-card__body">
+                    <p class="address-card__recipient">Sarah Jenkins</p>
+                    <p class="address-card__line">742 Evergreen Terrace, Apt 4B</p>
+                    <p class="address-card__line">New York, NY 10021</p>
+                    <p class="address-card__line">United States</p>
+                    <p class="address-card__phone">+1 (555) 234-5678</p>
+                  </div>
+                  <div class="address-card__footer">
+                    <button type="button" class="btn btn--link btn--sm">Edit</button>
+                    <span class="divider-dot" aria-hidden="true">&bull;</span>
+                    <button type="button" class="btn btn--link btn--sm text-danger">Delete</button>
+                  </div>
+                </article>
+
+                <!-- Address Card 2: Office -->
+                <article class="address-card">
+                  <div class="address-card__header">
+                    <div class="address-card__tag">
+                      <i data-feather="briefcase" class="address-tag-icon" aria-hidden="true"></i>
+                      <strong>Office</strong>
+                    </div>
+                    <button type="button" class="btn btn--link btn--xs">Set as Default</button>
+                  </div>
+                  <div class="address-card__body">
+                    <p class="address-card__recipient">Sarah Jenkins — LUXE Studio</p>
+                    <p class="address-card__line">450 Lexington Ave, Fl 14</p>
+                    <p class="address-card__line">New York, NY 10017</p>
+                    <p class="address-card__line">United States</p>
+                    <p class="address-card__phone">+1 (555) 876-5432</p>
+                  </div>
+                  <div class="address-card__footer">
+                    <button type="button" class="btn btn--link btn--sm">Edit</button>
+                    <span class="divider-dot" aria-hidden="true">&bull;</span>
+                    <button type="button" class="btn btn--link btn--sm text-danger">Delete</button>
+                  </div>
+                </article>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer injected by components.js -->
+  <div id="footer-placeholder"></div>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script src="js/utils.js?v=20260912" defer></script>
+  <script src="js/data.js?v=20260912" defer></script>
+  <script src="js/components.js?v=20260912" defer></script>
+  <script src="js/cart.js?v=20260912" defer></script>
+  <script src="js/wishlist.js?v=20260912" defer></script>
+  <script src="js/notifications.js?v=20260912" defer></script>
+  <script src="js/header.js?v=20260912" defer></script>
+  <script src="js/search.js?v=20260912" defer></script>
+  <script src="js/quickview.js?v=20260912" defer></script>
+  <script src="js/newsletter.js?v=20260912" defer></script>
+  <script src="js/account.js?v=20260912" defer></script>
+  <script src="js/app.js?v=20260912" defer></script>
+</body>
+</html>

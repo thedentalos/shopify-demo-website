@@ -1,0 +1,58 @@
+{
+  "storeName": "LUXE STORE",
+  "logoText": "LUXE",
+  "tagline": "Curated Fashion & Lifestyle",
+  "currency": "USD",
+  "currencySymbol": "$",
+  "freeShippingThreshold": 50.00,
+  "taxRate": 0.08,
+  "announcement": {
+    "enabled": true,
+    "text": "Complimentary Worldwide Express Shipping on Orders Over $50 | Use Code: LUXE10 for 10% Off",
+    "link": "products.html?collection=new-arrivals"
+  },
+  "contact": {
+    "email": "concierge@luxestore.com",
+    "phone": "+1 (800) 555-LUXE",
+    "address": "742 Evergreen Terrace, Suite 400, New York, NY 10001",
+    "hours": "Monday - Saturday: 9:00 AM - 8:00 PM EST"
+  },
+  "socialLinks": {
+    "instagram": "https://instagram.com/luxestore",
+    "facebook": "https://facebook.com/luxestore",
+    "pinterest": "https://pinterest.com/luxestore",
+    "twitter": "https://twitter.com/luxestore",
+    "tiktok": "https://tiktok.com/@luxestore",
+    "youtube": "https://youtube.com/luxestore"
+  },
+  "features": [
+    {
+      "icon": "truck",
+      "title": "Complimentary Shipping",
+      "description": "On all domestic orders over $50"
+    },
+    {
+      "icon": "shield",
+      "title": "Authenticity Guaranteed",
+      "description": "100% genuine curated artisan pieces"
+    },
+    {
+      "icon": "refresh-cw",
+      "title": "30-Day Hassle-Free Returns",
+      "description": "Complimentary returns and exchanges"
+    },
+    {
+      "icon": "lock",
+      "title": "Encrypted Payment",
+      "description": "256-bit SSL secured transaction processing"
+    }
+  ],
+  "navigation": [
+    { "title": "Home", "url": "index.html" },
+    { "title": "Shop", "url": "products.html", "hasMegaMenu": true },
+    { "title": "Collections", "url": "collection.html" },
+    { "title": "About", "url": "about.html" },
+    { "title": "Contact", "url": "contact.html" },
+    { "title": "FAQ", "url": "faq.html" }
+  ]
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="View and edit your shopping cart items before checkout at LUXE STORE.">
+  <title>Shopping Cart | LUXE STORE</title>
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/variables.css?v=20260912">
+  <link rel="stylesheet" href="css/reset.css?v=20260912">
+  <link rel="stylesheet" href="css/base.css?v=20260912">
+  <link rel="stylesheet" href="css/layout.css?v=20260912">
+  <link rel="stylesheet" href="css/components.css?v=20260912">
+  <link rel="stylesheet" href="css/header.css?v=20260912">
+  <link rel="stylesheet" href="css/footer.css?v=20260912">
+  <link rel="stylesheet" href="css/cart.css?v=20260912">
+  <link rel="stylesheet" href="css/responsive.css?v=20260912">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to content</a>
+  <div id="header-placeholder"></div>
+
+  <main id="main-content" class="page-wrapper">
+    <div class="container" style="padding-top: var(--spacing-xl); padding-bottom: var(--spacing-4xl);">
+      <nav class="breadcrumb" aria-label="Breadcrumb" style="margin-bottom: var(--spacing-xl);">
+        <ol class="breadcrumb__list">
+          <li class="breadcrumb__item"><a href="index.html" class="breadcrumb__link">Home</a> <i data-feather="chevron-right" class="breadcrumb__separator"></i></li>
+          <li class="breadcrumb__item breadcrumb__item--current" aria-current="page">Shopping Cart</li>
+        </ol>
+      </nav>
+
+      <div class="section-header text-left" style="margin-bottom: var(--spacing-2xl);">
+        <h1 class="section-header__title">Shopping Cart</h1>
+      </div>
+
+      <!-- Cart with Items -->
+      <div class="cart-layout" id="cart-content">
+        <div class="cart-items-wrapper">
+          <div id="cart-items">
+            <!-- JS dynamically injects items -->
+          </div>
+        </div>
+
+        <aside class="cart-summary">
+          <h2 class="cart-summary__title">Order Summary</h2>
+
+          <div class="coupon-form">
+            <input type="text" class="form-input" placeholder="Promo code" id="coupon-input" aria-label="Promo code">
+            <button class="btn btn--secondary" id="apply-coupon">Apply</button>
+          </div>
+
+          <div class="cart-notes">
+            <label class="form-label" for="cart-notes-input">Order Notes (Optional)</label>
+            <textarea class="form-textarea" placeholder="Special delivery instructions..." id="cart-notes-input"></textarea>
+          </div>
+
+          <div class="cart-summary__row">
+            <span>Subtotal</span>
+            <span id="cart-subtotal">$0.00</span>
+          </div>
+          <div class="cart-summary__row">
+            <span>Estimated Shipping</span>
+            <span id="cart-shipping-est">Calculated at checkout</span>
+          </div>
+          <div class="cart-summary__row" id="cart-discount-row" style="display: none; color: var(--color-success);">
+            <span>Discount</span>
+            <span id="cart-discount">-$0.00</span>
+          </div>
+          <div class="cart-summary__row cart-summary__row--total">
+            <span>Estimated Total</span>
+            <span id="cart-total">$0.00</span>
+          </div>
+
+          <a href="checkout.html" class="btn btn--primary btn--full btn--lg" style="margin-top: var(--spacing-lg);">Proceed to Checkout</a>
+          <a href="products.html" class="btn btn--link btn--full" style="margin-top: var(--spacing-sm);">Continue Shopping</a>
+
+          <div class="trust-badges" style="margin-top: var(--spacing-xl); flex-direction: column; gap: var(--spacing-sm);">
+            <div class="trust-badge"><i data-feather="lock"></i> <span>256-bit Encrypted Checkout</span></div>
+            <div class="trust-badge"><i data-feather="refresh-cw"></i> <span>30-Day Hassle-Free Returns</span></div>
+            <div class="trust-badge"><i data-feather="truck"></i> <span>Complimentary US Shipping over $50</span></div>
+          </div>
+        </aside>
+      </div>
+
+      <!-- Empty Cart State -->
+      <div class="cart-empty" id="cart-empty" style="display: none;">
+        <i data-feather="shopping-bag"></i>
+        <h2>Your Cart is Empty</h2>
+        <p>Looks like you haven't added anything to your cart yet.</p>
+        <a href="products.html" class="btn btn--primary btn--lg" style="margin-top: var(--spacing-lg);">Discover the Collection</a>
+      </div>
+    </div>
+  </main>
+
+  <div id="footer-placeholder"></div>
+
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script src="js/utils.js?v=20260912" defer></script>
+  <script src="js/data.js?v=20260912" defer></script>
+  <script src="js/components.js?v=20260912" defer></script>
+  <script src="js/cart.js?v=20260912" defer></script>
+  <script src="js/wishlist.js?v=20260912" defer></script>
+  <script src="js/notifications.js?v=20260912" defer></script>
+  <script src="js/header.js?v=20260912" defer></script>
+  <script src="js/search.js?v=20260912" defer></script>
+  <script src="js/quickview.js?v=20260912" defer></script>
+  <script src="js/newsletter.js?v=20260912" defer></script>
+  <script src="js/app.js?v=20260912" defer></script>
+</body>
+</html>\n

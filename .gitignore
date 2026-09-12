@@ -1,0 +1,19 @@
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Agent / AI generated
+.agents/
+agent.md
+audit.md
+reaudit.md
+implementation_plan.md
+task.md
+walkthrough.md

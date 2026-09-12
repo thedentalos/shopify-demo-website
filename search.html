@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Search products across LUXE STORE catalog.">
+  <title>Search Catalog | LUXE STORE</title>
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/variables.css?v=20260912">
+  <link rel="stylesheet" href="css/reset.css?v=20260912">
+  <link rel="stylesheet" href="css/base.css?v=20260912">
+  <link rel="stylesheet" href="css/layout.css?v=20260912">
+  <link rel="stylesheet" href="css/components.css?v=20260912">
+  <link rel="stylesheet" href="css/header.css?v=20260912">
+  <link rel="stylesheet" href="css/footer.css?v=20260912">
+  <link rel="stylesheet" href="css/products.css?v=20260912">
+  <link rel="stylesheet" href="css/responsive.css?v=20260912">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to content</a>
+  <div id="header-placeholder"></div>
+
+  <main id="main-content" class="page-wrapper">
+    <div class="container" style="padding-top: var(--spacing-xl); padding-bottom: var(--spacing-4xl);">
+      <nav class="breadcrumb" aria-label="Breadcrumb" style="margin-bottom: var(--spacing-xl);">
+        <ol class="breadcrumb__list">
+          <li class="breadcrumb__item"><a href="index.html" class="breadcrumb__link">Home</a> <i data-feather="chevron-right" class="breadcrumb__separator"></i></li>
+          <li class="breadcrumb__item breadcrumb__item--current" aria-current="page">Search</li>
+        </ol>
+      </nav>
+
+      <div class="search-page-header" style="max-width: 680px; margin: 0 auto var(--spacing-3xl); text-align: center;">
+        <h1 class="section-header__title" style="margin-bottom: var(--spacing-md);">Search Catalog</h1>
+        <div style="position: relative;">
+          <input type="text" class="form-input" id="search-page-input" placeholder="Search by name, fabric, category..." style="padding-left: 48px; border-radius: var(--radius-full);" aria-label="Search catalog by name, fabric, or category" autofocus>
+          <i data-feather="search" style="position: absolute; left: 18px; top: 50%; transform: translateY(-50%); color: var(--color-text-muted);" aria-hidden="true"></i>
+        </div>
+        <p id="search-results-count" class="sort-bar__count" style="margin-top: var(--spacing-sm);"></p>
+      </div>
+
+      <!-- Results Grid -->
+      <div class="product-grid" id="search-results-grid">
+        <!-- Injected by search.js -->
+      </div>
+
+      <!-- No Results State -->
+      <div class="no-results" id="search-no-results" style="display: none;">
+        <i data-feather="search" style="width: 48px; height: 48px; color: var(--color-text-muted); margin-bottom: 1rem;"></i>
+        <h3>No Products Found</h3>
+        <p>We could not find any items matching your keywords. Please try different terms or browse our collections.</p>
+        <div style="margin-top: var(--spacing-lg); display: flex; justify-content: center; gap: var(--spacing-md);">
+          <a href="products.html" class="btn btn--primary">Browse All Products</a>
+          <a href="collections.html" class="btn btn--secondary">Explore Collections</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div id="footer-placeholder"></div>
+
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script src="js/utils.js?v=20260912" defer></script>
+  <script src="js/data.js?v=20260912" defer></script>
+  <script src="js/components.js?v=20260912" defer></script>
+  <script src="js/cart.js?v=20260912" defer></script>
+  <script src="js/wishlist.js?v=20260912" defer></script>
+  <script src="js/notifications.js?v=20260912" defer></script>
+  <script src="js/header.js?v=20260912" defer></script>
+  <script src="js/search.js?v=20260912" defer></script>
+  <script src="js/quickview.js?v=20260912" defer></script>
+  <script src="js/newsletter.js?v=20260912" defer></script>
+  <script src="js/app.js?v=20260912" defer></script>
+</body>
+</html>\n

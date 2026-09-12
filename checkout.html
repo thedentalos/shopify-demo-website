@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout | LUXE STORE</title>
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/variables.css?v=20260912">
+  <link rel="stylesheet" href="css/reset.css?v=20260912">
+  <link rel="stylesheet" href="css/base.css?v=20260912">
+  <link rel="stylesheet" href="css/layout.css?v=20260912">
+  <link rel="stylesheet" href="css/components.css?v=20260912">
+  <link rel="stylesheet" href="css/checkout.css?v=20260912">
+  <link rel="stylesheet" href="css/responsive.css?v=20260912">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to content</a>
+
+  <div class="container" style="max-width: 1200px; padding-top: var(--spacing-lg); padding-bottom: var(--spacing-4xl);">
+    <header class="checkout-header">
+      <a href="index.html" class="checkout-header__logo" aria-label="LUXE STORE Home">LUXE</a>
+      <a href="cart.html" class="checkout-header__back"><i data-feather="arrow-left" style="width:16px;height:16px;vertical-align:middle;" aria-hidden="true"></i> Return to cart</a>
+    </header>
+
+    <main id="main-content" class="checkout-layout">
+      <h1 class="sr-only">Checkout - Complete Your Purchase</h1>
+      <div class="checkout-form-area">
+        <div class="checkout-steps">
+          <div class="checkout-step checkout-step--active" data-step="1">
+            <span class="checkout-step__number">1</span>
+            <span class="checkout-step__label">Contact</span>
+          </div>
+          <div class="checkout-step__line"></div>
+          <div class="checkout-step" data-step="2">
+            <span class="checkout-step__number">2</span>
+            <span class="checkout-step__label">Shipping</span>
+          </div>
+          <div class="checkout-step__line"></div>
+          <div class="checkout-step" data-step="3">
+            <span class="checkout-step__number">3</span>
+            <span class="checkout-step__label">Payment</span>
+          </div>
+        </div>
+
+        <div class="checkout-section" id="checkout-step-1">
+          <h2 class="checkout-section__title">Contact Information</h2>
+          <div class="form-group">
+            <label class="form-label" for="checkout-email">Email Address *</label>
+            <input type="email" class="form-input" id="checkout-email" placeholder="sarah.johnson@example.com" required>
+            <span class="form-error-msg" id="error-email"></span>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="checkout-phone">Phone Number *</label>
+            <input type="tel" class="form-input" id="checkout-phone" placeholder="+1 (555) 019-2834" required>
+            <span class="form-error-msg" id="error-phone"></span>
+          </div>
+          <div class="form-group">
+            <label class="form-checkbox">
+              <input type="checkbox" id="checkout-updates" checked>
+              <span>Keep me up to date on news, private sales, and exclusive drops</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="checkout-section" id="checkout-step-2" style="display: none;">
+          <h2 class="checkout-section__title">Shipping Address</h2>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="ship-first">First Name *</label>
+              <input type="text" class="form-input" id="ship-first" placeholder="Sarah" required>
+              <span class="form-error-msg" id="error-first"></span>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="ship-last">Last Name *</label>
+              <input type="text" class="form-input" id="ship-last" placeholder="Johnson" required>
+              <span class="form-error-msg" id="error-last"></span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="ship-company">Company (Optional)</label>
+            <input type="text" class="form-input" id="ship-company" placeholder="Studio Luxe">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="ship-address">Street Address *</label>
+            <input type="text" class="form-input" id="ship-address" placeholder="456 Park Avenue" required>
+            <span class="form-error-msg" id="error-address"></span>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="ship-apt">Apartment, Suite, Unit (Optional)</label>
+            <input type="text" class="form-input" id="ship-apt" placeholder="Apt 12B">
+          </div>
+          <div class="form-row form-row--3">
+            <div class="form-group">
+              <label class="form-label" for="ship-city">City *</label>
+              <input type="text" class="form-input" id="ship-city" placeholder="New York" required>
+              <span class="form-error-msg" id="error-city"></span>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="ship-state">State / Province *</label>
+              <input type="text" class="form-input" id="ship-state" placeholder="NY" required>
+              <span class="form-error-msg" id="error-state"></span>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="ship-zip">Postal / ZIP Code *</label>
+              <input type="text" class="form-input" id="ship-zip" placeholder="10022" required>
+              <span class="form-error-msg" id="error-zip"></span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="ship-country">Country *</label>
+            <select class="form-select" id="ship-country" required>
+              <option value="US" selected>United States</option>
+              <option value="CA">Canada</option>
+              <option value="GB">United Kingdom</option>
+              <option value="AU">Australia</option>
+              <option value="FR">France</option>
+              <option value="DE">Germany</option>
+            </select>
+          </div>
+
+          <h2 class="checkout-section__title" style="margin-top: var(--spacing-2xl);">Shipping Method</h2>
+          <div class="shipping-methods" id="shipping-methods">
+            <label class="shipping-method shipping-method--selected">
+              <div class="shipping-method__info">
+                <input type="radio" name="shipping" value="standard" class="shipping-method__radio" checked data-price="0">
+                <div>
+                  <span class="shipping-method__name">Complimentary Standard</span>
+                  <span class="shipping-method__time">4-7 business days</span>
+                </div>
+              </div>
+              <span class="shipping-method__price">Free</span>
+            </label>
+            <label class="shipping-method">
+              <div class="shipping-method__info">
+                <input type="radio" name="shipping" value="express" class="shipping-method__radio" data-price="9.99">
+                <div>
+                  <span class="shipping-method__name">Expedited Courier</span>
+                  <span class="shipping-method__time">2-3 business days</span>
+                </div>
+              </div>
+              <span class="shipping-method__price">$9.99</span>
+            </label>
+            <label class="shipping-method">
+              <div class="shipping-method__info">
+                <input type="radio" name="shipping" value="priority" class="shipping-method__radio" data-price="19.99">
+                <div>
+                  <span class="shipping-method__name">Priority Overnight</span>
+                  <span class="shipping-method__time">Next business day</span>
+                </div>
+              </div>
+              <span class="shipping-method__price">$19.99</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="checkout-section" id="checkout-step-3" style="display: none;">
+          <h2 class="checkout-section__title">Payment Method</h2>
+          <p class="form-hint" style="margin-bottom: var(--spacing-lg); color: var(--color-text-secondary);">
+            <i data-feather="lock" style="width:14px;height:14px;vertical-align:middle;color:var(--color-accent);"></i> All transactions are end-to-end encrypted.
+          </p>
+
+          <div class="form-group">
+            <label class="form-label" for="card-number">Card Number *</label>
+            <input type="text" class="form-input" id="card-number" placeholder="4242 4242 4242 4242" maxlength="19" required>
+            <span class="form-error-msg" id="error-card"></span>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="card-expiry">Expiration Date *</label>
+              <input type="text" class="form-input" id="card-expiry" placeholder="MM / YY" maxlength="7" required>
+              <span class="form-error-msg" id="error-expiry"></span>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="card-cvv">Security Code (CVV) *</label>
+              <input type="text" class="form-input" id="card-cvv" placeholder="123" maxlength="4" required>
+              <span class="form-error-msg" id="error-cvv"></span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="card-name">Cardholder Name *</label>
+            <input type="text" class="form-input" id="card-name" placeholder="Sarah Johnson" required>
+            <span class="form-error-msg" id="error-cardname"></span>
+          </div>
+        </div>
+
+        <div class="checkout-nav" style="display: flex; justify-content: space-between; align-items: center; margin-top: var(--spacing-2xl);">
+          <button class="btn btn--secondary" id="checkout-back" style="display: none;">
+            <i data-feather="arrow-left"></i> Back
+          </button>
+          <button class="btn btn--primary btn--lg" id="checkout-next" style="margin-left: auto;">
+            Continue to Shipping
+          </button>
+        </div>
+      </div>
+
+      <aside class="order-summary">
+        <h2 class="order-summary__title">Order Summary</h2>
+        <div id="checkout-items">
+          <!-- JS fills items -->
+        </div>
+        <div class="order-summary__divider"></div>
+        <div class="order-summary__row">
+          <span>Subtotal</span>
+          <span id="checkout-subtotal">$0.00</span>
+        </div>
+        <div class="order-summary__row">
+          <span>Shipping</span>
+          <span id="checkout-shipping">Free</span>
+        </div>
+        <div class="order-summary__row">
+          <span>Estimated Taxes</span>
+          <span id="checkout-taxes">$0.00</span>
+        </div>
+        <div class="order-summary__divider"></div>
+        <div class="order-summary__row order-summary__row--total">
+          <span>Total</span>
+          <span id="checkout-total">$0.00</span>
+        </div>
+      </aside>
+    </main>
+  </div>
+
+  <div class="modal" id="success-modal">
+    <div class="modal__overlay"></div>
+    <div class="modal__content" style="max-width: 500px; text-align: center;">
+      <div class="modal__body success-modal">
+        <div class="success-modal__icon">
+          <i data-feather="check"></i>
+        </div>
+        <h2 class="success-modal__title">Order Confirmed</h2>
+        <p class="success-modal__order" id="success-order-number">Order #LUXE-84920</p>
+        <p class="success-modal__message">Thank you for ordering with LUXE STORE. We have sent your order confirmation and invoice to your email.</p>
+        <a href="index.html" class="btn btn--primary btn--lg" style="margin-top: var(--spacing-lg);">Continue Shopping</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast-container" id="toast-container"></div>
+
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script src="js/utils.js?v=20260912" defer></script>
+  <script src="js/data.js?v=20260912" defer></script>
+  <script src="js/cart.js?v=20260912" defer></script>
+  <script src="js/notifications.js?v=20260912" defer></script>
+  <script src="js/checkout.js?v=20260912" defer></script>
+  <script src="js/app.js?v=20260912" defer></script>
+</body>
+</html>\n

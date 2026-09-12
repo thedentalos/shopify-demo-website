@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Manage your saved items and favorite fashion pieces at LUXE STORE.">
+  <title>My Wishlist | LUXE STORE</title>
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/variables.css?v=20260912">
+  <link rel="stylesheet" href="css/reset.css?v=20260912">
+  <link rel="stylesheet" href="css/base.css?v=20260912">
+  <link rel="stylesheet" href="css/layout.css?v=20260912">
+  <link rel="stylesheet" href="css/components.css?v=20260912">
+  <link rel="stylesheet" href="css/header.css?v=20260912">
+  <link rel="stylesheet" href="css/footer.css?v=20260912">
+  <link rel="stylesheet" href="css/products.css?v=20260912">
+  <link rel="stylesheet" href="css/responsive.css?v=20260912">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to content</a>
+  <div id="header-placeholder"></div>
+
+  <main id="main-content" class="page-wrapper">
+    <div class="container" style="padding-top: var(--spacing-xl); padding-bottom: var(--spacing-4xl);">
+      <nav class="breadcrumb" aria-label="Breadcrumb" style="margin-bottom: var(--spacing-xl);">
+        <ol class="breadcrumb__list">
+          <li class="breadcrumb__item"><a href="index.html" class="breadcrumb__link">Home</a> <i data-feather="chevron-right" class="breadcrumb__separator"></i></li>
+          <li class="breadcrumb__item breadcrumb__item--current" aria-current="page">Wishlist</li>
+        </ol>
+      </nav>
+
+      <div class="section-header text-left" style="margin-bottom: var(--spacing-2xl);">
+        <h1 class="section-header__title">My Wishlist <span id="wishlist-page-count" style="font-size: var(--font-size-lg); color: var(--color-text-muted); font-weight: 400;"></span></h1>
+        <p>Your saved favorites ready to add to bag</p>
+      </div>
+
+      <!-- Wishlist Grid -->
+      <div class="product-grid" id="wishlist-grid">
+        <!-- Injected by wishlist.js -->
+      </div>
+
+      <!-- Empty Wishlist State -->
+      <div class="no-results" id="wishlist-empty" style="display: none;">
+        <i data-feather="heart" style="width: 56px; height: 56px; color: var(--color-text-muted); margin-bottom: 1.5rem;"></i>
+        <h3>Your Wishlist is Empty</h3>
+        <p>Save pieces you love by clicking the heart icon while browsing our catalog.</p>
+        <a href="products.html" class="btn btn--primary btn--lg" style="margin-top: var(--spacing-lg);">Start Shopping</a>
+      </div>
+    </div>
+  </main>
+
+  <div id="footer-placeholder"></div>
+
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script src="js/utils.js?v=20260912" defer></script>
+  <script src="js/data.js?v=20260912" defer></script>
+  <script src="js/components.js?v=20260912" defer></script>
+  <script src="js/cart.js?v=20260912" defer></script>
+  <script src="js/wishlist.js?v=20260912" defer></script>
+  <script src="js/notifications.js?v=20260912" defer></script>
+  <script src="js/header.js?v=20260912" defer></script>
+  <script src="js/search.js?v=20260912" defer></script>
+  <script src="js/quickview.js?v=20260912" defer></script>
+  <script src="js/newsletter.js?v=20260912" defer></script>
+  <script src="js/app.js?v=20260912" defer></script>
+</body>
+</html>\n

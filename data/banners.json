@@ -1,0 +1,29 @@
+[
+  {
+    "id": "slide-1",
+    "title": "The Autumn / Winter Atelier Collection",
+    "subtitle": "Impeccably tailored silhouettes sculpted from fine Italian wool, cashmere, and supple lambskin.",
+    "cta": "Explore The Collection",
+    "ctaLink": "products.html?collection=new-arrivals",
+    "image": "https://picsum.photos/seed/luxe-banner-atelier/1920/800",
+    "textPosition": "left"
+  },
+  {
+    "id": "slide-2",
+    "title": "Timeless Quiet Luxury",
+    "subtitle": "Enduring wardrobe staples curated for the discerning eye. Made to transcend fleeting seasons.",
+    "cta": "Shop Best Sellers",
+    "ctaLink": "products.html?collection=best-sellers",
+    "image": "https://picsum.photos/seed/luxe-banner-timeless/1920/800",
+    "textPosition": "center"
+  },
+  {
+    "id": "slide-3",
+    "title": "The Art of Sartorial Accessories",
+    "subtitle": "Vegetable-tanned leather goods, hand-rolled silk twill scarves, and Goodyear-welted footwear.",
+    "cta": "Discover Accessories",
+    "ctaLink": "products.html?collection=accessories",
+    "image": "https://picsum.photos/seed/luxe-banner-accessories/1920/800",
+    "textPosition": "left"
+  }
+]

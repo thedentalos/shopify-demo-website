@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Products | LUXE STORE</title>
+  <meta name="description" content="Browse our complete collection of curated fashion, structured tailoring, silk dresses, and artisanal leather accessories.">
+  
+  <!-- Google Fonts: Inter & Playfair Display -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+  
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css?v=20260912">
+  <link rel="stylesheet" href="css/reset.css?v=20260912">
+  <link rel="stylesheet" href="css/base.css?v=20260912">
+  <link rel="stylesheet" href="css/layout.css?v=20260912">
+  <link rel="stylesheet" href="css/components.css?v=20260912">
+  <link rel="stylesheet" href="css/header.css?v=20260912">
+  <link rel="stylesheet" href="css/footer.css?v=20260912">
+  <link rel="stylesheet" href="css/products.css?v=20260912">
+  <link rel="stylesheet" href="css/responsive.css?v=20260912">
+</head>
+<body>
+  <!-- Accessibility Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Shared Header Injected via components.js -->
+  <div id="header-placeholder"></div>
+
+  <!-- Main Content -->
+  <main id="main-content">
+    
+    <!-- Breadcrumb Navigation -->
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <div class="container">
+        <ol class="breadcrumb__list">
+          <li class="breadcrumb__item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb__item active" aria-current="page">All Products</li>
+        </ol>
+      </div>
+    </nav>
+
+    <!-- Catalog Page Header -->
+    <header class="catalog-header">
+      <div class="container">
+        <div class="catalog-header__inner">
+          <div class="catalog-header__content">
+            <h1 class="catalog-header__title">
+              All Products
+              <span class="catalog-header__count-badge" id="product-total-count">20 Products</span>
+            </h1>
+            <p class="catalog-header__description">
+              Uncompromising fabrications, thoughtful details, and silhouettes crafted for longevity. Explore every piece in our contemporary luxury catalog.
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Sort & Filter Toolbar -->
+    <section class="sort-bar" aria-label="Catalog controls and sorting">
+      <div class="container">
+        <div class="sort-bar__inner">
+          <!-- Mobile Filter Button & Product Count -->
+          <div class="sort-bar__left">
+            <button type="button" class="btn btn--outline mobile-filter-toggle" id="mobile-filter-toggle" aria-expanded="false" aria-controls="shop-sidebar">
+              <i data-feather="sliders" aria-hidden="true"></i>
+              <span>Filters</span>
+              <span class="mobile-filter-count" id="mobile-filter-count">0</span>
+            </button>
+            <p class="sort-bar__count" id="sort-count" aria-live="polite">Showing 1–12 of 24 products</p>
+          </div>
+
+          <!-- View Switcher & Sort Selector -->
+          <div class="sort-bar__right">
+            <div class="view-switcher" role="group" aria-label="Grid or list view">
+              <button type="button" class="view-btn active" data-view="grid" id="grid-view-btn" aria-label="Switch to grid view" aria-pressed="true">
+                <i data-feather="grid" aria-hidden="true"></i>
+              </button>
+              <button type="button" class="view-btn" data-view="list" id="list-view-btn" aria-label="Switch to list view" aria-pressed="false">
+                <i data-feather="list" aria-hidden="true"></i>
+              </button>
+            </div>
+
+            <div class="sort-select-wrapper">
+              <label for="sort-select" class="sort-select-label">Sort by:</label>
+              <select id="sort-select" class="sort-select" aria-label="Sort product catalog">
+                <option value="featured" selected>Featured</option>
+                <option value="price-low-high">Price: Low to High</option>
+                <option value="price-high-low">Price: High to Low</option>
+                <option value="name-a-z">Name: A to Z</option>
+                <option value="name-z-a">Name: Z to A</option>
+                <option value="newest">Newest</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Active Filter Pills Container -->
+        <div class="active-filters" id="active-filters" aria-label="Active filter tags" hidden>
+          <span class="active-filters__label">Active:</span>
+          <div class="active-filters__pills" id="active-filters-pills"></div>
+          <button type="button" class="active-filters__clear-all" id="clear-all-filters-btn">Clear All</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Shop Layout -->
+    <div class="container">
+      <div class="shop-layout">
+        
+        <!-- Sidebar Filter Column -->
+        <aside class="shop-sidebar" id="shop-sidebar" aria-label="Product filters">
+          <div class="shop-sidebar__inner">
+            <!-- Sidebar Header for Mobile Drawer -->
+            <div class="shop-sidebar__header">
+              <h2 class="shop-sidebar__heading">Filter Products</h2>
+              <button type="button" class="shop-sidebar__close" id="shop-sidebar-close" aria-label="Close filters drawer">
+                <i data-feather="x" aria-hidden="true"></i>
+              </button>
+            </div>
+
+            <!-- Filter Section: Categories -->
+            <fieldset class="filter-section">
+              <legend class="filter-section__title">
+                <span>Categories</span>
+                <i data-feather="chevron-down" aria-hidden="true"></i>
+              </legend>
+              <div class="filter-section__content">
+                <label class="filter-checkbox">
+                  <input type="checkbox" name="category" value="jackets">
+                  <span class="filter-checkbox__custom"></span>
+                  <span class="filter-checkbox__text">Jackets &amp; Coats</span>
+                  <span class="filter-checkbox__count">(5)</span>
+                </label>
+                <label class="filter-checkbox">
+                  <input type="checkbox" name="category" value="shirts">
+                  <span class="filter-checkbox__custom"></span>
+                  <span class="filter-checkbox__text">Shirts &amp; Blouses</span>
+                  <span class="filter-checkbox__count">(4)</span>
+                </label>
+                <label class="filter-checkbox">
+                  <input type="checkbox" name="category" value="dresses">
+                  <span class="filter-checkbox__custom"></span>
+                  <span class="filter-checkbox__text">Dresses</span>
+                  <span class="filter-checkbox__count">(3)</span>
+                </label>
+                <label class="filter-checkbox">
+                  <input type="checkbox" name="category" value="pants">
+                  <span class="filter-checkbox__custom"></span>
+                  <span class="filter-checkbox__text">Pants &amp; Trousers</span>
+                  <span class="filter-checkbox__count">(3)</span>
+                </label>
+                <label class="filter-checkbox">
+                  <input type="checkbox" name="category" value="accessories">
+                  <span class="filter-checkbox__custom"></span>
+                  <span class="filter-checkbox__text">Accessories</span>
+                  <span class="filter-checkbox__count">(5)</span>
+                </label>
+                <label class="filter-checkbox">
+                  <input type="checkbox" name="category" value="shoes">
+                  <span class="filter-checkbox__custom"></span>
+                  <span class="filter-checkbox__text">Shoes &amp; Boots</span>
+                  <span class="filter-checkbox__count">(2)</span>
+                </label>
+              </div>
+            </fieldset>
+
+            <!-- Filter Section: Price Range -->
+            <fieldset class="filter-section">
+              <legend class="filter-section__title">
+                <span>Price Range ($)</span>
+                <i data-feather="chevron-down" aria-hidden="true"></i>
+              </legend>
+              <div class="filter-section__content">
+                <div class="price-range">
+                  <div class="price-range__inputs">
+                    <div class="price-field">
+                      <span class="price-field__currency">$</span>
+                      <input type="number" id="price-min" name="price_min" placeholder="Min" min="0" max="2000" aria-label="Minimum price">
+                    </div>
+                    <span class="price-range__divider">–</span>
+                    <div class="price-field">
+                      <span class="price-field__currency">$</span>
+                      <input type="number" id="price-max" name="price_max" placeholder="Max" min="0" max="2000" aria-label="Maximum price">
+                    </div>
+                  </div>
+                  <button type="button" class="btn btn--secondary btn--sm btn--block" id="apply-price-btn">Apply Price</button>
+                </div>
+              </div>
+            </fieldset>
+
+            <!-- Filter Section: Color Swatches -->
+            <fieldset class="filter-section">
+              <legend class="filter-section__title">
+                <span>Color</span>
+                <i data-feather="chevron-down" aria-hidden="true"></i>
+              </legend>
+              <div class="filter-section__content">
+                <div class="color-swatches" role="group" aria-label="Color options">
+                  <button type="button" class="color-swatch" data-color="Black" title="Black" aria-label="Filter by color Black" style="--swatch-color: #1A1A1A;"></button>
+                  <button type="button" class="color-swatch" data-color="Brown" title="Brown" aria-label="Filter by color Brown" style="--swatch-color: #6E473B;"></button>
+                  <button type="button" class="color-swatch" data-color="White" title="White" aria-label="Filter by color White" style="--swatch-color: #F8F9FA; border: 1px solid #D1D5DB;"></button>
+                  <button type="button" class="color-swatch" data-color="Navy" title="Navy" aria-label="Filter by color Navy" style="--swatch-color: #1E293B;"></button>
+                  <button type="button" class="color-swatch" data-color="Beige" title="Beige" aria-label="Filter by color Beige" style="--swatch-color: #D4B996;"></button>
+                  <button type="button" class="color-swatch" data-color="Red" title="Red" aria-label="Filter by color Red" style="--swatch-color: #8B263E;"></button>
+                  <button type="button" class="color-swatch" data-color="Green" title="Green" aria-label="Filter by color Green" style="--swatch-color: #2D4A3E;"></button>
+                </div>
+              </div>
+            </fieldset>
+
+            <!-- Filter Section: Sizes -->
+            <fieldset class="filter-section">
+              <legend class="filter-section__title">
+                <span>Size</span>
+                <i data-feather="chevron-down" aria-hidden="true"></i>
+              </legend>
+              <div class="filter-section__content">
+                <div class="size-swatches" role="group" aria-label="Size options">
+                  <button type="button" class="size-swatch" data-size="XS" aria-label="Filter by size XS">XS</button>
+                  <button type="button" class="size-swatch" data-size="S" aria-label="Filter by size S">S</button>
+                  <button type="button" class="size-swatch" data-size="M" aria-label="Filter by size M">M</button>
+                  <button type="button" class="size-swatch" data-size="L" aria-label="Filter by size L">L</button>
+                  <button type="button" class="size-swatch" data-size="XL" aria-label="Filter by size XL">XL</button>
+                  <button type="button" class="size-swatch" data-size="XXL" aria-label="Filter by size XXL">XXL</button>
+                </div>
+              </div>
+            </fieldset>
+
+            <!-- Filter Section: Availability -->
+            <fieldset class="filter-section">
+              <legend class="filter-section__title">
+                <span>Availability</span>
+                <i data-feather="chevron-down" aria-hidden="true"></i>
+              </legend>
+              <div class="filter-section__content">
+                <label class="filter-checkbox">
+                  <input type="checkbox" id="filter-in-stock" name="availability" value="in-stock">
+                  <span class="filter-checkbox__custom"></span>
+                  <span class="filter-checkbox__text">In Stock Only</span>
+                  <span class="filter-checkbox__count">(20)</span>
+                </label>
+              </div>
+            </fieldset>
+
+            <!-- Clear All Sidebar Action -->
+            <div class="shop-sidebar__actions">
+              <button type="button" class="btn btn--outline btn--block" id="sidebar-clear-all">Reset All Filters</button>
+            </div>
+          </div>
+        </aside>
+
+        <!-- Shop Content Area -->
+        <div class="shop-content">
+          <!-- Product Grid Container -->
+          <div class="product-grid grid grid-3" id="product-grid" aria-label="Product Catalog List">
+            
+            <!-- Item 1 -->
+            <article class="product-card" data-id="1">
+              <div class="product-card__image-wrapper">
+                <a href="product.html?id=1" class="product-card__image-link">
+                  <img src="https://picsum.photos/seed/product1/600/800" alt="Cashmere Tailored Overcoat" class="product-card__img product-card__img--primary" loading="lazy">
+                  <img src="https://picsum.photos/seed/product1-alt/600/800" alt="Cashmere Tailored Overcoat alternate" class="product-card__img product-card__img--secondary" loading="lazy">
+                </a>
+                <span class="product-card__badge badge badge--new">New In</span>
+                <button class="product-card__wishlist-btn" data-product-id="1" aria-label="Add to Wishlist">
+                  <i data-feather="heart" aria-hidden="true"></i>
+                </button>
+                <div class="product-card__actions">
+                  <button class="btn btn--secondary btn--sm btn--block product-card__quickview-btn" data-product-id="1">Quick View</button>
+                </div>
+              </div>
+              <div class="product-card__content">
+                <span class="product-card__vendor">LUXE Atelier</span>
+                <h2 class="product-card__title"><a href="product.html?id=1">Cashmere Tailored Overcoat</a></h2>
+                <div class="product-card__rating" aria-label="Rated 4.9 out of 5 stars">
+                  <div class="stars"><i data-feather="star" class="star--filled"></i> <span>4.9</span></div>
+                  <span class="rating-count">(32)</span>
+                </div>
+                <div class="product-card__price">
+                  <span class="product-card__current-price">$580.00</span>
+                  <span class="product-card__compare-price">$720.00</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Item 2 -->
+            <article class="product-card" data-id="2">
+              <div class="product-card__image-wrapper">
+                <a href="product.html?id=2" class="product-card__image-link">
+                  <img src="https://picsum.photos/seed/product2/600/800" alt="Silk Crepe Pleated Midi Dress" class="product-card__img product-card__img--primary" loading="lazy">
+                  <img src="https://picsum.photos/seed/product2-alt/600/800" alt="Silk Crepe Pleated Midi Dress alternate" class="product-card__img product-card__img--secondary" loading="lazy">
+                </a>
+                <span class="product-card__badge badge badge--gold">Exclusive</span>
+                <button class="product-card__wishlist-btn" data-product-id="2" aria-label="Add to Wishlist">
+                  <i data-feather="heart" aria-hidden="true"></i>
+                </button>
+                <div class="product-card__actions">
+                  <button class="btn btn--secondary btn--sm btn--block product-card__quickview-btn" data-product-id="2">Quick View</button>
+                </div>
+              </div>
+              <div class="product-card__content">
+                <span class="product-card__vendor">Studio LUXE</span>
+                <h2 class="product-card__title"><a href="product.html?id=2">Silk Crepe Pleated Midi Dress</a></h2>
+                <div class="product-card__rating" aria-label="Rated 5.0 out of 5 stars">
+                  <div class="stars"><i data-feather="star" class="star--filled"></i> <span>5.0</span></div>
+                  <span class="rating-count">(19)</span>
+                </div>
+                <div class="product-card__price">
+                  <span class="product-card__current-price">$420.00</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Item 3 -->
+            <article class="product-card" data-id="3">
+              <div class="product-card__image-wrapper">
+                <a href="product.html?id=3" class="product-card__image-link">
+                  <img src="https://picsum.photos/seed/product3/600/800" alt="Merino Ribbed Knit Sweater" class="product-card__img product-card__img--primary" loading="lazy">
+                  <img src="https://picsum.photos/seed/product3-alt/600/800" alt="Merino Ribbed Knit Sweater detail" class="product-card__img product-card__img--secondary" loading="lazy">
+                </a>
+                <span class="product-card__badge badge badge--new">New In</span>
+                <button class="product-card__wishlist-btn" data-product-id="3" aria-label="Add to Wishlist">
+                  <i data-feather="heart" aria-hidden="true"></i>
+                </button>
+                <div class="product-card__actions">
+                  <button class="btn btn--secondary btn--sm btn--block product-card__quickview-btn" data-product-id="3">Quick View</button>
+                </div>
+              </div>
+              <div class="product-card__content">
+                <span class="product-card__vendor">LUXE Essentials</span>
+                <h2 class="product-card__title"><a href="product.html?id=3">Merino Ribbed Knit Sweater</a></h2>
+                <div class="product-card__rating" aria-label="Rated 4.8 out of 5 stars">
+                  <div class="stars"><i data-feather="star" class="star--filled"></i> <span>4.8</span></div>
+                  <span class="rating-count">(24)</span>
+                </div>
+                <div class="product-card__price">
+                  <span class="product-card__current-price">$290.00</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Item 4 -->
+            <article class="product-card" data-id="4">
+              <div class="product-card__image-wrapper">
+                <a href="product.html?id=4" class="product-card__image-link">
+                  <img src="https://picsum.photos/seed/product4/600/800" alt="Tuscan Leather Crossbody Bag" class="product-card__img product-card__img--primary" loading="lazy">
+                  <img src="https://picsum.photos/seed/product4-alt/600/800" alt="Tuscan Leather Crossbody Bag angle" class="product-card__img product-card__img--secondary" loading="lazy">
+                </a>
+                <button class="product-card__wishlist-btn" data-product-id="4" aria-label="Add to Wishlist">
+                  <i data-feather="heart" aria-hidden="true"></i>
+                </button>
+                <div class="product-card__actions">
+                  <button class="btn btn--secondary btn--sm btn--block product-card__quickview-btn" data-product-id="4">Quick View</button>
+                </div>
+              </div>
+              <div class="product-card__content">
+                <span class="product-card__vendor">LUXE Pelletteria</span>
+                <h2 class="product-card__title"><a href="product.html?id=4">Tuscan Leather Crossbody Bag</a></h2>
+                <div class="product-card__rating" aria-label="Rated 4.9 out of 5 stars">
+                  <div class="stars"><i data-feather="star" class="star--filled"></i> <span>4.9</span></div>
+                  <span class="rating-count">(41)</span>
+                </div>
+                <div class="product-card__price">
+                  <span class="product-card__current-price">$490.00</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Item 5 -->
+            <article class="product-card" data-id="5">
+              <div class="product-card__image-wrapper">
+                <a href="product.html?id=5" class="product-card__image-link">
+                  <img src="https://picsum.photos/seed/product5/600/800" alt="Relaxed Pleated Tailored Trousers" class="product-card__img product-card__img--primary" loading="lazy">
+                  <img src="https://picsum.photos/seed/product5-alt/600/800" alt="Relaxed Pleated Tailored Trousers back" class="product-card__img product-card__img--secondary" loading="lazy">
+                </a>
+                <button class="product-card__wishlist-btn" data-product-id="5" aria-label="Add to Wishlist">
+                  <i data-feather="heart" aria-hidden="true"></i>
+                </button>
+                <div class="product-card__actions">
+                  <button class="btn btn--secondary btn--sm btn--block product-card__quickview-btn" data-product-id="5">Quick View</button>
+                </div>
+              </div>
+              <div class="product-card__content">
+                <span class="product-card__vendor">LUXE Atelier</span>
+                <h2 class="product-card__title"><a href="product.html?id=5">Relaxed Pleated Tailored Trousers</a></h2>
+                <div class="product-card__rating" aria-label="Rated 4.7 out of 5 stars">
+                  <div class="stars"><i data-feather="star" class="star--filled"></i> <span>4.7</span></div>
+                  <span class="rating-count">(15)</span>
+                </div>
+                <div class="product-card__price">
+                  <span class="product-card__current-price">$310.00</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Item 6 -->
+            <article class="product-card" data-id="6">
+              <div class="product-card__image-wrapper">
+                <a href="product.html?id=6" class="product-card__image-link">
+                  <img src="https://picsum.photos/seed/product6/600/800" alt="Double-Breasted Wool Trench" class="product-card__img product-card__img--primary" loading="lazy">
+                  <img src="https://picsum.photos/seed/product6-alt/600/800" alt="Double-Breasted Wool Trench back" class="product-card__img product-card__img--secondary" loading="lazy">
+                </a>
+                <span class="product-card__badge badge badge--sale">-20%</span>
+                <button class="product-card__wishlist-btn" data-product-id="6" aria-label="Add to Wishlist">
+                  <i data-feather="heart" aria-hidden="true"></i>
+                </button>
+                <div class="product-card__actions">
+                  <button class="btn btn--secondary btn--sm btn--block product-card__quickview-btn" data-product-id="6">Quick View</button>
+                </div>
+              </div>
+              <div class="product-card__content">
+                <span class="product-card__vendor">LUXE Atelier</span>
+                <h2 class="product-card__title"><a href="product.html?id=6">Double-Breasted Wool Trench</a></h2>
+                <div class="product-card__rating" aria-label="Rated 5.0 out of 5 stars">
+                  <div class="stars"><i data-feather="star" class="star--filled"></i> <span>5.0</span></div>
+                  <span class="rating-count">(58)</span>
+                </div>
+                <div class="product-card__price">
+                  <span class="product-card__current-price">$640.00</span>
+                  <span class="product-card__compare-price">$800.00</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Item 7 -->
+            <article class="product-card" data-id="7">
+              <div class="product-card__image-wrapper">
+                <a href="product.html?id=7" class="product-card__image-link">
+                  <img src="https://picsum.photos/seed/product7/600/800" alt="Silk Georgette Wrap Blouse" class="product-card__img product-card__img--primary" loading="lazy">
+                  <img src="https://picsum.photos/seed/product7-alt/600/800" alt="Silk Georgette Wrap Blouse back" class="product-card__img product-card__img--secondary" loading="lazy">
+                </a>
+                <button class="product-card__wishlist-btn" data-product-id="7" aria-label="Add to Wishlist">
+                  <i data-feather="heart" aria-hidden="true"></i>
+                </button>
+                <div class="product-card__actions">
+                  <button class="btn btn--secondary btn--sm btn--block product-card__quickview-btn" data-product-id="7">Quick View</button>
+                </div>
+              </div>
+              <div class="product-card__content">
+                <span class="product-card__vendor">LUXE Studio</span>
+                <h2 class="product-card__title"><a href="product.html?id=7">Silk Georgette Wrap Blouse</a></h2>
+                <div class="product-card__rating" aria-label="Rated 4.8 out of 5 stars">
+                  <div class="stars"><i data-feather="star" class="star--filled"></i> <span>4.8</span></div>
+                  <span class="rating-count">(37)</span>
+                </div>
+                <div class="product-card__price">
+                  <span class="product-card__current-price">$260.00</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Item 8 -->
+            <article class="product-card" data-id="8">
+              <div class="product-card__image-wrapper">
+                <a href="product.html?id=8" class="product-card__image-link">
+                  <img src="https://picsum.photos/seed/product8/600/800" alt="Hand-Burnished Calfskin Chelsea Boots" class="product-card__img product-card__img--primary" loading="lazy">
+                  <img src="https://picsum.photos/seed/product8-alt/600/800" alt="Hand-Burnished Calfskin Chelsea Boots side" class="product-card__img product-card__img--secondary" loading="lazy">
+                </a>
+                <span class="product-card__badge badge badge--gold">Top Rated</span>
+                <button class="product-card__wishlist-btn" data-product-id="8" aria-label="Add to Wishlist">
+                  <i data-feather="heart" aria-hidden="true"></i>
+                </button>
+                <div class="product-card__actions">
+                  <button class="btn btn--secondary btn--sm btn--block product-card__quickview-btn" data-product-id="8">Quick View</button>
+                </div>
+              </div>
+              <div class="product-card__content">
+                <span class="product-card__vendor">LUXE Calzature</span>
+                <h2 class="product-card__title"><a href="product.html?id=8">Hand-Burnished Calfskin Chelsea Boots</a></h2>
+                <div class="product-card__rating" aria-label="Rated 4.9 out of 5 stars">
+                  <div class="stars"><i data-feather="star" class="star--filled"></i> <span>4.9</span></div>
+                  <span class="rating-count">(64)</span>
+                </div>
+                <div class="product-card__price">
+                  <span class="product-card__current-price">$460.00</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Item 9 -->
+            <article class="product-card" data-id="9">
+              <div class="product-card__image-wrapper">
+                <a href="product.html?id=9" class="product-card__image-link">
+                  <img src="https://picsum.photos/seed/product9/600/800" alt="Architectural Minimalist Leather Tote" class="product-card__img product-card__img--primary" loading="lazy">
+                  <img src="https://picsum.photos/seed/product9-alt/600/800" alt="Architectural Minimalist Leather Tote texture" class="product-card__img product-card__img--secondary" loading="lazy">
+                </a>
+                <button class="product-card__wishlist-btn" data-product-id="9" aria-label="Add to Wishlist">
+                  <i data-feather="heart" aria-hidden="true"></i>
+                </button>
+                <div class="product-card__actions">
+                  <button class="btn btn--secondary btn--sm btn--block product-card__quickview-btn" data-product-id="9">Quick View</button>
+                </div>
+              </div>
+              <div class="product-card__content">
+                <span class="product-card__vendor">LUXE Pelletteria</span>
+                <h2 class="product-card__title"><a href="product.html?id=9">Architectural Minimalist Leather Tote</a></h2>
+                <div class="product-card__rating" aria-label="Rated 4.9 out of 5 stars">
+                  <div class="stars"><i data-feather="star" class="star--filled"></i> <span>4.9</span></div>
+                  <span class="rating-count">(89)</span>
+                </div>
+                <div class="product-card__price">
+                  <span class="product-card__current-price">$540.00</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Item 10 -->
+            <article class="product-card" data-id="10">
+              <div class="product-card__image-wrapper">
+                <a href="product.html?id=10" class="product-card__image-link">
+                  <img src="https://picsum.photos/seed/product10/600/800" alt="Organic Linen Relaxed Resort Shirt" class="product-card__img product-card__img--primary" loading="lazy">
+                  <img src="https://picsum.photos/seed/product10-alt/600/800" alt="Organic Linen Relaxed Resort Shirt back" class="product-card__img product-card__img--secondary" loading="lazy">
+                </a>
+                <button class="product-card__wishlist-btn" data-product-id="10" aria-label="Add to Wishlist">
+                  <i data-feather="heart" aria-hidden="true"></i>
+                </button>
+                <div class="product-card__actions">
+                  <button class="btn btn--secondary btn--sm btn--block product-card__quickview-btn" data-product-id="10">Quick View</button>
+                </div>
+              </div>
+              <div class="product-card__content">
+                <span class="product-card__vendor">LUXE Studio</span>
+                <h2 class="product-card__title"><a href="product.html?id=10">Organic Linen Relaxed Resort Shirt</a></h2>
+                <div class="product-card__rating" aria-label="Rated 4.6 out of 5 stars">
+                  <div class="stars"><i data-feather="star" class="star--filled"></i> <span>4.6</span></div>
+                  <span class="rating-count">(28)</span>
+                </div>
+                <div class="product-card__price">
+                  <span class="product-card__current-price">$220.00</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Item 11 -->
+            <article class="product-card" data-id="11">
+              <div class="product-card__image-wrapper">
+                <a href="product.html?id=11" class="product-card__image-link">
+                  <img src="https://picsum.photos/seed/product11/600/800" alt="Tailored Wool-Silk Evening Blazer" class="product-card__img product-card__img--primary" loading="lazy">
+                  <img src="https://picsum.photos/seed/product11-alt/600/800" alt="Tailored Wool-Silk Evening Blazer side" class="product-card__img product-card__img--secondary" loading="lazy">
+                </a>
+                <span class="product-card__badge badge badge--gold">Limited</span>
+                <button class="product-card__wishlist-btn" data-product-id="11" aria-label="Add to Wishlist">
+                  <i data-feather="heart" aria-hidden="true"></i>
+                </button>
+                <div class="product-card__actions">
+                  <button class="btn btn--secondary btn--sm btn--block product-card__quickview-btn" data-product-id="11">Quick View</button>
+                </div>
+              </div>
+              <div class="product-card__content">
+                <span class="product-card__vendor">LUXE Atelier</span>
+                <h2 class="product-card__title"><a href="product.html?id=11">Tailored Wool-Silk Evening Blazer</a></h2>
+                <div class="product-card__rating" aria-label="Rated 5.0 out of 5 stars">
+                  <div class="stars"><i data-feather="star" class="star--filled"></i> <span>5.0</span></div>
+                  <span class="rating-count">(31)</span>
+                </div>
+                <div class="product-card__price">
+                  <span class="product-card__current-price">$680.00</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Item 12 -->
+            <article class="product-card" data-id="12">
+              <div class="product-card__image-wrapper">
+                <a href="product.html?id=12" class="product-card__image-link">
+                  <img src="https://picsum.photos/seed/product12/600/800" alt="Handcrafted Suede Loafers" class="product-card__img product-card__img--primary" loading="lazy">
+                  <img src="https://picsum.photos/seed/product12-alt/600/800" alt="Handcrafted Suede Loafers angle" class="product-card__img product-card__img--secondary" loading="lazy">
+                </a>
+                <button class="product-card__wishlist-btn" data-product-id="12" aria-label="Add to Wishlist">
+                  <i data-feather="heart" aria-hidden="true"></i>
+                </button>
+                <div class="product-card__actions">
+                  <button class="btn btn--secondary btn--sm btn--block product-card__quickview-btn" data-product-id="12">Quick View</button>
+                </div>
+              </div>
+              <div class="product-card__content">
+                <span class="product-card__vendor">LUXE Calzature</span>
+                <h2 class="product-card__title"><a href="product.html?id=12">Handcrafted Suede Loafers</a></h2>
+                <div class="product-card__rating" aria-label="Rated 4.8 out of 5 stars">
+                  <div class="stars"><i data-feather="star" class="star--filled"></i> <span>4.8</span></div>
+                  <span class="rating-count">(45)</span>
+                </div>
+                <div class="product-card__price">
+                  <span class="product-card__current-price">$380.00</span>
+                </div>
+              </div>
+            </article>
+
+          </div>
+
+          <!-- Catalog Pagination -->
+          <nav class="pagination" id="pagination-container" aria-label="Products pagination">
+            <ul class="pagination__list">
+              <li class="pagination__item">
+                <a href="#" class="pagination__link pagination__link--prev disabled" aria-label="Previous page" tabindex="-1">
+                  <i data-feather="chevron-left" aria-hidden="true"></i>
+                  <span class="sr-only">Previous</span>
+                </a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link active" aria-current="page">1</a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link">2</a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link">3</a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link pagination__link--next" aria-label="Next page">
+                  <i data-feather="chevron-right" aria-hidden="true"></i>
+                  <span class="sr-only">Next</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Shared Footer Injected via components.js -->
+  <div id="footer-placeholder"></div>
+
+  <!-- Feather Icons CDN -->
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <!-- Standard Scripts with Defer -->
+  <script src="js/utils.js?v=20260912" defer></script>
+  <script src="js/data.js?v=20260912" defer></script>
+  <script src="js/components.js?v=20260912" defer></script>
+  <script src="js/cart.js?v=20260912" defer></script>
+  <script src="js/wishlist.js?v=20260912" defer></script>
+  <script src="js/notifications.js?v=20260912" defer></script>
+  <script src="js/header.js?v=20260912" defer></script>
+  <script src="js/search.js?v=20260912" defer></script>
+  <script src="js/quickview.js?v=20260912" defer></script>
+  <script src="js/newsletter.js?v=20260912" defer></script>
+
+  <!-- Products Catalog Specific Script -->
+  <script src="js/products.js?v=20260912" defer></script>
+
+  <!-- Main App Script -->
+  <script src="js/app.js?v=20260912" defer></script>
+</body>
+</html>

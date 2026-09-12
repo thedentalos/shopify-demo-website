@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="404 Page Not Found. The page you are seeking could not be found on LUXE STORE. Discover our newest runway arrivals, curated capsules, or search our catalog.">
+  <title>404 Page Not Found | LUXE STORE</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Core Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css?v=20260912">
+  <link rel="stylesheet" href="css/reset.css?v=20260912">
+  <link rel="stylesheet" href="css/base.css?v=20260912">
+  <link rel="stylesheet" href="css/layout.css?v=20260912">
+  <link rel="stylesheet" href="css/components.css?v=20260912">
+  <link rel="stylesheet" href="css/header.css?v=20260912">
+  <link rel="stylesheet" href="css/footer.css?v=20260912">
+  <link rel="stylesheet" href="css/pages.css?v=20260912">
+  <link rel="stylesheet" href="css/responsive.css?v=20260912">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to content</a>
+
+  <!-- Header injected by components.js -->
+  <div id="header-placeholder"></div>
+
+  <main id="main-content" class="page-404">
+    <div class="container container--narrow">
+      <div class="error-page text-center">
+        <span class="error-page__eyebrow">Error</span>
+        <h1 class="error-page__code">404</h1>
+        <h2 class="error-page__title">Page Not Found</h2>
+        <p class="error-page__message">
+          The garment, editorial, or destination you are looking for might have been relocated, discontinued, or is momentarily unavailable in our archive.
+        </p>
+
+        <!-- Inline Search Box -->
+        <form class="error-page__search" id="error-search-form" action="search.html" method="GET" role="search">
+          <div class="error-search-input-group">
+            <i data-feather="search" class="error-search-icon" aria-hidden="true"></i>
+            <input type="search" id="error-search" name="q" class="error-search-input" placeholder="Search catalog, styles, fabrics..." aria-label="Search LUXE catalog">
+            <button type="submit" class="btn btn--primary error-search-submit">
+              <span>Search</span>
+            </button>
+          </div>
+        </form>
+
+        <!-- Primary Action -->
+        <div class="error-page__actions">
+          <a href="index.html" class="btn btn--primary btn--lg">
+            <i data-feather="home" class="btn__icon" aria-hidden="true"></i>
+            <span>Back to Home</span>
+          </a>
+        </div>
+
+        <!-- Quick Navigation Links -->
+        <div class="error-page__quick-links">
+          <span class="error-page__quick-label">Or explore our curated collections:</span>
+          <nav class="error-page__nav" aria-label="Popular site links">
+            <ul class="error-nav-list">
+              <li class="error-nav-item"><a href="products.html" class="error-nav-link">Shop All</a></li>
+              <li class="error-nav-separator" aria-hidden="true">&bull;</li>
+              <li class="error-nav-item"><a href="collections.html" class="error-nav-link">Collections</a></li>
+              <li class="error-nav-separator" aria-hidden="true">&bull;</li>
+              <li class="error-nav-item"><a href="products.html?collection=new-arrivals" class="error-nav-link">New Arrivals</a></li>
+              <li class="error-nav-separator" aria-hidden="true">&bull;</li>
+              <li class="error-nav-item"><a href="contact.html" class="error-nav-link">Client Concierge</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer injected by components.js -->
+  <div id="footer-placeholder"></div>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script src="js/utils.js?v=20260912" defer></script>
+  <script src="js/data.js?v=20260912" defer></script>
+  <script src="js/components.js?v=20260912" defer></script>
+  <script src="js/cart.js?v=20260912" defer></script>
+  <script src="js/wishlist.js?v=20260912" defer></script>
+  <script src="js/notifications.js?v=20260912" defer></script>
+  <script src="js/header.js?v=20260912" defer></script>
+  <script src="js/search.js?v=20260912" defer></script>
+  <script src="js/quickview.js?v=20260912" defer></script>
+  <script src="js/newsletter.js?v=20260912" defer></script>
+  <script src="js/app.js?v=20260912" defer></script>
+</body>
+</html>

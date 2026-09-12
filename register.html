@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Create your LUXE STORE account to unlock exclusive seasonal capsules, complimentary atelier tailoring, private client concierge, and order tracking.">
+  <title>Create Account | LUXE STORE</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Core Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css?v=20260912">
+  <link rel="stylesheet" href="css/reset.css?v=20260912">
+  <link rel="stylesheet" href="css/base.css?v=20260912">
+  <link rel="stylesheet" href="css/layout.css?v=20260912">
+  <link rel="stylesheet" href="css/components.css?v=20260912">
+  <link rel="stylesheet" href="css/header.css?v=20260912">
+  <link rel="stylesheet" href="css/footer.css?v=20260912">
+  <link rel="stylesheet" href="css/account.css?v=20260912">
+  <link rel="stylesheet" href="css/responsive.css?v=20260912">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to content</a>
+
+  <!-- Header injected by components.js -->
+  <div id="header-placeholder"></div>
+
+  <main id="main-content" class="auth-page">
+    <div class="container container--xs">
+      <div class="auth-card">
+        <header class="auth-card__header text-center">
+          <span class="auth-card__badge">Join Atelier</span>
+          <h1 class="auth-card__title">Create Account</h1>
+          <p class="auth-card__subtitle">Join LUXE STORE to enjoy personalized styling, private capsule previews, and concierge services.</p>
+        </header>
+
+        <!-- Registration Form -->
+        <form id="register-form" class="auth-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="reg-first-name" class="form-label">First Name</label>
+              <input type="text" id="reg-first-name" name="first_name" class="form-input" placeholder="Sarah" required autocomplete="given-name">
+            </div>
+            <div class="form-group">
+              <label for="reg-last-name" class="form-label">Last Name</label>
+              <input type="text" id="reg-last-name" name="last_name" class="form-input" placeholder="Jenkins" required autocomplete="family-name">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="reg-email" class="form-label">Email Address</label>
+            <div class="input-with-icon">
+              <i data-feather="mail" class="input-icon" aria-hidden="true"></i>
+              <input type="email" id="reg-email" name="email" class="form-input" placeholder="sarah.jenkins@example.com" required autocomplete="email">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="reg-password" class="form-label">Password</label>
+            <div class="input-with-toggle">
+              <input type="password" id="reg-password" name="password" class="form-input" placeholder="••••••••" required autocomplete="new-password">
+              <button type="button" class="password-toggle-btn" aria-label="Toggle password visibility" data-target="reg-password">
+                <i data-feather="eye" class="password-toggle-icon" aria-hidden="true"></i>
+              </button>
+            </div>
+            <p class="password-strength-hint">
+              <i data-feather="shield" class="hint-icon" aria-hidden="true"></i>
+              <span>Must be at least 8 characters with letters, numbers, and symbols.</span>
+            </p>
+          </div>
+
+          <div class="form-group">
+            <label for="reg-confirm-password" class="form-label">Confirm Password</label>
+            <div class="input-with-toggle">
+              <input type="password" id="reg-confirm-password" name="confirm_password" class="form-input" placeholder="••••••••" required autocomplete="new-password">
+              <button type="button" class="password-toggle-btn" aria-label="Toggle confirm password visibility" data-target="reg-confirm-password">
+                <i data-feather="eye" class="password-toggle-icon" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="form-group form-terms">
+            <label class="checkbox-label">
+              <input type="checkbox" name="terms" id="reg-terms" class="checkbox-input" required>
+              <span class="checkbox-text">
+                I agree to the <a href="terms.html" class="link--underline">Terms of Service</a> and <a href="privacy-policy.html" class="link--underline">Privacy Policy</a>.
+              </span>
+            </label>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--full btn--lg">
+            <span>Create Account</span>
+            <i data-feather="user-plus" class="btn__icon" aria-hidden="true"></i>
+          </button>
+        </form>
+
+        <!-- Social Auth Divider -->
+        <div class="auth-card__divider">
+          <span>or sign up with</span>
+        </div>
+
+        <!-- Social Buttons -->
+        <div class="social-auth-buttons">
+          <button type="button" class="btn btn--social btn--google" aria-label="Sign up with Google">
+            <svg class="social-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+              <path fill="#4285F4" d="M23.745 12.27c0-.7-.06-1.4-.19-2.07H12v4.51h6.6c-.29 1.52-1.14 2.82-2.4 3.68v3.05h3.88c2.27-2.09 3.66-5.17 3.66-9.17z"/>
+              <path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.05c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.1-6.72-4.93H1.25v3.15C3.26 21.36 7.33 24 12 24z"/>
+              <path fill="#FBBC05" d="M5.28 14.27c-.25-.72-.38-1.49-.38-2.27s.13-1.55.38-2.27V6.58H1.25C.45 8.16 0 9.97 0 12s.45 3.84 1.25 5.42l4.03-3.15z"/>
+              <path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.33 0 3.26 2.64 1.25 6.58l4.03 3.15c.95-2.83 3.6-4.98 6.72-4.98z"/>
+            </svg>
+            <span>Google</span>
+          </button>
+          <button type="button" class="btn btn--social btn--facebook" aria-label="Sign up with Facebook">
+            <svg class="social-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="#1877F2">
+              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+            </svg>
+            <span>Facebook</span>
+          </button>
+        </div>
+
+        <!-- Card Footer -->
+        <footer class="auth-card__footer text-center">
+          <p class="auth-card__switch">
+            Already have an account? <a href="login.html" class="link--underline font-semibold">Sign in</a>
+          </p>
+        </footer>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer injected by components.js -->
+  <div id="footer-placeholder"></div>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script src="js/utils.js?v=20260912" defer></script>
+  <script src="js/data.js?v=20260912" defer></script>
+  <script src="js/components.js?v=20260912" defer></script>
+  <script src="js/cart.js?v=20260912" defer></script>
+  <script src="js/wishlist.js?v=20260912" defer></script>
+  <script src="js/notifications.js?v=20260912" defer></script>
+  <script src="js/header.js?v=20260912" defer></script>
+  <script src="js/search.js?v=20260912" defer></script>
+  <script src="js/quickview.js?v=20260912" defer></script>
+  <script src="js/newsletter.js?v=20260912" defer></script>
+  <script src="js/account.js?v=20260912" defer></script>
+  <script src="js/app.js?v=20260912" defer></script>
+</body>
+</html>
